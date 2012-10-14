@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gerber Finance</title>
+  	<!--[if gte IE 5]>
+      <link rel="stylesheet" type="text/css" href="/assets/text/ie_style.css" />
+	<![endif]-->
+<%= stylesheet_link_tag "application-all", :media => "all" %>
+<%= stylesheet_link_tag "application-print", :media => "print" %>
+<%= stylesheet_link_tag "application-mobile", :media => "mobile" %>
+<%= javascript_include_tag "application" %>
+<%= csrf_meta_tags %>
+<!--[if gte IE 5]>
+    <%= stylesheet_link_tag "application-ie", :media => "all" %>
+<![endif]-->
+</head>
+<body class="layout">
+<div id="menu"></div>
+<div id="menu_fix">
+	<a href='/'><img src="/assets/Logo.png" class="logo" /></a>
+	<div id='cssmenu'>
+		<ul>
+   		<li class='active '><a href='/'><span>home</span></a></li>
+   		<li class='has-sub '><a href='/about'><span>about us</span></a>
+      	<ul>
+         	<li><a href='/about'><span>about</span></a></li>
+         	<li><a href='/history'><span>history</span></a></li>
+         	<li><a href='/credit'><span>credit guidelines</span></a></li>
+         	<li><a href='/profiles'><span>profiles</span></a></li>
+      	</ul>
+   		</li>
+   		<li><a href='/asset'><span>asset based</span></a></li>
+   		<li><a href='/trade'><span>trade finance</span></a></li>
+   		<li class='has-sub '><a href='/clientele'><span>clientele</span></a>
+      	<ul>
+         	<li><a href='/current'><span>client  testimonials</span></a></li>
+         	<li><a href='/prior'><span>prior testimonials</span></a></li>
+      	</ul>
+   		</li>
+   		<li onclick="TINY.box.show({iframe:'/contact',boxid:'frameless',width:500,height:300,fixed:false,maskid:'bluemask',maskopacity:40,closejs:function(){closeJS()}})"><a href='/contacts'><span>contact</span></a></li>
+		</ul>
+	</div>
+</div>
+
+	<div><%= yield %></div>
+
+	<div id='footer'>
+	
+		<img src="/assets/gerberfinance.png" class="gerberfinance" alt="Gerber Finance Inc." />
+		<h3 class="name"> &copy; 2012 Gerber Finance Inc.</h3>
+		<p class="redirect"><a href="https://www.stuckynet-link.com/gerber/" class="redirect">client login</a>|<a href=""class="redirect">gerber colorado</a><p>
+		
+		<ul class="floatset">
+			<li onclick="TINY.box.show({iframe:'/calc',boxid:'frameless',width:800,height:500,fixed:false,maskid:'bluemask',maskopacity:40,closejs:function(){closeJS()}})"><a class="calc" /></a></li>
+			<li onclick="TINY.box.show({iframe:'/top10',boxid:'frameless',width:800,height:500,fixed:false,maskid:'bluemask',maskopacity:40,closejs:function(){closeJS()}})"><a class="top10" /></a></li>
+   			<li onclick="TINY.box.show({iframe:'/gear',boxid:'frameless',width:800,height:500,fixed:false,maskid:'bluemask',maskopacity:40,closejs:function(){closeJS()}})" class="footer_image_text"><a class="gear"></a>get inside your lender's head</li>
+   		</ul>
+   		
+	</div>
+
+</body>
+</html>

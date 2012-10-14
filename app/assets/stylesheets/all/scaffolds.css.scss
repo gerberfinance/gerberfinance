@@ -1,0 +1,169 @@
+body.layout {  
+  font-family: century gothic, arial, helvetica, sans-serif;}
+
+pre {
+    background-color: #eee;
+    padding: 10px;
+    font-size: 11px;}
+
+a {
+    color: #1f1e1e;
+    &:visited {
+    color: #1f1e1e;
+  }
+    &:hover {
+      color: #1f1e1e;
+      background-color: none;}}
+/* My CSS */
+
+/* Header Menu*/
+#menu {
+	position:fixed;
+	z-index: 1;
+  	left:0px;
+  	top:0px;
+  	width:100%;
+	height: 81px;
+	background:#000000; 
+	background:-moz-linear-gradient(top, #000000 80%, #404040 100%); 
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(80%,#000000), color-stop(100%,#404040)); 
+	background:-webkit-linear-gradient(top, #000000 80%,#404040 100%); 
+	background:-o-linear-gradient(top, #000000 80%,#404040 100%); 
+	background:-ms-linear-gradient(top, #000000 80%,#404040 100%); 
+	background:linear-gradient(top, #000000 80%,#404040 100%); 
+	filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#242424',GradientType=0 );} 
+
+#menu_fix {
+	top:0px;
+	position: fixed;
+	z-index:999;}
+
+img.logo {
+	display:inline-block;
+	height: 180px;
+	width: 170px;
+	margin-right: 30px;
+	z-index:100;
+	border:none;}		
+/* End Header Menu*/
+
+/* Footer */
+
+img.gerberfinance {
+	display:inline;
+	margin: 5px 0px 0px 30px;}	
+
+a.redirect {
+    font-size: 12px;
+    color: #fff;
+    &:visited {
+      color: #fff;}
+    &:hover {
+      color: #fff;
+      background-color: none;}}
+	
+h3.name {
+	margin-left:32px;
+	font-size: 12px;
+	color:#fff;
+	font-weight: normal;
+	line-height:2px;}
+
+p.redirect {
+	
+	margin: 25px 0px 0px 32px;
+	color: #fff;}
+	
+/*Pop Ups*/
+
+.popups{
+	font-family: century gothic, arial, helvetica, sans-serif;}
+	
+.popups h4 {
+	font-size: 18px !important;
+	margin-bottom:0px;
+	padding: 0px 10px 0px 10px;}
+	
+.popups p {
+	font-size: 14px;
+	margin-bottom:20px;
+	letter-spacing: 2px;
+	padding: 0px 15px 0px 15px;}
+
+.popups h2 {
+	font-size: 30px;
+	font-weight:bold;
+	color:#fff;
+	margin-right: 20px;
+	float:right;}	
+
+#header_popups {
+	position:fixed;
+	height: 80px;
+	width:99%;
+	background: #000;
+	top:0;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	-moz-border-radius-topleft:10px;
+	-moz-border-radius-topright:10px;
+	padding-bottom:0px;}	
+		
+.calc_body {
+	background:url(/assets/calc_p.png) top right no-repeat;
+	background-attachment: fixed;
+	margin-top: 80px;}
+	
+.top10_body {
+	background:url(/assets/top10_p.png) top right no-repeat;
+	background-attachment: fixed;
+	margin-top: 80px;}
+
+.gear_body {
+	background:url(/assets/gear_p.png) top right no-repeat;
+	background-attachment: fixed;
+	margin-top: 80px;}
+
+/* home */	
+
+img.tree{
+	float:left;
+	display:inline;
+	}
+
+img.txt {
+	display:fixed;
+	display:block;}
+	
+#home_body {
+	margin: 83px 20px 400px 20px;
+	position: absolute;
+	left:2%;
+	right:10%;
+	top:7%;
+	}
+
+#tree_container{
+	display:inline;}	
+
+
+#home_container {
+	float:left;
+	position:absolute;
+	margin:80px 40px 0px 350px;}
+
+#home_text {
+	min-height: 300px;
+	min-width: 400px;
+	max-width: 750px;
+	font-size: 20px;
+	margin-left:20px;}
+	
+/* Page Containers */
+/* #page_conatiner {
+	margin: 83px 20px 200px 20px;
+	position: absolute;
+	left:15%;
+	right:15%;
+	top:22%;}
+*/

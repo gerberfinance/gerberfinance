@@ -1,0 +1,66 @@
+.RCmainTbl {
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	width: 800px;
+	background-color: #FFFFFF;
+}
+.tblContent {
+	width: 407px;
+	margin: 10px 20px;
+}
+.number {
+	font-size: 24px;
+	font-weight: bold;
+	color: #A4B6D6;
+	text-align: right;
+	padding-right: 5px;
+}
+
+
+.calcBox {
+	margin: 10px 10px;
+	width: 1px;
+}
+.disclaimerBox {
+	margin: 10px 40px;
+	width: 700px;
+	font-size: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+input {
+	background-color: #f8d65f;
+	/* background-color: #81A15D; */
+	text-align: right;
+	font-weight: bold;
+}
+input.calcNet {
+	text-align: right;
+	font-weight: bold;
+	background-color: #97AEAA;
+	border: 1px solid #495F5B;
+}
+input.calcSum {
+	background-color: #BAC9C7;
+	text-align: right;
+	border: 1px solid #849F9B;
+}
+input.calcSumTotal {
+	background-color: #97AEAA;
+	text-align: right;
+	border: 1px solid #495F5B;
+	font-weight: bold;
+}
+.LabelText
+{
+  font:Arial, Helvetica, sans-serif;
+  font-weight:bold;
+  font-size:16px;
+  color:Black; 
+  text-decoration:underline; 
+	
+}
+
+
+
+
