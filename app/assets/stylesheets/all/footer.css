@@ -71,8 +71,7 @@
 	cursor:pointer;
 }
 .calc:hover {
-	background-position: 0 0;
-}
+	background-position: 0 0;}
 
 .top10 {
 	display: block;
@@ -85,8 +84,7 @@
 	margin-right: 15px;
 	margin-top:2px;
 	white-space:nowrap;
-	cursor:pointer;
-}
+	cursor:pointer;}
 .top10:hover {
 	background-position: 0 0;}
 
@@ -113,8 +111,6 @@
 	margin-top:7px;
 	white-space:nowrap;
 	cursor:pointer;}
-
-
 
 .footer_image_text {
 	font-size:.5em;
