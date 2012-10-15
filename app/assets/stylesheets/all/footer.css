@@ -90,35 +90,3 @@
 .top10:hover {
 	background-position: 0 0;}
 
-
-
-.gear:hover {
-	display: block;
-	bottom:0px;
-	width: 120px;
-	height: 89px;
-	background: url('/assets/gear_move.gif') bottom;
-	text-indent: -99999px;
-	margin-left: 15px;
-	margin-right: 15px;
-	margin-top:7px;
-	white-space:nowrap;
-	cursor:pointer;}
-
-.gear {
-	display: block;
-	bottom:0px;
-	width: 120px;
-	height: 89px;
-	background: url('/assets/gear_static.gif') bottom;
-	text-indent: -99999px;
-	margin-left: 15px;
-	margin-right: 15px;
-	margin-top:7px;
-	white-space:nowrap;
-	cursor:pointer;}
-
-.footer_image_text {
-	font-size:.5em;
-	text-align:  center;
-	color:#fff;}
