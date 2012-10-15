@@ -54,7 +54,7 @@ img.profiles {
 .horizontalaccordion>ul>li {
     display:block;
     overflow: hidden;
-    float:left;
+    float:right;
     margin: 0;
     padding: 0;
     list-style:none;
@@ -111,23 +111,10 @@ img.profiles {
     background: -webkit-gradient(linear, left top, left bottom, from(#000), to(#313131));
 }
  
-.horizontalaccordion>ul>li>div {
-    display:none;
-    float:left;
-    overflow: auto;
-    position:relative;
-    top:-40px;
-    left:40px;
-    *top:0px;       /* IE7 Hack */
-    *left:0px;      /* IE7 Hack */
-    margin:0;
-    width:100px;
-    height:330px;
-    padding:10px;
-}
+
  
 .horizontalaccordion>ul>li:hover {
-    overflow: hidden;
+    overflow:hidden;
     width: 780px;
     
 }
@@ -153,3 +140,15 @@ img.profiles {
 .horizontalaccordion>ul>li>h3:hover {
     cursor:pointer;
 }
+
+.AccordionOpen
+{
+  width:780px !important;
+  display:fixed;
+  z-index:-9999999;
+  position: absolute;	
+  overflow:auto;  
+}
+
+
+
