@@ -1,9 +1,9 @@
 table.profile {
-	margin-top:20px;
+	margin-top:0px;
 	margin-right:2px;}
 
 h2.profile {
-	margin-top:0px;
+	margin-top:-40px;
 	margin-left:60px !important;
 	display:block !important;
 	margin-bottom:0px;
@@ -18,8 +18,9 @@ p.title {
 p.profile {
 	letter-spacing: 3px;
 	line-height:20px;
-	margin:60px 0px 40px 10px;
-	color:#494949;}
+	margin:0px 0px 40px 0px;
+	color:#494949;
+	font-size:12px;}
 
 p.contact {
 	margin-right:20px;
@@ -38,14 +39,14 @@ img.profiles {
 /**/	
 
 .horizontalaccordion{
-	margin-top:40px;
+	margin-top:10px;
 	border-bottom: 1px dashed #e3e3e3;}
 	
 .horizontalaccordion>ul {
     margin: 0;
     padding: 0;
     list-style:none;
-    height: 400px;
+    height: 330px;
 }
  
 .horizontalaccordion>ul>li {
@@ -56,7 +57,7 @@ img.profiles {
     padding: 0;
     list-style:none;
     width:50px;
-    height: 400px;
+    height: 330px;
  
     /* Decorative CSS */
     background:#ffffff;
@@ -74,7 +75,7 @@ img.profiles {
     margin: 0;
     padding:5px 0px 0px 5px;
     height:40px;
-    width:500px;
+    width:320px;
  
     /* Decorative CSS */
     border-left:#f0f0f0 1px solid;
@@ -118,13 +119,14 @@ img.profiles {
     *left:0px;      /* IE7 Hack */
     margin:0;
     width:100px;
-    height:400px;
+    height:330px;
     padding:10px;
 }
  
 .horizontalaccordion>ul>li:hover {
     overflow: hidden;
-    width: 1000px;
+    width: 800px;
+    
 }
  
 .horizontalaccordion:hover>ul>li:hover>div {
