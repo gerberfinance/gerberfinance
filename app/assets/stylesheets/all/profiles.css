@@ -1,0 +1,139 @@
+/* Profiles Style*/
+
+table.profile {
+	margin-top:20px;
+	margin-right:2px;}
+
+h2.profile {
+	margin-top:0px;
+	margin-left:60px !important;
+	display:block !important;
+	margin-bottom:0px;
+	color:#000000;}
+	
+p.title {
+	margin-left:75px !important;
+	color:#383838;
+	font-size: 16px;
+	margin-top:0px;}	
+
+p.profile {
+	letter-spacing: 3px;
+	line-height:20px;
+	margin:60px 0px 40px 10px;
+	color:#494949;}
+
+p.contact {
+	margin-right:20px;
+	text-align:right;
+	font-size: 13px;}
+
+a.contact {
+	text-decoration:underline;}			
+
+img.profile {margin:0px 0px 0px 60px;}       
+
+img.profiles {
+	display:block;
+	margin-left: 180px;}       
+
+/* Accordion */
+.accordion {   
+     border: 2px solid #eae9e9;
+     width:1200px; 
+     height: 400px; 
+     overflow:hidden;   
+     margin:10px auto;   
+     color:#000000;   
+     background:#fffff;   
+     padding:10px;}
+
+.accordion section{   
+      float:left;  
+      overflow:hidden;   
+      color:#333;   
+      cursor:pointer;   
+      background: #000;   
+      margin:3px;
+      }
+        
+.accordion section:hover {  
+      background:#444;}         
+
+.accordion section p {   
+      display:none;}        
+
+.accordion section:after{  
+      position:relative;  
+      font-size:24px;  
+      color:#000;  
+      font-weight:bold;}
+        
+.accordion section:nth-child(1):after{ content:''; }  
+.accordion section:nth-child(2):after{ content:''; }  
+.accordion section:nth-child(3):after{ content:''; }  
+.accordion section:nth-child(4):after{ content:''; }  
+.accordion section:nth-child(5):after{ content:''; }  
+
+.horizontal section{   
+      width:5%;   
+      height:400px;   
+      -moz-transition: width 0.2s ease-out;   
+      -webkit-transition:width 0.2s ease-out;  
+      -o-transition:width 0.2s ease-out;  
+      transition:width 0.2s ease-out;}  
+
+.horizontal section:after{  
+      top:140px;  
+      left:85px;}     
+      
+.accordion section:target {   
+      background:#FFF;   
+      padding:0px;}  
+      
+.accordion section:target:hover {   
+      background:#FFF;} 
+       
+.accordion section:target h2 {  
+      width:100%;} 
+       
+.accordion section:target h2 a{   
+      color:#333;   
+      padding:0;}  
+      
+.accordion section:target p {  
+      display:block;}
+        
+.accordion section h2 a{  
+      padding:8px 10px;  
+      display:block;   
+      font-size:16px;   
+      font-weight:normal;  
+      color:#eee;   
+      text-decoration:none;}        
+      
+/*Header of closed slide*/  
+.horizontal section h2 {   
+     -webkit-transform:rotate(90deg);  
+     -moz-transform:rotate(90deg);  
+     -o-transform: rotate(90deg);  
+     transform: rotate(90deg);  
+     width:240px;   
+     position:relative;   
+     left:-100px;   
+     top:85px;}   
+     
+/*On mouse over open slide*/  
+.horizontal :target{   
+     width:77%;  
+     height:380px;}  
+     
+.horizontal :target h2{   
+     display:none;
+     top:0px;  
+     left:0;  
+     -webkit-transform:rotate(0deg);  
+     -moz-transform:rotate(0deg);  
+     -o-transform: rotate(0deg);  
+     transform: rotate(0deg);}     
+     
