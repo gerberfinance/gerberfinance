@@ -1,0 +1,150 @@
+table.profile {
+	margin-top:20px;
+	margin-right:2px;}
+
+h2.profile {
+	margin-top:0px;
+	margin-left:60px !important;
+	display:block !important;
+	margin-bottom:0px;
+	color:#000000;}
+	
+p.title {
+	margin-left:75px !important;
+	color:#383838;
+	font-size: 16px;
+	margin-top:0px;}	
+
+p.profile {
+	letter-spacing: 3px;
+	line-height:20px;
+	margin:60px 0px 40px 10px;
+	color:#494949;}
+
+p.contact {
+	margin-right:20px;
+	text-align:right;
+	font-size: 13px;}
+
+a.contact {
+	text-decoration:underline;}			
+
+img.profile {margin:0px 0px 0px 60px;}       
+
+img.profiles {
+	display:block;
+	margin-left: 180px;}       
+	
+/**/	
+
+.horizontalaccordion{
+	margin-top:40px;
+	border-bottom: 1px dashed #e3e3e3;}
+	
+.horizontalaccordion>ul {
+    margin: 0;
+    padding: 0;
+    list-style:none;
+    height: 400px;
+}
+ 
+.horizontalaccordion>ul>li {
+    display:block;
+    overflow: hidden;
+    float:left;
+    margin: 0;
+    padding: 0;
+    list-style:none;
+    width:50px;
+    height: 400px;
+ 
+    /* Decorative CSS */
+    background:#ffffff;
+ 
+    /* CSS3 Transitions */
+    transition: width 0.3s ease-in-out;
+    -moz-transition: width 0.3s ease-in-out;
+    -webkit-transition: width 0.3s ease-in-out;
+    -o-transition: width 0.3s ease-in-out;
+}
+ 
+.horizontalaccordion>ul>li>h3 {
+    display:block;
+    float:left;
+    margin: 0;
+    padding:5px 0px 0px 5px;
+    height:40px;
+    width:500px;
+ 
+    /* Decorative CSS */
+    border-left:#f0f0f0 1px solid;
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-weight:lighter !important;
+    text-decoration:none !important;
+    
+    color: #c8c8c8;
+    background:#cccccc;
+ 
+    /* CSS3 Transform Rotate & Translate */
+    border-radius:10px;
+    -moz-border-radius:10px;
+    white-space:nowrap;
+    -moz-transform: rotate(90.0deg) translate(-40px,0px);  /* FF3.5+ */
+    -moz-transform-origin: 0 100%;
+    -o-transform: rotate(90.0deg) translate(-40px,0px);  /* Opera 10.5 */
+    -o-transform-origin: 0 100%;
+    -webkit-transform: rotate(90.0deg) translate(-40px,0px);  /* Saf3.1+, Chrome */
+    -webkit-transform-origin: 0 100%;
+    transform: rotate(90.0deg) translate(-40px,0px);  /* Saf3.1+, Chrome */
+    transform-origin: 0 100%;
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1.0)
+            progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff999999, endColorstr=#ffcccccc);  /* IE6,IE7 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1.0)"
+                "progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff999999, endColorstr=#ffcccccc)"; /* IE8 */
+ 
+    /* CSS3 Gradient Effect */
+    background: -moz-linear-gradient( top, #000, #313131);
+    background: -webkit-gradient(linear, left top, left bottom, from(#000), to(#313131));
+}
+ 
+.horizontalaccordion>ul>li>div {
+    display:none;
+    float:left;
+    overflow: auto;
+    position:relative;
+    top:-40px;
+    left:40px;
+    *top:0px;       /* IE7 Hack */
+    *left:0px;      /* IE7 Hack */
+    margin:0;
+    width:100px;
+    height:400px;
+    padding:10px;
+}
+ 
+.horizontalaccordion>ul>li:hover {
+    overflow: hidden;
+    width: 1000px;
+}
+ 
+.horizontalaccordion:hover>ul>li:hover>div {
+    display:block;
+}
+ 
+.horizontalaccordion:hover>ul>li:hover>h3 {
+    /* Decorative CSS */
+    color:#fff;
+    background:#000000;
+ 
+    /* CSS3 Gradient Effect */
+    background: -moz-linear-gradient( top, #454545, #000000); /* FF, Flock */
+    background: -webkit-gradient(linear, left top, left bottom, from(#454545), to(#000000)); /* Safari, Chrome */
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1.0)
+            progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff454545, endColorstr=#ff000000); /* IE 5.5 - IE 7 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1.0)"
+                "progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff454545, endColorstr=#ff000000)";   /* IE 8 */
+}
+ 
+.horizontalaccordion>ul>li>h3:hover {
+    cursor:pointer;
+}
