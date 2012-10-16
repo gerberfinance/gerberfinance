@@ -89,9 +89,12 @@ img.profiles {
     background:#cccccc;
  
     /* CSS3 Transform Rotate & Translate */
-    border-radius:10px;
-    -moz-border-radius:10px;
-    -webkit-border-radius: 10px;
+    border-radius:10px 0px 0px;
+    
+    -moz-border-radius:10px 0px 0px;
+    
+    -webkit-border-radius: 10px 0px 0px;
+   
     white-space:nowrap;
     -moz-transform: rotate(90.0deg) translate(-40px,0px);  /* FF3.5+ */
     -moz-transform-origin: 0 100%;

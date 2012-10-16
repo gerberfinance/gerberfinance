@@ -19,6 +19,7 @@ gear_p.png: gear_p-d8ec0cb35ad29fec439c05e5f31ccfeb.png
 gear_p.psd: gear_p-784c1e0b13c764b84e72b65ff2615c06.psd
 gear_static.gif: gear_static-382841c9133e3295eaaa75db966a2997.gif
 gerberfinance.png: gerberfinance-3e50a315945894fa849973ba377ecfe7.png
+globe.gif: globe-9f4d06552e0a802ed8182815496a11ea.gif
 green_tree.gif: green_tree-92e181f0c3080784d5381ba287e59155.gif
 green_tree3.gif: green_tree3-e9cfb383e72cee02a1efa4851f8360e0.gif
 group_back.png: group_back-728c080541be218a8d5b49112504a676.png
@@ -52,7 +53,9 @@ images/universalWhite/volume-on.png: images/universalWhite/volume-on-e2190a73802
 images/universalWhite/volumeMute-off.png: images/universalWhite/volumeMute-off-b1b399effb7a388458501907cb3fc858.png
 images/universalWhite/volumeMute-on.png: images/universalWhite/volumeMute-on-4b3fcf9365071b84949c8ea0c2630f91.png
 img_jen.jpg: img_jen-c6677815a9219f6e948f4b11258b3105.jpg
+ledger.gif: ledger-7d41a8ea7aa7c80abedc060dc393c677.gif
 rails.png: rails-be8732dac73d845ac5b142c8fb5f9fb0.png
+scale.gif: scale-fae8bd27dbbc1422dd23d700ad5e2a26.gif
 text/about.png: text/about-62ac23fd6adfe833ae58a255b85877ce.png
 text/asset.png: text/asset-fb214130b11f1b173c49d08a5540885e.png
 text/calculator.png: text/calculator-dc3b3bb7ae6741f139debf1484761947.png
@@ -80,8 +83,8 @@ video_thumbs/pilgrim_thumb.png: video_thumbs/pilgrim_thumb-e8d62bbd35f301ae1f07f
 video_thumbs/schofield.png: video_thumbs/schofield-adb8e2daaf648b2ceb7c420c7cba79df.png
 video_thumbs/schofield_thumb.png: video_thumbs/schofield_thumb-24e7ec4fe6c55b0da11b62e2c0340f63.png
 welcome.png: welcome-aa11c00d2fb6f300721903830b91bb51.png
-application.js: application-d695aefa65519c631e431c253cace6ce.js
-application-all.css: application-all-373a6d6ca7dbb88a241565afd0074f4f.css
+application.js: application-4780e25b695722a1f4d371ea5791307d.js
+application-all.css: application-all-1cfd4d837b548f74fc39b09c3012eb75.css
 application-ie.css: application-ie-b84169e7b66885f1102ebc2f2dd8ca50.css
 application-mobile.css: application-mobile-7270767b2a9e9fff880aa5de378ca791.css
 application-print.css: application-print-7270767b2a9e9fff880aa5de378ca791.css

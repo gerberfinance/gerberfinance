@@ -160,8 +160,9 @@ img.txt {
 	margin-left:20px;}
 	
 /* Page Containers */
+
 /* #page_conatiner {
-	margin: 83px 20px 200px 20px;
+	margin: 83px 20px 200px 0px;
 	position: absolute;
 	left:15%;
 	right:15%;
@@ -173,5 +174,96 @@ img.txt {
 	min-width:1030px;
 	max-width: 1030px;}
 
+/* Input Styles */
+/* History */
+img.globe{
+display:inline-block;
+   position:fixed;
+   left:0px;
+   bottom:118px;}
 
+
+#history_body {
+	margin: 83px 20px 400px 0px;
+	position: absolute;
+	left:2%;
+	right:10%;
+	top:7%;
+	}
+
+#globe_container{
+	display:inline;}	
+
+#history_container {
+	float:left;
+	position:absolute;
+	margin:80px 40px 0px 280px;}
+
+#history_text {
+	min-height: 330px;
+	min-width: 400px;
+	max-width: 750px;
+	font-size: 20px;
+	margin-left:20px;}
 	
+/* Trade Finance */	
+
+img.scale{
+	float:left;
+	display:inline;
+	}
+	
+#trade_body {
+	margin: 83px 20px 400px 20px;
+	position: absolute;
+	left:2%;
+	right:10%;
+	top:7%;
+	}
+
+#scale_container{
+	display:inline;}	
+
+
+#trade_container {
+	float:left;
+	position:absolute;
+	margin:80px 40px 0px 350px;}
+
+#trade_text {
+	min-height: 330px;
+	min-width: 400px;
+	max-width: 750px;
+	font-size: 20px;
+	margin-left:20px;}
+	
+/* Asset Based */	
+
+img.ledger{
+	float:left;
+	display:inline;
+	}
+	
+#asset_body {
+	margin: 83px 20px 400px 20px;
+	position: absolute;
+	left:2%;
+	right:10%;
+	top:7%;
+	}
+
+#ledger_container{
+	display:inline;}	
+
+
+#asset_container {
+	float:left;
+	position:absolute;
+	margin:20px 40px 0px 300px;}
+
+#asset_text {
+	min-height: 330px;
+	min-width: 400px;
+	max-width: 750px;
+	font-size: 20px;
+	margin-left:20px;}	

@@ -1,65 +1,42 @@
-.RCmainTbl {
-	text-align: center;
-	margin-right: auto;
-	margin-left: auto;
-	width: 800px;
-	background-color: #FFFFFF;
-}
-.tblContent {
-	width: 407px;
-	margin: 10px 20px;
-}
+.style5 {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px;}
+.style10 {font-family: Verdana, Arial, Helvetica, sans-serif}
+.style11 {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; }
+
 .number {
 	font-size: 24px;
 	font-weight: bold;
 	color: #A4B6D6;
-	text-align: right;
-	padding-right: 5px;
-}
-
+	padding-right: 8px;}
 
 .calcBox {
 	margin: 10px 10px;
-	width: 1px;
-}
-.disclaimerBox {
-	margin: 10px 40px;
-	width: 700px;
-	font-size: 10px;
-	font-family: Arial, Helvetica, sans-serif;
-}
+	width: 30px;}
+
 input {
-	background-color: #f8d65f;
-	/* background-color: #81A15D; */
-	text-align: right;
-	font-weight: bold;
-}
+	background-color:#f0f0f0;
+	border:1px solid #dbdbdb;
+	padding:5px;
+	border-radius: 7px;
+	-webkit-border-radius:7px;
+	-moz-border-radius:7px;
+	color: #000;
+	font-style:italic;
+	width: 80px;
+	text-align:right;}
+		
 input.calcNet {
-	text-align: right;
 	font-weight: bold;
 	background-color: #97AEAA;
-	border: 1px solid #495F5B;
-}
+	border: 1px solid #dbdbdb;}
+	
 input.calcSum {
 	background-color: #BAC9C7;
-	text-align: right;
-	border: 1px solid #849F9B;
-}
+	border: 1px solid #dbdbdb;} 
+	
 input.calcSumTotal {
 	background-color: #97AEAA;
-	text-align: right;
-	border: 1px solid #495F5B;
-	font-weight: bold;
-}
-.LabelText
-{
-  font:Arial, Helvetica, sans-serif;
-  font-weight:bold;
-  font-size:16px;
-  color:Black; 
-  text-decoration:underline; 
-	
-}
+	border: 1px solid #dbdbdb;
+	font-weight: bold;} 
 
 
 
