@@ -12,6 +12,7 @@ Gerber::Application.routes.draw do
 	match '/clientele' => 'static_pages#clientele'
 	match '/current' => 'static_pages#current'
 	match '/prior' => 'static_pages#prior'
+	match '/testimonials' => 'static_pages#testimonials'
 	
 	match '/parmount' => 'static_pages#paramount'
 	
