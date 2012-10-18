@@ -7,8 +7,7 @@
    width:100%;
    min-width:800px;	
    z-index:0;
-   background: url(/assets/bgf.png) repeat-x;
-	 }
+   background: url(/assets/bgf.png) repeat-x;}
    
 * html #footer {
    position:absolute;
