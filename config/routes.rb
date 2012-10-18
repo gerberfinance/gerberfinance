@@ -1,7 +1,8 @@
 Gerber::Application.routes.draw do
   
-  
-	match '/contacts' => 'contacts#new'
+	match 'contact' => 'contact#new', :as => 'contact', :via => :get
+	match 'contact' => 'contact#create', :as => 'contact', :via => :post
+	  
 	match '/' => 'static_pages#home'
 	match '/about' => 'static_pages#about'
 	match '/history' => 'static_pages#history'
