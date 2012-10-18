@@ -54,6 +54,7 @@ images/universalWhite/volumeMute-off.png: images/universalWhite/volumeMute-off-b
 images/universalWhite/volumeMute-on.png: images/universalWhite/volumeMute-on-4b3fcf9365071b84949c8ea0c2630f91.png
 img_jen.jpg: img_jen-c6677815a9219f6e948f4b11258b3105.jpg
 ledger.gif: ledger-7d41a8ea7aa7c80abedc060dc393c677.gif
+ledger.png: ledger-5788e32fb3ff4d8d56afd4a099acd24d.png
 rails.png: rails-be8732dac73d845ac5b142c8fb5f9fb0.png
 scale.gif: scale-fae8bd27dbbc1422dd23d700ad5e2a26.gif
 text/about.png: text/about-62ac23fd6adfe833ae58a255b85877ce.png
@@ -84,7 +85,7 @@ video_thumbs/schofield.png: video_thumbs/schofield-adb8e2daaf648b2ceb7c420c7cba7
 video_thumbs/schofield_thumb.png: video_thumbs/schofield_thumb-24e7ec4fe6c55b0da11b62e2c0340f63.png
 welcome.png: welcome-aa11c00d2fb6f300721903830b91bb51.png
 application.js: application-4780e25b695722a1f4d371ea5791307d.js
-application-all.css: application-all-1cfd4d837b548f74fc39b09c3012eb75.css
+application-all.css: application-all-31b8abb9343e070503cc08a388048d40.css
 application-ie.css: application-ie-b84169e7b66885f1102ebc2f2dd8ca50.css
 application-mobile.css: application-mobile-7270767b2a9e9fff880aa5de378ca791.css
 application-print.css: application-print-7270767b2a9e9fff880aa5de378ca791.css
