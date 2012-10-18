@@ -7,13 +7,7 @@
    width:100%;
    min-width:800px;	
    z-index:0;
-   background:#000000; 
-	 background:-moz-linear-gradient(top, #000000 85%, #2e2e2e 100%); 
-	 background:-webkit-gradient(linear, left top, left bottom, color-stop(85%,#2e2e2e), color-stop(100%,#2e2e2e)); 
-	 background:-webkit-linear-gradient(top, #000000 85%,#2e2e2e 100%); 
-	 background:-o-linear-gradient(top, #000000 85%,#2e2e2e 100%); 
-	 background:-ms-linear-gradient(top, #000000 85%,#2e2e2e 100%); 
-	 background:linear-gradient(top, #000000 85%,#2e2e2e 100%); 
+   background: url(/assets/bgf.png) repeat-x;
 	 }
    
 * html #footer {
@@ -64,36 +58,36 @@
 	border:none !important;
 	display: block;
 	margin-top:3px;
-	width: 120px;
+	width: 145px;
 	height: 89px;
-	background: url('/assets/calc_static.gif') bottom;
+	background: url('/assets/calc_static3.gif') bottom;
 	padding-left:0px;
-	margin-left: 15px;
-	margin-right: 15px;
+	margin-left: 0px;
+	margin-right: 0px;
 	margin-top:7px;
 	cursor:pointer;
 }
 .calc:hover {
-	
+	border:none !important;
 	display: block;
 	margin-top:3px;
-	width: 120px;
+	width: 145px;
 	height: 89px;
-	background: url('/assets/calc_move1.gif') bottom;
+	background: url('/assets/calc_move3.gif') bottom;
 	padding-left:0px;
-	margin-left: 15px;
-	margin-right: 15px;
+	margin-left: 0px;
+	margin-right: 0px;
 	margin-top:7px;
 	cursor:pointer;}
 
 .top10 {
 	display: block;
 	bottom:0px;
-	width: 120px;
+	width: 145px;
 	height: 89px;
 	background: url('/assets/top10_static.gif') bottom;
-	margin-left: 15px;
-	margin-right: 15px;
+	margin-left: 0px;
+	margin-right: 0px;
 	margin-top:7px;
 	white-space:nowrap;
 	cursor:pointer;}
@@ -101,11 +95,11 @@
 .top10:hover {
 	display: block;
 	bottom:0px;
-	width: 120px;
+	width: 145px;
 	height: 89px;
-	background: url('/assets/top10_active.gif') bottom;
-	margin-left: 15px;
-	margin-right: 15px;
+	background: url('/assets/top10_active1.gif') bottom;
+	margin-left: 0px;
+	margin-right: 0px;
 	margin-top:7px;
 	white-space:nowrap;
 	cursor:pointer;}
@@ -113,11 +107,11 @@
 .gear {
 	display: block;
 	bottom:0px;
-	width: 120px;
+	width: 145px;
 	height: 89px;
-	background: url('/assets/gear_static.gif') bottom;
-	margin-left: 15px;
-	margin-right: 15px;
+	background: url('/assets/gear_static2.gif') bottom;
+	margin-left: 0px;
+	margin-right: 0px;
 	margin-top:7px;
 	white-space:nowrap;
 	cursor:pointer;}
@@ -125,11 +119,11 @@
 .gear:hover {
 	display: block;
 	bottom:0px;
-	width: 120px;
+	width: 145px;
 	height: 89px;
-	background: url('/assets/gear_move1.gif') bottom;
-	margin-left: 15px;
-	margin-right: 15px;
+	background: url('/assets/gear_move2.gif') bottom;
+	margin-left: 0px;
+	margin-right: 0px;
 	margin-top:7px;
 	white-space:nowrap;
 	cursor:pointer;}
