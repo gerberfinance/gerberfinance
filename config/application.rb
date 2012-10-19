@@ -14,16 +14,16 @@ module Gerber
     config.action_mailer.smtp_settings = {
  	 :address              => "smtp.gmail.com",
 	 :port                 => 587,
- 	 :domain               => "domain.of.sender.net",
- 	 :user_name            => "sjoseph80",
- 	 :password             => "Super-Secure-Password",
+ 	 :domain               => "sjoseph80@gmail.com",
+ 	 :user_name            => "sjoseph80@gmail.com",
+ 	 :password             => "simon1231",
  	 :authentication       => :plain,
  	 :enable_starttls_auto => true
 }
 
-config.action_mailer.default_url_options = {
-  :host => "gmail.com"
-}
+#config.action_mailer.default_url_options = {
+ # :host => "gmail.com"
+#}
 
     
     # Settings in config/environments/* take precedence over those specified here.
