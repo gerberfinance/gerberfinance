@@ -1,17 +1,28 @@
-<h3>New Contact Information</h3>
+<h2>New Contact Information</h2>
 
-<p>Name:</p>
-<%= @message.name %>
+<p><b>Name:</b> <%= @message.name %></p> 
 
-<p>Email</p>
-<%= @message.email %>
+<p><b>Prefered Method of Contact:</b> <%= @message.cmethod %></p> 
 
-<p>Question</p>
-<%= @message.body %>
+<p><b>Email:</b> <%= @message.email %></p>
 
-<p>Regarding</p>
-<%= @message.subject %>
+<p><b>Telephone:</b> (<%= @message.area %>) <%= @message.area %> - <%= @message.area %></p> 
 
+<p><b>Email:</b> <%= @message.email %></p>
 
+<p><b>Address:</b> </p>
+<%= @message.address %> <br />
+<%= @message.city %>, <%= @message.state %>    <%= @message.zip %>
 
+<p><b>Type of Business:</b> <%= @message.btype %></p> 
 
+<p><b>Product Type:</b> <%= @message.ptype %></p> 
+
+<p><b>Annual Sales:</b> <%= @message.sales %></p> 
+<p><b>Current A/R:</b> <%= @message.ar %></p>
+
+<p><b>Current Inventory:</b> <%= @message.inventory %></p> 
+
+<h3><b>Credit Line Required:</b> <%= @message.creditline %></h3>
+
+<p><b>Additional Information:</b> </p> <%= @message.comments %>

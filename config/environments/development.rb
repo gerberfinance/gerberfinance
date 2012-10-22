@@ -35,5 +35,4 @@ Gerber::Application.configure do
   # Expands the lines which load the assets
   config.assets.debug = true
 
-  ActionMailer::Base.default :from => 'some@emailaddress.com'
 end

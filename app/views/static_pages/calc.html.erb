@@ -10,16 +10,18 @@
 </head>
 <body class="popups">
 <div id="header_popups">
-	<h2 class="popups">Finance Calculator</h2>
+	<img src="/assets/text/calculator.png" class="popup"/>
 </div>
 <div class="calc_body">
 </head>
 
 <body onload=";setTextFocus();UpdateFiles()">
-	<h4>the true cost of borrowing</h4>  
-		<p>So often, entrepreneurs and their advisors look only at the interest rate to determine the cost of borrowing. What they really should be looking at is the benefit to the company of that borrowing.   In making comparisons between lenders, if ALL ELSE is identical, then of course choose the lender offering the lower rate. But, if you have a line of credit from a bank, you may be able to get a higher return by replacing or supplementing the bank line with a line from another lender, even at higher rates. To test the impact, we have devised the calculator below. Fill in the yellow boxes to see how the additional resources can make an impact.</p>
+	<h4 class="calc_heading">the true cost of borrowing</h4>  
+		<p class="calc_text">So often, entrepreneurs and their advisors look only at the interest rate to determine the cost of borrowing. What they really should be looking at is the benefit to the company of that borrowing.   In making comparisons between lenders, if ALL ELSE is identical, then of course choose the lender offering the lower rate. But, if you have a line of credit from a bank, you may be able to get a higher return by replacing or supplementing the bank line with a line from another lender, even at higher rates. To test the impact, we have devised the calculator below. Fill in the boxes below to see how the additional resources can make an impact.
+        	<input id="Reset1" style="vertical-align: middle; width:120px; float:right;" type="reset" value="Reset Calculator" onclick="ClearFields();" class="calc_reset"/></p>
 	<hr/>
 	<tr>
+    	
     	<td height="1072" valign="top">
     	<table class="calcBox">
       		<tbody>
@@ -234,14 +236,14 @@
         		
 				<tr>
     				<td height="30" align="center" valign="top"><p>
-        				<input id="Reset1" style="vertical-align: middle; text-align: center" type="reset" value="Reset Calculator" onclick="ClearFields();"/>
+        				<input id="Reset1" style="vertical-align: middle; width:120px;" type="reset" value="Reset Calculator" onclick="ClearFields();" class="calc_reset"/>
 
 						<blockquote>
         					<blockquote>
             					<blockquote>
                 					<blockquote>
                     					<blockquote>
-                        					<p align="center" class="style11">PLEASE NOTE
+                        					<p>PLEASE NOTE
                         						<br /> 
                         							This calculator is for illustration purposes only and to make a meaningful comparison, 
                         							assumes 100% utlization of resources 100% of the time.

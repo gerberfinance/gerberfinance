@@ -1,35 +1,127 @@
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<%= form_for @message, :url => contact_path do |form| %>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Top 10 Questions to Ask Your Lender</title>
+<%= stylesheet_link_tag "application-all", :media => "all" %>
+<%= stylesheet_link_tag "application-print", :media => "print" %>
+<%= stylesheet_link_tag "application-mobile", :media => "mobile" %>
+<%= javascript_include_tag "application" %>
+<%= csrf_meta_tags %>
+<script>
+$("input[type='text']").change( function() {
+  // check input ($(this).val()) for validity here
+});
+</script>
+
+</head>
+<body class="contact_body">
+<div id="contact_header">
+	<img src="/assets/text/contact.png" class="popup"/>
+	<p class="gerber_address1"> 488 Madison Avenue, Suite 800 <br />New York, NY  10022 </p> 
+</div>
+<div id="contact">
+<%= form_for @message, :class => "form", :url => contact_path do |form|%>
+<div style="display:none;"><%= form.error_messages %></div>
+
   <fieldset class="fields">
+  
     <div class="field">
-      <%= form.label :name %>
-      <%= form.text_field :name %>
+        <p class="contact_name">
+        	<%= form.label "Name" %> *<br />
+        	<%= form.text_field :name %>
+    	</p>
     </div>
     
     <div class="field">
-      <%= form.label :email %>
-      <%= form.text_field :email %>
-    </div>
-    <div class="field">
-      <%= form.label :subject %>
-      <%= form.text_field :subject %>
+      	<p class="contact_telephone">
+      		<%= form.label "Telephone" %><br />
+      			<p class="contact_area">(<%= form.text_field :area, :maxlength=>"3", :placeholder => "XXX"%>)</p>
+      			<p class="contact_tel1"><%= form.text_field :tel1, :maxlength=>"3", :placeholder => "XXX"%>-</p>
+      			<p class="contact_tel2"><%= form.text_field :tel2, :size => "4", :maxlength=>"4", :placeholder => "XXXX"%></p>
+    	</p>
     </div>
     
     <div class="field">
-      <%= form.label :body %>
-      <%= form.text_area :body %>
+    	<p class="contact_email">
+      		<%= form.label "Email" %> *<br />
+      		<%= form.email_field :email, :placeholder => "ex. yourname@gmail.com"%>
+      	</p>
     </div>
+    
+    <div class="field">
+      	<p class="contact_address">
+      		<%= form.label "Address" %> *<br />
+      		<%= form.text_field :address %>
+    	</p>
+    	<p class="contact_city"><%= form.label "City" %>*<%= form.text_field :city %></p>
+    	<p class="contact_state"><%= form.label "State" %>*<%= form.text_field :state, :size => "2", :maxlength=>"2", :placeholder => "XX"%></p>
+    	<p class="contact_zip"><%= form.label "Zip" %>*<%= form.text_field :zip, :size => "5", :maxlength=>"5", :placeholder => "XXXXX"%></p>
+    </div>
+    
+    <div class="field">
+      	<p class="contact_btype">
+      		<%= form.label "Type of Business" %> *
+      		<%= form.select :btype,  [['Manufacturer','manufacturer'],['Wholesaler','wholesaler'],['Importer','importer'],['Distributer','distributer'],['Service Provider','service provider'],['Other','other']], :prompt => "-Select-"  %>
+    	</p>
+    </div>
+    
+     <div class="field">
+      	<p class="contact_ptype">
+      		<%= form.label :ptype, :"Product Type" %>
+      		<%= form.text_field :ptype %>
+      	</p>	
+    </div>
+    
+    <div class="field">
+    	<p class="contact_sales">
+    	<%= form.label :sales, "Annual Revenue" %>
+		<input type=text id="message_sales" name="message[sales]" onBlur="this.value=formatCurrency(this.value)"></p>
+    </div>
+    
+    <div class="field">
+		<p class="contact_creditline">      
+      		<%= form.label :creditline, "Credit Line Required" %>
+      		<input type=text id="message_creditline" name="message[creditline]" onBlur="this.value=formatCurrency(this.value)">
+    	</p>
+    </div>
+    
+    <div class="field">
+    	<p class="contact_ar">
+      		<%= form.label :ar, "Amount of Current A/R" %>
+      		<input type=text id="message_ar" name="message[ar]" onBlur="this.value=formatCurrency(this.value)">
+    	</p>
+    </div>
+    
+    <div class="field">
+    	<p class="contact_inventory">
+      		<%= form.label :inventory, "Amount of Current Inventory" %>
+      		<input type=text id="message_inventory" name="message[inventory]" onBlur="this.value=formatCurrency(this.value)">
+    </div>
+    
+    <div class="field">
+    	<p class="contact_cmethod">
+    		<%= form.label :"Preferred Means of Contact" %>
+      		<%= form.select :cmethod, [['Telephone','telephone'],['Email','email']], :prompt => "-Select-" %>
+    	</p>
+    </div>
+    
+    <div class="field">
+    	<p class="contact_comments">
+    		<%= form.label "Additional information" %>
+      		<%= form.text_area :comments, :col => "3", :rows => "6"%>
+    	</p>
+    </div>
+    
   </fieldset>
   
-  <fieldset class="actions">
-    <%= form.submit "Send" %>
+  <fieldset class="actions" >
+  <%= form.submit "Send", :class => "contact_sumbit" %>
+   <p style="float:right; font-size: 10px;">* required fields</p> 
   </fieldset>
+		
+		
+  
 <% end %>
+</div>
+</body>
+</html>

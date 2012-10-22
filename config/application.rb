@@ -11,14 +11,16 @@ end
 
 module Gerber
   class Application < Rails::Application
-    config.action_mailer.smtp_settings = {
- 	 :address              => "smtp.gmail.com",
-	 :port                 => 587,
- 	 :domain               => "sjoseph80@gmail.com",
- 	 :user_name            => "sjoseph80@gmail.com",
- 	 :password             => "simon1231",
- 	 :authentication       => :plain,
- 	 :enable_starttls_auto => true
+    config.active_support.deprecation = :notify
+	config.action_mailer.delivery_method = :smtp
+	config.action_mailer.smtp_settings = {
+  	:address => 'mail.gerberfinance.com', # mail.example.com
+  	:domain => 'gerberfinance.com', # example.com
+  	:user_name => 'noreply', # user.name
+  	:password => 'noreplybox', # p@ssw0rd
+  	:port => 25,
+ 	:authentication => :ntlm
+
 }
 
 #config.action_mailer.default_url_options = {
