@@ -22,22 +22,27 @@
 		<ul>
    		<li class='active '><a href='/'><span>home</span></a></li>
    		<li class='has-sub '><a href='/about'><span>about us</span></a>
-      	<ul>
+      	  <ul>
          	<li><a href='/about'><span>about</span></a></li>
          	<li><a href='/history'><span>history</span></a></li>
          	<li><a href='/credit'><span>credit guidelines</span></a></li>
          	<li><a href='/profiles'><span>profiles</span></a></li>
-      	</ul>
+      	  </ul>
    		</li>
    		<li><a href='/asset'><span>asset based</span></a></li>
    		<li><a href='/trade'><span>trade finance</span></a></li>
    		<li class='has-sub '><a href='/testimonials'><span>testimonials</span></a>
       	<ul>
-         	<li><a href='/current'><span>client  testimonials</span></a></li>
+         	<li><a href='/current'><span>client testimonials</span></a></li>
          	<li><a href='/prior'><span>prior testimonials</span></a></li>
       	</ul>
    		</li>
-   		<li onclick="TINY.box.show({iframe:'/contact',boxid:'frameless',width:800,height:500,fixed:false,maskid:'bluemask',maskopacity:40,closejs:function(){closeJS()}})"><a><span>contact</span></a></li>
+   		<li class='has-sub '><a href='/contact'><span>contact</span></a>
+   		  <ul>	
+   			<li onclick="TINY.box.show({iframe:'/contact',boxid:'frameless',width:800,height:500,fixed:false,maskid:'bluemask',maskopacity:40,closejs:function(){closeJS()}})"><a><span>contact form</span></a></li>
+			<li><%= link_to "download application", "/assets/gerber_finance_app.pdf" %></li>
+		  </ul>
+		</li> 
 		</ul>
 	</div>
 </div>

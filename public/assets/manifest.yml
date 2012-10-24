@@ -90,9 +90,11 @@ text/history.png: text/history-21a3bf4c3a27a4c393df9d7d2625b6a9.png
 text/prior.png: text/prior-9eff2566bc9c5aedb263081f80c3806d.png
 text/profiles.png: text/profiles-3611c8aaa34b97aaa2253e76540c1e88.png
 text/ten.png: text/ten-016b88d901740b3ba18f0a2393514750.png
+text/thoughts.png: text/thoughts-8a221655e46180ccd6ba05fc4f08adc6.png
 text/trade.png: text/trade-55cc6e7319642cfe5e1cbec718f87619.png
 text/videos.png: text/videos-7660d42d68f63a7749612ad83734bf30.png
 text/welcome.png: text/welcome-ea3a8242ab60e0647fb8108a6e4b62ca.png
+thoughts.png: thoughts-8a221655e46180ccd6ba05fc4f08adc6.png
 top10.png: top10-1040515dcb3c55026f98d63511c108d1.png
 top10_active.gif: top10_active-2fad4615c9f0a939c884d939ae3d7532.gif
 top10_active1.gif: top10_active1-fbe5fa122d4d58e19ec17b045f64ea8d.gif
@@ -108,8 +110,8 @@ video_thumbs/pilgrim_thumb.png: video_thumbs/pilgrim_thumb-e8d62bbd35f301ae1f07f
 video_thumbs/schofield.png: video_thumbs/schofield-adb8e2daaf648b2ceb7c420c7cba79df.png
 video_thumbs/schofield_thumb.png: video_thumbs/schofield_thumb-24e7ec4fe6c55b0da11b62e2c0340f63.png
 welcome.png: welcome-aa11c00d2fb6f300721903830b91bb51.png
-application.js: application-28f0112164b887b6b07bc3fcf67a4051.js
-application-all.css: application-all-9534c4882d339f7122628e164db6759e.css
+application.js: application-38494d3e2fbe7b0789291a24b8a204c3.js
+application-all.css: application-all-50c91affef2ee0c62f0f6c210c5f06a8.css
 application-ie.css: application-ie-bead2921e83ccfc0c0eab66869b016ba.css
 application-mobile.css: application-mobile-7270767b2a9e9fff880aa5de378ca791.css
 application-print.css: application-print-7270767b2a9e9fff880aa5de378ca791.css

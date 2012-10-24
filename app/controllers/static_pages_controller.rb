@@ -18,5 +18,4 @@ class StaticPagesController < ApplicationController
 	def gear
 		render :layout => false
 	end	
-
 end

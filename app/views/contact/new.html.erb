@@ -7,17 +7,13 @@
 <%= stylesheet_link_tag "application-mobile", :media => "mobile" %>
 <%= javascript_include_tag "application" %>
 <%= csrf_meta_tags %>
-<script>
-$("input[type='text']").change( function() {
-  // check input ($(this).val()) for validity here
-});
-</script>
-
 </head>
 <body class="contact_body">
 <div id="contact_header">
 	<img src="/assets/text/contact.png" class="popup"/>
 	<p class="gerber_address1"> 488 Madison Avenue, Suite 800 <br />New York, NY  10022 </p> 
+	<a href="http://goo.gl/maps/k0m4a" class="mapit">(map it)<a>
+	<a href="tel:212-888-3833" class="gerber_telephone">(212) 888-3833</a>
 </div>
 <div id="contact">
 <%= form_for @message, :class => "form", :url => contact_path do |form|%>

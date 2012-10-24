@@ -7,58 +7,150 @@
 <%= stylesheet_link_tag "application-mobile", :media => "mobile" %>
 <%= javascript_include_tag "application" %>
 <%= csrf_meta_tags %>
+<script>
+var iframe = $('.video')[0];
+var player = $f(iframe);
+$('.button').bind('click', function() {
+    player.api('pause');
+});
+</script>
 </head>
 <body class="popups">
 <div id="header_popups">
 	<img src="/assets/text/head.png" class="popup"/>
 </div>
 <div class="gear_body">
- <h3>Top things you can do (and avoid) to secure a line of credit for your growing business</h3>
-				<p><em>First impressions are critical to any relationship, especially when it involves something as important as your business and your lenders capital. Gerber Finance CEO Gerald Joseph weighs in on what lenders are looking for when they meet borrowers and how to strike the best deal.</em></p>
+	<div id="head_left">
+	<h3 class="head">Top things you can do (and avoid) to secure a line of credit for your growing business</h3>
+		<p class="head4">
+			<em>First impressions are critical to any relationship, especially when it involves 
+			something as important as your business and your lenders capital. Gerber Finance CEO 
+			Gerald Joseph weighs in on what lenders are looking for when they meet borrowers and how 
+			to strike the best deal.</em>
+		</p>
+			
+			<h4 class="head5">1. Be prepared</h4>
+				<p class="head1">You know your business better than anyone, and a good lender will care just as much 
+				as you do about the smallest details. So, be prepared for full disclosure of the best 
+				and worst parts of your company's past, present and future.
+				<br />
+				<br />
+				It is hugely comforting for a lender to hear a prospective borrower have a good handle 
+				on both the industry and the company.
+				<br />
+				<br />
+				Have key financial numbers on hand and critical team members on call and if you don't 
+				have the answer to a specific question, don't be afraid to say so. I don't know but 
+				will get back to you has been the hallmark of some of the smartest businesspeople we know.
+				</p>
+			<h4 class="head5">2. Be specific about what you need</h4>
+			    <p class="head1">We want to know your story and will be ready to appreciate your business as much as you 
+			    do - but don't forget why we are here.<br />
+				<br />
+				One of the first things a lender wants to hear is what you need &ndash; and what you need 
+				it for. Everything we discuss will relate back to &ldquo;how much and what for&rdquo; &ndash; 
+				so spell it out up front.
+				<br />
+				<br />
+				And be realistic. Unless you have just landed a big order, asking for a $5 million line of c
+				redit when annual sales are $3 million, does not win any points with your prospective lender.
+				<br />
+				<br />
+			<h4 class="head5">3. Be candid: we can only make good decisions with all of the information</h4>
+			    <p class="head1">Contrary to popular belief, it&rsquo;s not all about the money. The best borrower/lender 
+			    relationships are built upon trust and opportunity for mutual success. So be brutally frank 
+			    and honest about the business and the principals &ndash; at the first meeting and throughout 
+			    the relationship.
+			    <br />
+				<br />What are your successes and failures?  What difficulties have you faced and how have 
+				you overcome them? What challenges do you face today and how are you dealing with them on a 
+				day-to-day basis?
+				<br />
+				<br />
+				If you can share past and current problems with the lender up front and you do not scare 
+				him or her off, it&rsquo;s a positive sign. And if you do scare your lender off at that 
+				first meeting, well, that was not the lender for you.
+				<br />
+				<br />
+				You deserve a lender that knows your successes and your failures &ndash; and will be with 
+				you in the trenches to help you succeed.
+				<br />
+				<br />
+				Also remember that any decent lender will independently verify your facts, and if you&rsquo;ve 
+				painted a rosier-than-reality picture, you may have lost that lender&rsquo;s trust forever.
+				<br />
+				</p>	
+			<h4 class="head5">4. Prepare a solid package</h4>
+			    <p class="head1">Give your prospective lender a detailed package of information to help speed up the process 
+			    of getting the loan and make a great impression in the process. While each loan will be 
+			    slightly different, the following key will help you prepare the essentials.
+			    <br />
+                <br />
+			    For an asset based line of credit, provide at least the following:
+			    </p>
+			    	<ul>
+			      		<li class=head_ul>3 years of year-end financial statements, current year-to-date internally produced 
+			      		financial statements</li>
+			      		<li class=head_ul>Current aged listing of receivables, current inventory report and if it can be 
+			      		aged, an aged inventory report, aged payables list</li>
+			      		<li class=head_ul>Resum&eacute;s of the management/officers, current and updated personal financial 
+			      		statements of the guarantors and a huge winner, a budget and cash flow &ndash; and 
+			      		please do NOT suggest to the lender that in YOUR business it is impossible to budget! 
+			      		Remember, budgets are essentially estimates and everyone can make an estimate &ndash; 
+			      		that way you can have something to measure your performance against and give you a 
+			      		great indicator of what you need to do to be a success.</li>
+			      	</ul>
+			    <p class="head1">Above all, as you prepare this package, be realistic about the value of your investment and 
+			    assets. Ridiculous valuations of the investment in the business on the guarantors&rsquo; 
+			    personal financial statements are unimpressive to a lender. 
+			    <br />
+			    <br />
+			    </p>
+			<h4 class="head5">5. Negotiating the terms of the loan &amp; Lender Due Diligence</h4>
+				<p class="head1">
+				This is a critical time for your future relationship with your lender. If you&rsquo;ve come 
+				this far, you understand the value a loan will have to the growth of your business. 
+				Don&rsquo;t forget that as we enter this grueling stage together!<br />
+				<br />
+				As lenders, we know that all of the discovery, fact checking and due diligence can be tedious 
+				&ndash; but it is for the benefit of an efficient relationship moving forward. If a lender 
+				knows everything up front, and can trust you moving forward, your day-to-day dealings once 
+				the loan is approved will be far more effective.
+				<br />
+				<br />
+				</p>
 				
-				<h4>1. Be prepared</h4>
-				
-				<p>You know your business better than anyone, and a good lender will care just as much as you do about the smallest details. So, be prepared for full disclosure of the best  and worst  parts of your companys past, present and future.<br />
-<br />
-It is hugely comforting for a lender to hear a prospective borrower have a good handle on both the industry and the company.<br />
-<br />
-Have key financial numbers on hand and critical team members on call  and if you dont have the answer to a specific question, dont be afraid to say so.  I dont know but will get back to you has been the hallmark of some of the smartest businesspeople we know.</p>
-				<h4>2. Be specific about what you need</h4>
-			    <p>We want to know your story and will be ready to appreciate your business as much as you do &ndash; but don&rsquo;t forget why we are here.<br />
-<br />One of the first things a lender wants to hear is what you need &ndash; and what you need it for. Everything we discuss will relate back to &ldquo;how much and what for&rdquo; &ndash; so spell it out up front.<br />
-<br />
-And be realistic. Unless you have just landed a big order, asking for a $5 million line of credit when annual sales are $3 million, does not win any points with your prospective lender.<br />
-<br />
-			    <h4>3. Be candid: we can only make good decisions with all of the information</h4>
-			    <p>Contrary to popular belief, it&rsquo;s not all about the money. The best borrower/lender relationships are built upon trust and opportunity for mutual success. So be brutally frank and honest about the business and the principals &ndash; at the first meeting and throughout the relationship.<br />
-<br />What are your successes and failures?  What difficulties have you faced and how have you overcome them? What challenges do you face today and how are you dealing with them on a day-to-day basis?<br />
-<br />If you can share past and current problems with the lender up front and you do not scare him or her off, it&rsquo;s a positive sign. And if you do scare your lender off at that first meeting, well, that was not the lender for you.<br />
-<br />You deserve a lender that knows your successes and your failures &ndash; and will be with you in the trenches to help you succeed.<br />
-<br />Also remember that any decent lender will independently verify your facts, and if you&rsquo;ve painted a rosier-than-reality picture, you may have lost that lender&rsquo;s trust forever.</p>
-<br />
-			    <h4>4. Prepare a solid package</h4>
-			    <p>Give your prospective lender a detailed package of information to help speed up the process of getting the loan and make a great impression in the process. While each loan will be slightly different, the following key will help you prepare the essentials.<br />
-                    <br />
-			      For an asset based line of credit, provide at least the following:</p>
-			    <ul>
-			      <li>3 years of year-end financial statements, current year-to-date internally produced financial statements</li>
-			      <li>Current aged listing of receivables, current inventory report and if it can be aged, an aged inventory report, aged payables list</li>
-			      <li>Resum&eacute;s of the management/officers, current and updated personal financial statements of the guarantors and a huge winner, a budget and cash flow &ndash; and please do NOT suggest to the lender that in YOUR business it is impossible to budget! Remember, budgets are essentially estimates and everyone can make an estimate &ndash; that way you can have something to measure your performance against and give you a great indicator of what you need to do to be a success.</li>
-			      </ul>
-			    <p>Above all, as you prepare this package, be realistic about the value of your investment and assets. Ridiculous valuations of the investment in the business on the guarantors&rsquo; personal financial statements are unimpressive to a lender. <br />
-			      <br />
-			      </p>
-			    <h4>5. Negotiating the terms of the loan &amp; Lender Due Diligence</h4>
-This is a critical time for your future relationship with your lender. If you&rsquo;ve come this far, you understand the value a loan will have to the growth of your business. Don&rsquo;t forget that as we enter this grueling stage together!<br />
-<br />As lenders, we know that all of the discovery, fact checking and due diligence can be tedious &ndash; but it is for the benefit of an efficient relationship moving forward. If a lender knows everything up front, and can trust you moving forward, your day-to-day dealings once the loan is approved will be far more effective.<br />
-<br />
-			    <h4>6. Moving forward: how to keep your lender happy as your business grows</h4>
-			    The loan is approved and you have signed a whole bunch of documents. And included in those documents are the terms and conditions that govern the loan. Take those terms and conditions seriously and adhere to them. They are all that protect the lender once you get the money &ndash; so treat them with as much respect as you would documents that protect your own business. In a sense, they do!<br />
-<br />Remember that the best end game for you is to have a lender who trusts you, and a line of credit that will help your business grow. Let this goal guide you through the process, because when your financials are healthy, you can concentrate on building to the next level.<br />
-<br />
-<em>Best of luck!
-</p>
-			 </em>
+			<h4 class="head5">6. Moving forward: how to keep your lender happy as your business grows</h4>
+			    <p class="head1">
+			    The loan is approved and you have signed a whole bunch of documents. And included in those 
+			    documents are the terms and conditions that govern the loan. Take those terms and conditions 
+			    seriously and adhere to them. They are all that protect the lender once you get the money 
+			    &ndash; so treat them with as much respect as you would documents that protect your own business. 
+			    In a sense, they do!
+			    <br />
+				<br />Remember that the best end game for you is to have a lender who trusts you, and a line 
+				of credit that will help your business grow. Let this goal guide you through the process, 
+				because when your financials are healthy, you can concentrate on building to the next level.
+				<br />
+				<br />
+					<b><em>Best of luck!</em></b>
+				</p>
+	</div>	
+	<div id="head_right">
+	
+
+	
+    
+	<img id="thoughts" src="/assets/thoughts.png" />	
+	<iframe id="movie1" style="display:none;" src="http://player.vimeo.com/video/50234179?api=1&portrait=0&byline=0&autoplay=0" width="250" height="142" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+	<iframe id="movie2" style="display:none;" src="http://player.vimeo.com/video/50234180?api=1&portrait=0&byline=0&autoplay=0" width="250" height="142" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+	<iframe id="movie3" style="display:none;" src="http://player.vimeo.com/video/50234181?api=1&portrait=0&byline=0&autoplay=0" width="250" height="142" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+	<br>
+	<input type="button" value="show" onclick="$('#movie1').show('slow'), $('#movie2').hide('slow'), $('#movie3').hide('slow'), $('#thoughts').hide('slow'), $('#movie3').pause, $('#movie2').pause"/>
+	<input type="button" value="Show" onclick="$('#movie2').show('slow'), $('#movie1').hide('slow'), $('#movie3').hide('slow'), $('#thoughts').hide('slow')"/>
+	<input type="button" value="Show" onclick="$('#movie3').show('slow'), $('#movie1').hide('slow'), $('#movie2').hide('slow'), $('#thoughts').hide('slow')"/>
+
+	</div>		 	
 </div>	
 </body
 </html>	
