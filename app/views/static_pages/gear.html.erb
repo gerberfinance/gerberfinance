@@ -8,7 +8,7 @@
 <%= javascript_include_tag "application" %>
 <%= csrf_meta_tags %>
 <script>
-var iframe = $('.video')[0];
+var iframe = $('movie1')[0];
 var player = $f(iframe);
 $('.button').bind('click', function() {
     player.api('pause');
