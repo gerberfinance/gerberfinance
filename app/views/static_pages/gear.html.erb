@@ -7,34 +7,8 @@
 <%= stylesheet_link_tag "application-mobile", :media => "mobile" %>
 <%= javascript_include_tag "application" %>
 <%= csrf_meta_tags %>
-<script>
-//vimeo videos
-//HERE IS THE SIMPLE CODE THAT WORKS
-var f = $('iframe'),
-url = f.attr('src').split('?')[0];
-// postMessage
-function post(action, value) {
-var data = { method: action };
-if (value) {
-data.value = value;
-}
 
-f.each(function(){this.contentWindow.postMessage(JSON.stringify(data), url);});
-}
-// Play & Pause 
-$('.pauseAllVimeo').click(function() {
-post('pause');
-});
-$('.playAllVimeo').click(function() {
-post('play');
-});
-if (window.addEventListener){
-window.addEventListener('message', onMessageReceived, false);
-} else { // IE
-window.attachEvent('onmessage', onMessageReceived, false);
-}
-​
-</script>
+<script src="http://a.vimeocdn.com/js/froogaloop2.min.js"></script>
 </head>
 <body class="popups">
 <div id="header_popups">
@@ -163,9 +137,9 @@ window.attachEvent('onmessage', onMessageReceived, false);
 	
     
 	<img id="thoughts" src="/assets/thoughts.png" />	
-	<iframe class=".pauseAllVimeo" id="movie1" style="display:none;" src="http://player.vimeo.com/video/50234179?api=1&portrait=0&byline=0&autoplay=0" width="250" height="142" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-	<iframe class=".pauseAllVimeo" id="movie2" style="display:none;" src="http://player.vimeo.com/video/50234180?api=1portrait=0&byline=0&autoplay=0" width="250" height="142" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-	<iframe class=".pauseAllVimeo" id="movie3" style="display:none;" src="http://player.vimeo.com/video/50234181?api=1portrait=0&byline=0&autoplay=0" width="250" height="142" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+	<iframe class="video vimeo" id="movie1" style="display:none;" src="http://player.vimeo.com/video/50234179?api=1&portrait=0&byline=0&autoplay=0" width="250" height="142" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+	<iframe class="video vimeo" id="movie2" style="display:none;" src="http://player.vimeo.com/video/50234180?api=1portrait=0&byline=0&autoplay=0" width="250" height="142" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+	<iframe class="video vimeo" id="movie3" style="display:none;" src="http://player.vimeo.com/video/50234181?api=1portrait=0&byline=0&autoplay=0" width="250" height="142" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 	<br>
 	<input type="button" value="show" onclick="$('#movie1').show('slow'), $('#movie2').hide('slow'), $('#movie3').hide('slow'), $('#thoughts').hide('slow'), $('#movie3').pause, $('#movie2').pause"/>
 	<input type="button" value="Show" onclick="$('#movie2').show('slow'), $('#movie1').hide('slow'), $('#movie3').hide('slow'), $('#thoughts').hide('slow')"/>
