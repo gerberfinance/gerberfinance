@@ -168,30 +168,36 @@
 	background:linear-gradient(top, #ababab 60%,#404040 100%); 
 	filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#404040', endColorstr='#000000',GradientType=0 ); }
 
-
+	
 #contact_info {
-}
-
-p.gerber_address1 {
 	float:right;
+	} 
+
+p.gerber_address1 {	
 	color:#fff;
-	margin-right:10px;
-	margin-top:10px;
+	margin:10px 10px 0px 0px;
 	font-size:12px;
 	text-align:right;}
-	
+		
 a.gerber_telephone {
-	float:right;
+	display:block;
 	color:#fff;
 	margin-right:10px;
-	margin-top:60px;
 	font-size:12px;
-	text-align:right;}	
+	text-align:right;
+    &:visited {
+    color: #fff;
+  	}
+    &:hover {
+      color: #717171;
+      background-color: none;}}	
 	
 a.mapit {
-	float:right;
-	color:#fff;
-	margin-right:10px;
-	margin-top:40px;
+	color:#717171;
+	display:block;
+	margin:0px 10px 10px 0px;
 	font-size:12px;
-	text-align:right;}		
+	text-align:right;
+	&:visited {
+    color: #717171;
+  	}}		

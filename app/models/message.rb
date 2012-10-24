@@ -22,5 +22,5 @@ class Message
   def persisted?
     false
   end
-
+  
 end

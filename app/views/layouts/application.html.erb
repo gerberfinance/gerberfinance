@@ -37,10 +37,10 @@
          	<li><a href='/prior'><span>prior testimonials</span></a></li>
       	</ul>
    		</li>
-   		<li class='has-sub '><a href='/contact'><span>contact</span></a>
+   		<li class='has-sub '><a><span>contact form</span></a>
    		  <ul>	
    			<li onclick="TINY.box.show({iframe:'/contact',boxid:'frameless',width:800,height:500,fixed:false,maskid:'bluemask',maskopacity:40,closejs:function(){closeJS()}})"><a><span>contact form</span></a></li>
-			<li><%= link_to "download application", "/assets/gerber_finance_app.pdf" %></li>
+			<li><%= link_to "download application", "/assets/gerber_finance_app.pdf", :target => '_blank' %></li>
 		  </ul>
 		</li> 
 		</ul>
@@ -53,7 +53,7 @@
 	
 		<img src="/assets/gerberfinance.png" class="gerberfinance" alt="Gerber Finance Inc." />
 		<h3 class="name"> &copy; 2012 Gerber Finance Inc.</h3>
-		<p class="redirect"><a href="https://www.stuckynet-link.com/gerber/" class="redirect">client login</a>|<a href=""class="redirect">gerber colorado</a><p>
+		<p class="redirect"><a target="_blank"href="https://www.stuckynet-link.com/gerber/" class="redirect">client login</a>|<a href=""class="redirect">gerber colorado</a><p>
 		
 		<ul class="floatset">
 			<li onclick="TINY.box.show({iframe:'/calc',boxid:'frameless',width:800,height:500,fixed:false,maskid:'bluemask',maskopacity:40,closejs:function(){closeJS()}})" class="footer_image_text1"><a class="calc" /></a>finance calculator</li>

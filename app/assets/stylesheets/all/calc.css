@@ -15,8 +15,7 @@ p.calc_text {
 	padding-right: 8px;}
 
 .calcBox {
-	margin: 10px 10px;
-	width: 30px;}
+	width: 755px;}
 
 input {
 	background-color:#f0f0f0;
@@ -27,7 +26,7 @@ input {
 	-moz-border-radius:7px;
 	color: #000;
 	font-style:italic;
-	width: 80px;
+	width: 95px;
 	text-align:right;}
 		
 input.calcNet {
@@ -72,6 +71,13 @@ background:linear-gradient(top, #ababab 60%,#404040 100%);
 filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#404040', endColorstr='#000000',GradientType=0 ); }
 
 
+.calc_top {
+	margin: 10px 0px 10px 90px;
+}
+
+.calc_bottom {
+	margin: 10px 0px 10px 80px;
+}
 
 
 

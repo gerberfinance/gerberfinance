@@ -1,3 +1,4 @@
+
 function FormatTemp(strTemp)
 {
   strTemp = "(" + strTemp.substring(1) + ")";
@@ -410,9 +411,9 @@ function setTextFocus()
    objForm.txtBankInterestRate.value = "9.00%";
        objForm.txtGrossMarginPercent.value = "35.00%";
    objForm.txtAnnualOverhead.value = formatCurrency(4500000);
-   objForm.txtTradeCycle1.value = formatCurrency(90);
+   objForm.txtTradeCycle1.value = (90);
    objForm.txtBanksFund.value = "0";
-   objForm.txtBanksSuplementalFund.value = formatCurrency(5000000);
+   objForm.txtBanksSuplementalFund.value = formatCurrency(50000000);
    objForm.txtSuplimentalLendersRate.value = "11.00%";
   
   theform = document.forms[0]; 
