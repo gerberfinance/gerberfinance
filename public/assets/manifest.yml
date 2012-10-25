@@ -20,6 +20,7 @@ calc_p.png: calc_p-77c454911f0ecf5b3d4dbd078cc3d64b.png
 calc_static.gif: calc_static-f3ae45660e4ff6e6b6827e0d00e352c9.gif
 calc_static3.gif: calc_static3-f3b03a4a08b3cab6e8e2dd97299f8c62.gif
 calc_static4.gif: calc_static4-300ca5a74ef13d531574b1373dc88be7.gif
+camera.png: camera-3d012998a20b353d65e0cdbed04dfeb1.png
 close.png: close-32a09d00728aef7a92331631009b55ed.png
 entela.jpg: entela-9ee0059bcc4b6d6a03922cd0fb5b86ee.jpg
 g.jpg: g-42db8404860aa32efa6ba72f2ce4b750.jpg
@@ -111,7 +112,7 @@ video_thumbs/schofield.png: video_thumbs/schofield-adb8e2daaf648b2ceb7c420c7cba7
 video_thumbs/schofield_thumb.png: video_thumbs/schofield_thumb-24e7ec4fe6c55b0da11b62e2c0340f63.png
 welcome.png: welcome-aa11c00d2fb6f300721903830b91bb51.png
 application.js: application-9c84583f1296cecb3c87df72e3564a5b.js
-application-all.css: application-all-005058a97c6985849a2b9582cee15d92.css
+application-all.css: application-all-d08c81e32c9b5b07de83505c09021f5e.css
 application-ie.css: application-ie-bead2921e83ccfc0c0eab66869b016ba.css
 application-mobile.css: application-mobile-7270767b2a9e9fff880aa5de378ca791.css
 application-print.css: application-print-7270767b2a9e9fff880aa5de378ca791.css
