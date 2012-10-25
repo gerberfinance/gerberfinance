@@ -20,6 +20,7 @@ Gerber::Application.routes.draw do
 	match '/top10' => 'static_pages#top10'
 	match '/gear' => 'static_pages#gear'
 	match '/calc' => 'static_pages#calc'
+	match '/calculator' => 'static_pages#calculator'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

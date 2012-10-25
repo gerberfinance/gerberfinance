@@ -74,6 +74,7 @@ li.head_ul {
     text-align: center;
     font-size:12px;
     font-weight: bold;
+    text-decoration:underline;
 	padding:1px 0 0 1px;}
 
 #beyond1_d {
@@ -89,6 +90,7 @@ li.head_ul {
 	font-size:12px;
 	text-align: center;
 	font-weight: bold;
+    text-decoration:underline;
 	padding:1px 0 0 1px;}
 
 #beyond2_d {
@@ -104,6 +106,7 @@ li.head_ul {
     font-size:12px;
     text-align: center;
     font-weight: bold;
+    text-decoration:underline;
 	padding:1px 0 0 1px;}
 
 #movie1, #movie2, #movie3, #thoughts{

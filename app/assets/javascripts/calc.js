@@ -1,3 +1,14 @@
+/* PopUp Calculator Window*/
+
+function PopupCalc(pageURL, title,w,h) {
+var left = (screen.width/2)-(w/2);
+var top = (screen.height/2)-(h/2);
+var targetWin = window.open (pageURL, title, 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width='+w+', height='+h+', top='+top+', left='+left);
+} 
+
+
+/*Calculator Functions*/
+
 
 function FormatTemp(strTemp)
 {
@@ -264,10 +275,7 @@ function FormatTemp(strTemp)
             num = "0";
             sign = (num == (num = Math.abs(num)));
             num = Math.floor(num*100+0.50000000001);
-            cents = num%100;
             num = Math.floor(num/100).toString();
-            if(cents<10)
-            cents = "0" + cents;
             for (var i = 0; i < Math.floor((num.length-(1+i))/3); i++)
             num = num.substring(0,num.length-(4*i+3))+','+
             num.substring(num.length-(4*i+3));
@@ -336,10 +344,6 @@ function FormatTemp(strTemp)
 			num=num.substring(0,num.length-1);
 		}
 		
-       if (num.indexOf('.') == -1) 
-       {
-           num=num + '.00';
-      } 
 	  
 	  if (num.indexOf('%') == -1)         
          return num + '%'; 

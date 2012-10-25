@@ -19,5 +19,9 @@ class StaticPagesController < ApplicationController
 		render :layout => false
 	end	
 	
+	def calculator
+		render :layout => false
+	end	
+	
 	
 end

@@ -1,24 +1,30 @@
-h4.calc_heading {}
+h4.calc_heading {
+font-size:30px !important;}
 
 p.calc_text {
+	margin: 20px 50px 0px 50px;
+	font-size:16px !important;}
+
+p.calculator_text {
 	margin-left:20px;
-	font-size:12px !important;}
+	font-size:16px !important;
+	width:700px;}	
 
 .style5 {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px;}
 .style10 {font-family: Verdana, Arial, Helvetica, sans-serif}
 .style11 {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; }
 
 .number {
-	font-size: 24px;
+	font-size: 10px;
 	font-weight: bold;
 	color: #A4B6D6;
 	padding-right: 8px;}
 
 .calcBox {
-	width: 755px;}
+	width: 736px;}
 
 input {
-	background-color:#f0f0f0;
+	background-color:#f6f9bf;
 	border:1px solid #dbdbdb;
 	padding:5px;
 	border-radius: 7px;
