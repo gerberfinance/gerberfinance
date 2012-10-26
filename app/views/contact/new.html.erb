@@ -33,16 +33,16 @@
     <div class="field">
       	<p class="contact_telephone">
       		<%= form.label "Telephone" %><br />
-      			<p class="contact_area">(<%= form.text_field :area, :maxlength=>"3", :placeholder => "XXX"%>)</p>
-      			<p class="contact_tel1"><%= form.text_field :tel1, :maxlength=>"3", :placeholder => "XXX"%>-</p>
-      			<p class="contact_tel2"><%= form.text_field :tel2, :size => "4", :maxlength=>"4", :placeholder => "XXXX"%></p>
+      			<p class="contact_area">(<%= form.text_field :area, :maxlength=>"3"%>)</p>
+      			<p class="contact_tel1"><%= form.text_field :tel1, :maxlength=>"3"%>-</p>
+      			<p class="contact_tel2"><%= form.text_field :tel2, :size => "4", :maxlength=>"4"%></p>
     	</p>
     </div>
     
     <div class="field">
     	<p class="contact_email">
       		<%= form.label "Email" %> *<br />
-      		<%= form.email_field :email, :placeholder => "ex. yourname@gmail.com"%>
+      		<%= form.email_field :email%>
       	</p>
     </div>
     
@@ -52,8 +52,8 @@
       		<%= form.text_field :address %>
     	</p>
     	<p class="contact_city"><%= form.label "City" %>*<%= form.text_field :city %></p>
-    	<p class="contact_state"><%= form.label "State" %>*<%= form.text_field :state, :size => "2", :maxlength=>"2", :placeholder => "XX"%></p>
-    	<p class="contact_zip"><%= form.label "Zip" %>*<%= form.text_field :zip, :size => "5", :maxlength=>"5", :placeholder => "XXXXX"%></p>
+    	<p class="contact_state"><%= form.label "State" %>*<%= form.text_field :state, :size => "2", :maxlength=>"2"%></p>
+    	<p class="contact_zip"><%= form.label "Zip" %>*<%= form.text_field :zip, :size => "5", :maxlength=>"5"%></p>
     </div>
     
     <div class="field">

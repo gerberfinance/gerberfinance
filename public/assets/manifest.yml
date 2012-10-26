@@ -1,4 +1,5 @@
 ---
+10questions.pdf: 10questions-210f3063071a1741529539ebec431f56.pdf
 Elena.jpg: Elena-61aad1e0c00279dfdbc9658b04a82eb0.jpg
 Gerald.jpeg: Gerald-2ba7e17487abfde189579c36225055e0.jpeg
 Logo copy.png: Logo copy-bf120bf8f4aa7323ff85823264a5b600.png
@@ -20,6 +21,7 @@ calc_p.png: calc_p-77c454911f0ecf5b3d4dbd078cc3d64b.png
 calc_static.gif: calc_static-f3ae45660e4ff6e6b6827e0d00e352c9.gif
 calc_static3.gif: calc_static3-f3b03a4a08b3cab6e8e2dd97299f8c62.gif
 calc_static4.gif: calc_static4-300ca5a74ef13d531574b1373dc88be7.gif
+calculator.png: calculator-aea1e882a03d20025312bfad620280d7.png
 camera.png: camera-3d012998a20b353d65e0cdbed04dfeb1.png
 close.png: close-32a09d00728aef7a92331631009b55ed.png
 entela.jpg: entela-9ee0059bcc4b6d6a03922cd0fb5b86ee.jpg
@@ -72,9 +74,11 @@ images/universalWhite/volume-on.png: images/universalWhite/volume-on-e2190a73802
 images/universalWhite/volumeMute-off.png: images/universalWhite/volumeMute-off-b1b399effb7a388458501907cb3fc858.png
 images/universalWhite/volumeMute-on.png: images/universalWhite/volumeMute-on-4b3fcf9365071b84949c8ea0c2630f91.png
 img_jen.jpg: img_jen-c6677815a9219f6e948f4b11258b3105.jpg
+inside_lenders_head.pdf: inside_lenders_head-dcc8f393facbcdafa3549097136c6c73.pdf
 ledger.gif: ledger-7d41a8ea7aa7c80abedc060dc393c677.gif
 ledger.png: ledger-320f4ea8b277cfd4fc02dc864c7d44c5.png
 logo_small.png: logo_small-4744dd415684e16ff4a74573ce9f840f.png
+print.png: print-ae0af0aecffc2609b1aa7b9741b6496a.png
 rails.png: rails-be8732dac73d845ac5b142c8fb5f9fb0.png
 scale.gif: scale-fae8bd27dbbc1422dd23d700ad5e2a26.gif
 scale.png: scale-ecf29253266c845c6d304f1c29fb92c3.png
@@ -99,10 +103,12 @@ thoughts.png: thoughts-6d065943a27c6e4e19a3b499130d594c.png
 top10.png: top10-1040515dcb3c55026f98d63511c108d1.png
 top10_active.gif: top10_active-2fad4615c9f0a939c884d939ae3d7532.gif
 top10_active1.gif: top10_active1-fbe5fa122d4d58e19ec17b045f64ea8d.gif
-top10_active2.gif: top10_active2-d2e14a5e89c70e11b698294c5eb62852.gif
+top10_active2.gif: top10_active2-9db293274813f2e5940a46c8e0e95d3b.gif
+top10_active3.gif: top10_active3-55626b9063700d50a7efc40126e97bd3.gif
 top10_p.png: top10_p-da66f5cabe81ed3adef1dc46fb1c5ad2.png
 top10_static.gif: top10_static-855fa8452a464967b06d36500ce6df85.gif
-top10_static2.gif: top10_static2-768c8a0ec60883a8717e6a1a34764161.gif
+top10_static2.gif: top10_static2-66e848981ff3b4277a5e011745a80b35.gif
+top10_static3.gif: top10_static3-8c50fbb5366e8c7a26f30f5425114175.gif
 tree.png: tree-a2c4d86df1e79c0742c52bc701107bd8.png
 video_thumbs/paramount.png: video_thumbs/paramount-52643910a7e1f133256f31b688d30614.png
 video_thumbs/paramount_thumb.png: video_thumbs/paramount_thumb-d76ba0d9433b29a7ec8d766fd6f55215.png
@@ -111,8 +117,8 @@ video_thumbs/pilgrim_thumb.png: video_thumbs/pilgrim_thumb-e8d62bbd35f301ae1f07f
 video_thumbs/schofield.png: video_thumbs/schofield-adb8e2daaf648b2ceb7c420c7cba79df.png
 video_thumbs/schofield_thumb.png: video_thumbs/schofield_thumb-24e7ec4fe6c55b0da11b62e2c0340f63.png
 welcome.png: welcome-aa11c00d2fb6f300721903830b91bb51.png
-application.js: application-8d99de3e258de3ed1cd9f0ff1406bb7f.js
-application-all.css: application-all-682f0120bc99632482917bb3a64f8a52.css
+application.js: application-ca71c49b785c9e86cc334d1f9276bb31.js
+application-all.css: application-all-e4351f9ca25ab601315d3e7c77b7422c.css
 application-ie.css: application-ie-bead2921e83ccfc0c0eab66869b016ba.css
 application-mobile.css: application-mobile-7270767b2a9e9fff880aa5de378ca791.css
 application-print.css: application-print-7270767b2a9e9fff880aa5de378ca791.css

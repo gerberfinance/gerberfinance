@@ -410,15 +410,15 @@ function setTextFocus()
 {
    objForm = window.document.calculator;
    objForm.txtCapitalFunds.focus();
-   objForm.txtCapitalFunds.value = formatCurrency(1000000);
-   objForm.txtBankFunding.value = formatCurrency(4000000);
-   objForm.txtBankInterestRate.value = "9.00%";
-       objForm.txtGrossMarginPercent.value = "35.00%";
-   objForm.txtAnnualOverhead.value = formatCurrency(4500000);
-   objForm.txtTradeCycle1.value = (90);
+   objForm.txtCapitalFunds.value = formatCurrency(0);
+   objForm.txtBankFunding.value = formatCurrency(0);
+   objForm.txtBankInterestRate.value = "0.00%";
+       objForm.txtGrossMarginPercent.value = "0.00%";
+   objForm.txtAnnualOverhead.value = formatCurrency(0);
+   objForm.txtTradeCycle1.value = (0);
    objForm.txtBanksFund.value = "0";
-   objForm.txtBanksSuplementalFund.value = formatCurrency(50000000);
-   objForm.txtSuplimentalLendersRate.value = "11.00%";
+   objForm.txtBanksSuplementalFund.value = formatCurrency(0);
+   objForm.txtSuplimentalLendersRate.value = "0.00%";
   
   theform = document.forms[0]; 
   

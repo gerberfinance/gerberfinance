@@ -176,13 +176,14 @@
 
 p.gerber_address1 {	
 	color:#fff;
-	margin:10px 10px 0px 0px;
+	margin:5px 10px 0px 0px;
 	font-size:12px;
 	text-align:right;}
 		
 a.gerber_telephone {
 	display:block;
 	color:#fff;
+	margin-top:0px;
 	margin-right:10px;
 	font-size:12px;
 	text-align:right;
@@ -196,7 +197,7 @@ a.gerber_telephone {
 a.mapit {
 	color:#717171;
 	display:block;
-	margin:0px 10px 10px 0px;
+	margin:0px 10px 5px 0px;
 	font-size:12px;
 	text-align:right;
 	&:visited {
