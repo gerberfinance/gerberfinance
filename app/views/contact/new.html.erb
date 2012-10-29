@@ -124,7 +124,7 @@ function showMessage(theMessage) {
   </fieldset>
   
   <fieldset class="actions" >
-  <%= form.submit "Send", :class => "contact_sumbit", :onclick => "javascript:showMessage('Please wait - Loading...');" %>
+  <%= form.submit "Send", :class => "contact_sumbit", :onsubmit => "javascript:showMessage('Please wait - Loading...');" %>
   <p style="float:right; font-size: 10px;">* required fields</p> 
   </fieldset>
 		
