@@ -29,7 +29,7 @@ function showMessage(theMessage) {
   </div>	
 </div>
 <div id="contact">
-<%= form_for @message, :class => "form", :url => contact_path do |form|%>
+<%= form_for @message, :class => "form", :html => { :onsubmit => '/assets/ajax-loader.gif' }, :url => contact_path do |form|%>
 <div style="display:none;"><%= form.error_messages %></div>
 
   <fieldset class="fields">
@@ -124,8 +124,7 @@ function showMessage(theMessage) {
   </fieldset>
   
   <fieldset class="actions" >
-  <%= form.submit "Send", :class => "contact_sumbit" %>
-  <div class="modal"></div>​ 
+  <%= form.submit "Send", :class => "contact_sumbit", :onclick => "javascript:showMessage('Please wait - Loading...');" %>
   <p style="float:right; font-size: 10px;">* required fields</p> 
   </fieldset>
 		
