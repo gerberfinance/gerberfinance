@@ -14,3 +14,22 @@
 //= require jquery_ujs
 //= require_tree .
 
+$("body").on({
+    // When ajaxStart is fired, add 'loading' to body class
+    ajaxStart: function() { 
+        $(this).addClass("loading"); 
+    },
+    // When ajaxStop is fired, rmeove 'loading' from body class
+    ajaxStop: function() { 
+        $(this).removeClass("loading"); 
+    }    
+});
+
+// Initiates an AJAX request on click
+$(document).on("click", function(){
+    $.post("/mockjax");        
+});
+
+
+// http://code.appendto.com/plugins/jquery-mockjax
+$.mockjax({ url: '/mockjax', responseTime: 2000 });

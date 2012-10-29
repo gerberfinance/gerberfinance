@@ -119,8 +119,8 @@ video_thumbs/pilgrim_thumb.png: video_thumbs/pilgrim_thumb-e8d62bbd35f301ae1f07f
 video_thumbs/schofield.png: video_thumbs/schofield-adb8e2daaf648b2ceb7c420c7cba79df.png
 video_thumbs/schofield_thumb.png: video_thumbs/schofield_thumb-24e7ec4fe6c55b0da11b62e2c0340f63.png
 welcome.png: welcome-aa11c00d2fb6f300721903830b91bb51.png
-application.js: application-ca71c49b785c9e86cc334d1f9276bb31.js
-application-all.css: application-all-d312c2194aa8b39af408b876fddfe68c.css
+application.js: application-c0902ffec74e94abf3faf228fe9665c9.js
+application-all.css: application-all-22e8304ab69ad32335ad0282f1beba2c.css
 application-ie.css: application-ie-bead2921e83ccfc0c0eab66869b016ba.css
 application-mobile.css: application-mobile-7270767b2a9e9fff880aa5de378ca791.css
 application-print.css: application-print-7270767b2a9e9fff880aa5de378ca791.css
