@@ -8,14 +8,12 @@
 <%= javascript_include_tag "application" %>
 <%= csrf_meta_tags %>
 <script type="text/javascript">
-<!--
 function showMessage(theMessage) {
    // Get the fields
    messageArea = document.getElementById("message");
    // Show the please wait message
    messageArea.innerHTML = theMessage;
 }
-//-->
 </script>
 
 </head>
@@ -29,7 +27,7 @@ function showMessage(theMessage) {
   </div>	
 </div>
 <div id="contact">
-<%= form_for @message, :class => "form", :html => { :onsubmit => '/assets/ajax-loader.gif' }, :url => contact_path do |form|%>
+<%= form_for @message, :class => "form", :url => contact_path do |form|%>
 <div style="display:none;"><%= form.error_messages %></div>
 
   <fieldset class="fields">
@@ -124,7 +122,8 @@ function showMessage(theMessage) {
   </fieldset>
   
   <fieldset class="actions" >
-  <%= form.submit "Send", :class => "contact_sumbit", :onsubmit => "javascript:showMessage('<span><b>images are loading.</b></span>');" %> 
+  <%= form.submit "Send", :class => "contact_sumbit", :onclick => "javascript:showMessage('<span><b>sending...</b></span>');" %> 
+  <p id="message"></p>
   <p style="float:right; font-size: 10px;">* required fields</p> 
   </fieldset>
 		
