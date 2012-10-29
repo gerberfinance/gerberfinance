@@ -122,14 +122,14 @@ function showMessage(theMessage) {
   </fieldset>
   
   <fieldset class="actions" >
-  <%= form.submit "Send", :class => "contact_sumbit", :onclick => "javascript:showMessage('<span><b>sending...</b></span>');" %> 
-  <p id="message"></p>
+  <%= form.submit "Send", :class => "contact_sumbit", :onclick => "javascript:showMessage('<span>  Sending...</span>');" %> 
+  <span id="message"></span>
   <p style="float:right; font-size: 10px;">* required fields</p> 
   </fieldset>
 		
 		
   
-<% end %>
+  <% end %>
 </div>
 </body>
 </html>
