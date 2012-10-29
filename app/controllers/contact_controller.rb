@@ -11,7 +11,7 @@ class ContactController < ApplicationController
     if @message.valid?
       NotificationsMailer.new_message(@message).deliver
       NotificationsMailer.new_request(@message).deliver
-      :alert => "Message was successfully sent."
+      flash.now.alert = "sending"
     else
       flash.now.alert = "Please fill all fields."
       render :new, :layout =>false
