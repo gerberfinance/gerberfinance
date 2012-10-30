@@ -1,4 +1,7 @@
 ---
+10_move5.gif: 10_move5-be0d08963f9577e617dc17f78dcfda8e.gif
+10_static5.gif: 10_static5-eac175242fb3bf840cc61a0560708490.gif
+10_static5.png: 10_static5-8e096503c30458b59d11f98121e1631d.png
 10questions.pdf: 10questions-210f3063071a1741529539ebec431f56.pdf
 Elena.jpg: Elena-61aad1e0c00279dfdbc9658b04a82eb0.jpg
 Gerald.jpeg: Gerald-2ba7e17487abfde189579c36225055e0.jpeg
@@ -18,11 +21,16 @@ calc_move1.gif: calc_move1-7c0bbaf6273dbdd2c580dc0d029eb851.gif
 calc_move2.gif: calc_move2-75eefac2f9794de0d98df19b65f83d0e.gif
 calc_move3.gif: calc_move3-750e4fd9e867127a2a0d76b60b8e348f.gif
 calc_move4.gif: calc_move4-6ea078894f2f148a0fbaee3120559102.gif
+calc_move5.gif: calc_move5-d0844b64e3b1bcf969d4fa8e27c67be3.gif
+calc_move6.gif: calc_move6-483b5362b8092f94b2f2006704f45929.gif
 calc_p.png: calc_p-77c454911f0ecf5b3d4dbd078cc3d64b.png
 calc_static.gif: calc_static-f3ae45660e4ff6e6b6827e0d00e352c9.gif
 calc_static3.gif: calc_static3-f3b03a4a08b3cab6e8e2dd97299f8c62.gif
 calc_static4.gif: calc_static4-300ca5a74ef13d531574b1373dc88be7.gif
+calc_static5.gif: calc_static5-b2d07e41f45443ab80080d849471025e.gif
+calc_static5.png: calc_static5-77e62bd9ae22242aa7aed5eca3f8b073.png
 calculator.png: calculator-aea1e882a03d20025312bfad620280d7.png
+calculator1.png: calculator1-8e6d82abfecd2ac6336e5de1a516798b.png
 camera.png: camera-3d012998a20b353d65e0cdbed04dfeb1.png
 close.png: close-32a09d00728aef7a92331631009b55ed.png
 entela.jpg: entela-9ee0059bcc4b6d6a03922cd0fb5b86ee.jpg
@@ -31,11 +39,15 @@ gear_a.png: gear_a-03f504e9578d578a00f1216f35f59c12.png
 gear_move1.gif: gear_move1-35eb163346aec01c6ed45b482b8007ab.gif
 gear_move2.gif: gear_move2-f2dbeaf0d70afac7c32bd3bea76c197c.gif
 gear_move3.gif: gear_move3-46e53054fec3eff6a014028a8bc1c26a.gif
+gear_move5.gif: gear_move5-ba0b2f2f9fcfcee72b77a0b1477f2d83.gif
+gear_move6.gif: gear_move6-961fb6fd6dba20759b248e51d27902a6.gif
 gear_p.png: gear_p-d8ec0cb35ad29fec439c05e5f31ccfeb.png
 gear_p.psd: gear_p-784c1e0b13c764b84e72b65ff2615c06.psd
 gear_static.gif: gear_static-382841c9133e3295eaaa75db966a2997.gif
 gear_static2.gif: gear_static2-69284ca012094339222944ece8f12fa1.gif
 gear_static3.gif: gear_static3-1bb52c33ffb7edf0cb9d300549b28975.gif
+gear_static5.gif: gear_static5-398d63e8bf379a660f57f72649ee532a.gif
+gear_static5.png: gear_static5-7a737753f925ad13d338b6ed8b331901.png
 gerber_finance_app.pdf: gerber_finance_app-fe767c2e1f71ae73692f537a9138b621.pdf
 gerberfinance.png: gerberfinance-08ef0ce7a982811a34faacb9f0eb0133.png
 gerberfinance_small.png: gerberfinance_small-03f6e88b2936153d04567f2afe30f2cf.png
@@ -119,8 +131,8 @@ video_thumbs/pilgrim_thumb.png: video_thumbs/pilgrim_thumb-e8d62bbd35f301ae1f07f
 video_thumbs/schofield.png: video_thumbs/schofield-adb8e2daaf648b2ceb7c420c7cba79df.png
 video_thumbs/schofield_thumb.png: video_thumbs/schofield_thumb-24e7ec4fe6c55b0da11b62e2c0340f63.png
 welcome.png: welcome-aa11c00d2fb6f300721903830b91bb51.png
-application.js: application-c0902ffec74e94abf3faf228fe9665c9.js
-application-all.css: application-all-22e8304ab69ad32335ad0282f1beba2c.css
+application.js: application-ca71c49b785c9e86cc334d1f9276bb31.js
+application-all.css: application-all-eeb053763b1856e50df9ada02ab0b8b3.css
 application-ie.css: application-ie-bead2921e83ccfc0c0eab66869b016ba.css
 application-mobile.css: application-mobile-7270767b2a9e9fff880aa5de378ca791.css
 application-print.css: application-print-7270767b2a9e9fff880aa5de378ca791.css
