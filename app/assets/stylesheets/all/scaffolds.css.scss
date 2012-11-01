@@ -20,7 +20,7 @@ a {
 /* Header Menu*/
 #menu {
 	position:fixed;
-	z-index: 1;
+	z-index: 101;
   	left:0px;
   	top:0px;
   	width:100%;
@@ -321,7 +321,10 @@ img.g{
 	
 
 
-/**/
+/* Testimonials */
+
+#current_client_video {
+	margin-top:100px;}
 
 	
 		

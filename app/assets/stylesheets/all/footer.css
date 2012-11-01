@@ -6,7 +6,7 @@
    height:118px;
    width:100%;
    min-width:800px;	
-   z-index:0;
+   z-index:100;
    background: url(/assets/grey_bgf.png) repeat-x;}
    
 * html #footer {

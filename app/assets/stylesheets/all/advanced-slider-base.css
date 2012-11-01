@@ -141,7 +141,7 @@
 
 .advanced-slider .preloader {
 	position: absolute;
-	background: url(images/preloader2.gif) no-repeat;
+	background: url(/assets/video/preloader2.gif) no-repeat;
 	width: 62px;
 	height: 14px;
 	z-index: 15;
@@ -174,17 +174,17 @@
 
 
 .advanced-slider .lightbox-icon.play {
-	background-image: url(images/lightbox_play.png);
+	background-image: url(/assets/video/lightbox_play.png);
 }
 
 
 .advanced-slider .lightbox-icon.magnifying {
-	background-image: url(images/lightbox_magnifying.png);
+	background-image: url(/assets/video/lightbox_magnifying.png);
 }
 
 
 .advanced-slider .lightbox-icon.hyperlink {
-	background-image: url(images/lightbox_hyperlink.png);
+	background-image: url(/assets/video/lightbox_hyperlink.png);
 }
 
 
@@ -212,7 +212,7 @@
 
 .advanced-slider .shadow .shadow-left {
 	float: left;
-	background: url(images/shadow_left.png);
+	background: url(/assets/video/shadow_left.png);
 	width: 200px;
 	height: 94px;
 }
@@ -220,7 +220,7 @@
 
 .advanced-slider .shadow .shadow-right {
 	float: left;
-	background: url(images/shadow_right.png);
+	background: url(/assets/video/shadow_right.png);
 	width: 200px;
 	height: 94px;
 }
@@ -228,13 +228,13 @@
 
 .advanced-slider .shadow .shadow-middle {
 	float: left;
-	background: url(images/shadow_middle.png) repeat-x;
+	background: url(/assets/video/shadow_middle.png) repeat-x;
 	height: 94px;
 }
 
 
 .advanced-slider .full-screen-controls {
-	background: url(images/fullscreen.png) no-repeat;
+	background: url(/assets/video/fullscreen.png) no-repeat;
 	position: absolute;
 	width: 31px;
 	height: 27px;
@@ -269,7 +269,7 @@
 
 
 .advanced-slider .timer-animation .timer-animation-controls {
-	background: url(images/playpause_small.png) no-repeat;
+	background: url(/assets/video/playpause_small.png) no-repeat;
 }
 
 
@@ -307,7 +307,7 @@
 
 
 .advanced-slider .thumbnail {
-	background-image: url(images/preloader.gif);
+	background-image: url(/assets/video/preloader.gif);
 	background-position: center;
 	background-repeat: no-repeat;
 	position: absolute;
@@ -346,6 +346,7 @@
 .advanced-slider .thumbnail-scroller .visible-container {
 	position: relative;
 	overflow: hidden;
+	margin-top:-30px;
 }
 
 
@@ -379,17 +380,17 @@
 
 
 .advanced-slider .thumbnail-scroller .lightbox-icon.play {
-	background-image: url(images/lightbox_play_small.png);
+	background-image: url(/assets/video/lightbox_play_small.png);
 }
 
 
 .advanced-slider .thumbnail-scroller .lightbox-icon.magnifying {
-	background-image: url(images/lightbox_magnifying_small.png);
+	background-image: url(/assets/video/lightbox_magnifying_small.png);
 }
 
 
 .advanced-slider .thumbnail-scroller .lightbox-icon.hyperlink {
-	background-image: url(images/lightbox_hyperlink_small.png);
+	background-image: url(/assets/video/lightbox_hyperlink_small.png);
 }
 
 
