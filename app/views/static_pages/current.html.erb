@@ -8,14 +8,15 @@
 <br />
 <script type="text/javascript">
     jQuery(document).ready(function($){
-        $('#my-slider').advancedSlider({width: 640,
+        $('#video-slider').advancedSlider({width: 640,
 										   height: 660,
 										   scaleType: 'outsideFit',
 										   skin: 'glossy-curved-square-gray',
 										   effectType: 'fade',
-										   videoPlayAction: 'stopSlideshow',
-										   leaveVideoAction: 'pauseVideo',
-
+										   pauseSlideshowOnHover: true,
+										   leaveVideoAction: 'stopVideo',
+										   videoPlayAction: 'pauseSlideshow',
+										   shadow: true,
 										   overrideTransition: false,
 										   keyboardNavigation: true,
 										   timerStrokeColor1: '#ffffff', 
@@ -28,67 +29,68 @@
 										   thumbnailType: 'scroller',
 										   thumbnailButtons: true,
 										   thumbnailScrollerResponsive: true,
-										   thumbnailWidth: '60',
-										   thumbnailHeight: '60',
+										   thumbnailWidth: '120',
+										   thumbnailHeight: '120',
 										   thumbnailArrows: false,
 										   minimumVisibleThumbnails: 7,
 										   slideshowDelay: 10000,
 										   slideProperties: {
 												1: {effectType: 'slide', slideEasing: 'easeInOutExpo'},
+												2: {effectType: 'slide', slideEasing: 'easeInOutExpo'},
 												3: {effectType: 'slide', slideEasing: 'easeInOutExpo'},
-												5: {effectType: 'slide', slideEasing: 'easeInOutExpo'}
+												4: {effectType: 'slide', slideEasing: 'easeInOutExpo'},
+												5: {effectType: 'slide', slideEasing: 'easeInOutExpo'},
+												6: {effectType: 'slide', slideEasing: 'easeInOutExpo'},
+												7: {effectType: 'slide', slideEasing: 'easeInOutExpo'}
 										   }
 										   });
 	});
-
-
-
 </script>
 
 
 
 
-<div class="advanced-slider" id="my-slider">
+<div class="advanced-slider" id="video-slider">
     <ul class="slides">
         <li class="slide">
   			<div class="html">
-    			<iframe class="video" src="http://player.vimeo.com/video/50243413?api=1&player_id=movie1&portrait=0&byline=0&autoplay=0&title=0" width="640" height="480" frameborder="0"></iframe>
+    			<iframe class="video" src="http://player.vimeo.com/video/50243413?api=1&portrait=0&byline=0&autoplay=0&title=0" width="640" height="480" frameborder="0"></iframe>
   			</div>
   			<img class="thumbnail" src="/assets/image1.jpg" alt=""/>
 		</li>
         <li class="slide">
   			<div class="html">
-    			<iframe class="video" src="http://player.vimeo.com/video/50240567?api=1&player_id=movie1&portrait=0&byline=0&autoplay=0&title=0" width="640" height="480" frameborder="0"></iframe>
+    			<iframe class="video" src="http://player.vimeo.com/video/50240567?api=1&portrait=0&byline=0&autoplay=0&title=0" width="640" height="480" frameborder="0"></iframe>
   			</div>
   			<img class="thumbnail" src="/assets/image1.jpg" alt=""/>
 		</li>
 		<li class="slide">
   			<div class="html">
-    			<iframe class="video" src="http://player.vimeo.com/video/50240566?api=1&player_id=movie1&portrait=0&byline=0&autoplay=0&title=0" width="640" height="480" frameborder="0"></iframe>
+    			<iframe class="video" src="http://player.vimeo.com/video/50240566?api=1&portrait=0&byline=0&autoplay=0&title=0" width="640" height="480" frameborder="0"></iframe>
   			</div>
   			<img class="thumbnail" src="/assets/image1.jpg" alt=""/>
 		</li>
 		<li class="slide">
   			<div class="html">
-    			<iframe class="video" src="http://player.vimeo.com/video/50234182?api=1&player_id=movie1&portrait=0&byline=0&autoplay=0&title=0" width="640" height="480" frameborder="0"></iframe>
+    			<iframe class="video" src="http://player.vimeo.com/video/50234182?api=1&portrait=0&byline=0&autoplay=0&title=0" width="640" height="480" frameborder="0"></iframe>
   			</div>
   			<img class="thumbnail" src="/assets/image1.jpg" alt=""/>
 		</li>
 		<li class="slide">
   			<div class="html">
-    			<iframe class="video" src="http://player.vimeo.com/video/50093564?api=1&player_id=movie1&portrait=0&byline=0&autoplay=0&title=0" width="640" height="480" frameborder="0"></iframe>
+    			<iframe class="video" src="http://player.vimeo.com/video/50093564?api=1&portrait=0&byline=0&autoplay=0&title=0" width="640" height="480" frameborder="0"></iframe>
+  			</div>
+  			<img class="thumbnail" src="/assets/schofield.png" alt=""/>
+		</li>
+		<li class="slide">
+  			<div class="html">
+    			<iframe class="video" src="http://player.vimeo.com/video/50084705?api=1&portrait=0&byline=0&autoplay=0&title=0" width="640" height="480" frameborder="0"></iframe>
   			</div>
   			<img class="thumbnail" src="/assets/image1.jpg" alt=""/>
 		</li>
 		<li class="slide">
   			<div class="html">
-    			<iframe class="video" src="http://player.vimeo.com/video/50084705?api=1&player_id=movie1&portrait=0&byline=0&autoplay=0&title=0" width="640" height="480" frameborder="0"></iframe>
-  			</div>
-  			<img class="thumbnail" src="/assets/image1.jpg" alt=""/>
-		</li>
-		<li class="slide">
-  			<div class="html">
-    			<iframe class="video" src="http://player.vimeo.com/video/50084704?api=1&player_id=movie1&portrait=0&byline=0&autoplay=0&title=0" width="640" height="480" frameborder="0"></iframe>
+    			<iframe class="video" src="http://player.vimeo.com/video/50084704?api=1&portrait=0&byline=0&autoplay=0&title=0" width="640" height="480" frameborder="0"></iframe>
   			</div>
   			<img class="thumbnail" src="/assets/image1.jpg" alt=""/>
 		</li>
