@@ -1,5 +1,5 @@
 .tbox {position:absolute; -moz-border-radius:20px; display:none; padding:14px 17px; z-index:1000}
-.tinner {padding:0px; -moz-border-radius:20px; border-radius:20px; background:#fff url(/assets/preload.gif) no-repeat 50% 50%; border-right:1px solid #333; border-bottom:1px solid #333}
+.tinner {padding:0px; -moz-border-radius:20px; border-radius:20px; background:#fff; border-right:1px solid #333; border-bottom:1px solid #333}
 .tmask {position:absolute; display:none; top:0px; left:0px; height:100%; width:100%; background:#000; z-index:999}
 .tclose {position:absolute; top:0px; left:0px; width:30px; height:30px; cursor:pointer; background:url(/assets/close.png) no-repeat}
 .tclose:hover {background-position:0 -30px}

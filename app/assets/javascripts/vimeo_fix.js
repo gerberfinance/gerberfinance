@@ -88,4 +88,3 @@ jQuery.fn.carousel = function(beyond0, beyond1, beyond2, options){
         });
     }
 };
-​

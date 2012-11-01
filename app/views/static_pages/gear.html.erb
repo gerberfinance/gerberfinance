@@ -2,11 +2,42 @@
 <html>
 <head>
   <title>Top 10 Questions to Ask Your Lender</title>
-<%= stylesheet_link_tag "application-all", :media => "all" %>
-<%= stylesheet_link_tag "application-print", :media => "print" %>
-<%= stylesheet_link_tag "application-handheld", :media => "handheld" %>
-<%= javascript_include_tag "application" %>
-<%= csrf_meta_tags %>
+<!--[if gte IE 5]>
+      <link rel="stylesheet" type="text/css" href="/assets/text/ie_style.css" />
+	<![endif]-->
+<link href="/assets/all/layout_helpers/drop_down.css?body=1" media="all" rel="stylesheet" type="text/css" />
+<link href="/assets/all/layout_helpers/footer.css?body=1" media="all" rel="stylesheet" type="text/css" />
+<link href="/assets/all/layout_helpers/profile.css?body=1" media="all" rel="stylesheet" type="text/css" />
+<link href="/assets/all/popups/calc.css?body=1" media="all" rel="stylesheet" type="text/css" />
+<link href="/assets/all/popups/contact.css?body=1" media="all" rel="stylesheet" type="text/css" />
+<link href="/assets/all/popups/gear.css?body=1" media="all" rel="stylesheet" type="text/css" />
+<link href="/assets/all/popups/tiny.css?body=1" media="all" rel="stylesheet" type="text/css" />
+<link href="/assets/all/scaffolds.css?body=1" media="all" rel="stylesheet" type="text/css" />
+<link href="/assets/all/static_pages.css?body=1" media="all" rel="stylesheet" type="text/css" />
+<link href="/assets/application-print.css?body=1" media="print" rel="stylesheet" type="text/css" />
+<link href="/assets/print/blueprint/print.css?body=1" media="print" rel="stylesheet" type="text/css" />
+<link href="/assets/print/print_stylesheet.css?body=1" media="print" rel="stylesheet" type="text/css" />
+<link href="/assets/application-handheld.css?body=1" media="handheld" rel="stylesheet" type="text/css" />
+<link href="/assets/handheld/blueprint/handheld.css?body=1" media="handheld" rel="stylesheet" type="text/css" />
+<link href="/assets/handheld/handheld.css?body=1" media="handheld" rel="stylesheet" type="text/css" />
+<script src="/assets/jquery.js?body=1" type="text/javascript"></script>
+<script src="/assets/jquery_ujs.js?body=1" type="text/javascript"></script>
+<script src="/assets/calc.js?body=1" type="text/javascript"></script>
+<script src="/assets/contact.js?body=1" type="text/javascript"></script>
+<script src="/assets/currency.js?body=1" type="text/javascript"></script>
+<script src="/assets/froogaloop.min.js?body=1" type="text/javascript"></script>
+<script src="/assets/packed.js?body=1" type="text/javascript"></script>
+<script src="/assets/static_pages.js?body=1" type="text/javascript"></script>
+<script src="/assets/tinybox.js?body=1" type="text/javascript"></script>
+<script src="/assets/video.min.js?body=1" type="text/javascript"></script>
+<script src="/assets/vimeo_fix.js?body=1" type="text/javascript"></script>
+<meta content="authenticity_token" name="csrf-param" />
+<meta content="1hKfo11LHCit8zIUYYTAwfr1mRxczDsTqWNvItm7FJ0=" name="csrf-token" />
+<!--[if gte IE 5]>
+    <link href="/assets/application-ie.css?body=1" media="all" rel="stylesheet" type="text/css" />
+<link href="/assets/ie/blue_print/ie.css?body=1" media="all" rel="stylesheet" type="text/css" />
+<link href="/assets/ie/ie_hacks.css?body=1" media="all" rel="stylesheet" type="text/css" />
+<![endif]-->
 </head>
 <body class="popups">
 <div id="header_popups">
@@ -133,17 +164,15 @@
 	</div>	
 	<div id="head_right">
 		<div id="ceo_video">   
-			
 			<img id="thoughts" src="/assets/thoughts.png" />
-			<iframe  id="movie1"  style="display:none;" src="http://player.vimeo.com/video/50234179?api=1&portrait=0&byline=0&autoplay=0&title=0" width="280" height="160" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>        
-			<iframe  id="movie2"  style="display:none;" src="http://player.vimeo.com/video/50234180?api=1&portrait=0&byline=0&autoplay=0&title=0" width="280" height="160" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-    		<iframe  id="movie3"  style="display:none;" src="http://player.vimeo.com/video/50234181?api=1&portrait=0&byline=0&autoplay=0&title=0" width="280" height="160" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+			<iframe  id="movie1"  style="display:none;" src="http://player.vimeo.com/video/50234179?api=1&player_id=movie1&portrait=0&byline=0&autoplay=0&title=0" width="280" height="160" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>        
+			<iframe  id="movie2"  style="display:none;" src="http://player.vimeo.com/video/50234180?api=1&player_id=movie2&portrait=0&byline=0&autoplay=0&title=0" width="280" height="160" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+    		<iframe  id="movie3"  style="display:none;" src="http://player.vimeo.com/video/50234181?api=1&player_id=movie3&portrait=0&byline=0&autoplay=0&title=0" width="280" height="160" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
   
 			<div id="beyond0_d" value="Show" onclick="$('#movie1').show('slow'), $('#movie2').hide('slow'), $('#movie3').hide('slow'), $('#thoughts').hide('slow')">"beyond the bank"   <img src="/assets/camera.png" /></div>
 			<div id="beyond1_d" value="Show" onclick="$('#movie2').show('slow'), $('#movie1').hide('slow'), $('#movie3').hide('slow'), $('#thoughts').hide('slow')">"get inside your lender's head"   <img src="/assets/camera.png" /></div>
 			<div id="beyond2_d" value="Show" onclick="$('#movie3').show('slow'), $('#movie1').hide('slow'), $('#movie2').hide('slow'), $('#thoughts').hide('slow')">"every business has problems"    <img src="/assets/camera.png" /></div>
-		
 		</div>
 	</div>		 	
 </div>	
