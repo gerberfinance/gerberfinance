@@ -71,6 +71,7 @@ rails.png: rails-be8732dac73d845ac5b142c8fb5f9fb0.png
 right.png: right-c336611fee7f8be62148d400c11dc8b6.png
 scale.gif: scale-fae8bd27dbbc1422dd23d700ad5e2a26.gif
 scale.png: scale-ecf29253266c845c6d304f1c29fb92c3.png
+schofield.png: schofield-50a05c315546acacf057251ce6d9923b.png
 text/about.png: text/about-62ac23fd6adfe833ae58a255b85877ce.png
 text/asset.png: text/asset-fb214130b11f1b173c49d08a5540885e.png
 text/calculator.png: text/calculator-d4eb39b000dc0d57437c3a821d608ce9.png
@@ -103,7 +104,6 @@ video_thumbs/paramount.png: video_thumbs/paramount-52643910a7e1f133256f31b688d30
 video_thumbs/paramount_thumb.png: video_thumbs/paramount_thumb-d76ba0d9433b29a7ec8d766fd6f55215.png
 video_thumbs/pilgrim.png: video_thumbs/pilgrim-6bd81affdde2fae4bd1285c623c3cd19.png
 video_thumbs/pilgrim_thumb.png: video_thumbs/pilgrim_thumb-e8d62bbd35f301ae1f07f6867b0a1633.png
-video_thumbs/schofield.png: video_thumbs/schofield-adb8e2daaf648b2ceb7c420c7cba79df.png
 video_thumbs/schofield_thumb.png: video_thumbs/schofield_thumb-24e7ec4fe6c55b0da11b62e2c0340f63.png
 wait.gif: wait-8a502a51814e63a77149aea2f5d8ad1b.gif
 welcome.png: welcome-aa11c00d2fb6f300721903830b91bb51.png
@@ -130,6 +130,5 @@ all/glossy-curved-square/gray/images/buttons.png: all/glossy-curved-square/gray/
 all/glossy-curved-square/gray/images/buttons_small.png: all/glossy-curved-square/gray/images/buttons_small-8f3fa5a072011567f8397ad0fa002018.png
 all/glossy-curved-square/gray/images/playpause.png: all/glossy-curved-square/gray/images/playpause-aa63c65e745c300a92529a1fca79ca39.png
 application-all.css: application-all-f4dbe4b2c2eafbdd818e3694cb6a3448.css
-application-ie.css: application-ie-bead2921e83ccfc0c0eab66869b016ba.css
-application-mobile.css: application-mobile-7270767b2a9e9fff880aa5de378ca791.css
+application-ie.css: application-ie-a94a2bac88abc73d4665b9d34825c0f7.css
 application-print.css: application-print-7270767b2a9e9fff880aa5de378ca791.css
