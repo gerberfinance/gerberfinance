@@ -54,14 +54,19 @@ img.popup {
 .calc_body {
 	background:url(/assets/calc_p.png) top right no-repeat;
 	background-attachment: fixed;
-	margin-top: 90px;
+	margin-top: 90px;}
+	
+.calc1_body {
+	background:url(/assets/calc_p.png) top right no-repeat;
+	background-attachment: fixed;
+	margin-top: 50px;
 	overflow:scroll;
-	height:400px;}
+	height:440px;}}
 	
 .top10_body {
 	background:url(/assets/top10_p.png) top right no-repeat;
 	background-attachment: fixed;
-	margin-top: 100px;
+	margin-top: 90px;
 	overflow:scroll;
 	height:400px;}
 	
