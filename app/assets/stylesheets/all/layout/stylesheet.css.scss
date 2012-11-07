@@ -17,7 +17,13 @@ a {
       color: #1f1e1e;
       background-color: none;}}
 
-
+p.quote {
+	font-weight:bold;
+	font-style:italic;
+	text-align:center;
+	font-size: 18px;
+	color: #373737;
+	}
 /* Header Menu*/
 
 #menu {
@@ -182,7 +188,7 @@ img.compass{
 	}
 	
 #credit_body {
-	margin: 40px 20px 400px 60px;
+	margin: 60px 20px 0px 20px;
 	position: absolute;
 	left:2%;
 	right:10%;
@@ -196,7 +202,7 @@ img.compass{
 #credit_container {
 	float:left;
 	position:absolute;
-	margin:120px 0px 0px 200px;}
+	margin:60px 0px 0px 320px;}
 
 #credit_text {
 	min-height: 330px;
@@ -220,7 +226,7 @@ img.ledger{
 	}
 	
 #asset_body {
-	margin: 120px 20px 400px 20px;
+	margin: 120px 20px 0px 20px;
 	position: absolute;
 	left:2%;
 	right:10%;
@@ -237,10 +243,10 @@ img.ledger{
 	margin:-10px 0px 0px 320px;}
 
 #asset_text {
-	min-height: 330px;
+	min-height: 500px;
 	min-width: 400px;
 	max-width: 750px;
-	font-size: 20px;
+	font-size: 18px;
 	margin-left:20px;}
 	
 /* Trade Finance */	
@@ -267,10 +273,10 @@ img.scale{
 	margin:20px 0px 0px 350px;}
 
 #trade_text {
-	min-height: 330px;
+	min-height: 460px;
 	min-width: 400px;
 	max-width: 750px;
-	font-size: 20px;
+	font-size: 18px;
 	margin-left:20px;}
 			
 
