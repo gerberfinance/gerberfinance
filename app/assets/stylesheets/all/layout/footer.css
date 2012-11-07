@@ -18,14 +18,14 @@
 	white-space:nowrap;
 	top:3px;
 	float: right; 
-	margin:1px,1px,1px,1px;
+	margin:1px, 1px, 1px, 1px;
 	padding:0;}
 
 #footer ul li {
 	border-left: 1px solid #252525;
 	top:-3px;
 	float: left; 
-	margin:1px,1px,1px,1px;
+	margin:1px, 1px, 1px, 1px;
 	padding:0;}
 
 #footer > ul > li {

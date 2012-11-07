@@ -47,7 +47,7 @@
 	z-index:99; } 
 	
 #cssmenu ul li.has-sub:hover > a:after{
-	top:5; 
+	top:5px; 
 	bottom:0;} 
 	
 /* Down Arrows

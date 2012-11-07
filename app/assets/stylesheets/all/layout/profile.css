@@ -91,9 +91,9 @@ img.profiles {
     
     -moz-border-radius:0px 10px 10px 0px;
     
-    -webkit-border-radius: 0px 10px 10px 0pxs;
+    -webkit-border-radius: 0px 10px 10px 0px;
    
-    white-space:wrap;
+    white-space:no-wrap;
     -moz-transform: rotate(0.0deg) translate(0px,0px);  /* FF3.5+ */
     -moz-transform-origin: 0 0%;
     -o-transform: rotate(0.0deg) translate(0px,0px);  /* Opera 10.5 */
@@ -167,7 +167,6 @@ table.profile_entela {
 .AccordionOpen
 {
   width:780px !important;
-  display:fixed;
   z-index:-9999999;
   position: absolute;	
   overflow:auto;  
