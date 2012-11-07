@@ -55,11 +55,12 @@ img.popup {
 	background:url(/assets/calc_p.png) top right no-repeat;
 	background-attachment: fixed;
 	margin-top: 90px;
-	overflow:none;}
+	overflow:scroll;}
 	
 .top10_body {
 	background:url(/assets/top10_p.png) top right no-repeat;
 	background-attachment: fixed;
-	margin-top: 100px;}
+	margin-top: 100px;
+	overflow:scroll;}
 	
 	
