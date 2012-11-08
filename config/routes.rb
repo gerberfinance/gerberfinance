@@ -10,7 +10,6 @@ Gerber::Application.routes.draw do
 	match '/profiles' => 'static_pages#profiles'
 	match '/asset' => 'static_pages#asset'
 	match '/trade' => 'static_pages#trade'
-	match '/clientele' => 'static_pages#clientele'
 	match '/current' => 'static_pages#current'
 	match '/prior' => 'static_pages#prior'
 		
