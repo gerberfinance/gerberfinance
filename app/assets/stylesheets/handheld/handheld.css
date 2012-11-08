@@ -15,7 +15,7 @@ img.logo{
 }
 button {
 	border:none;
-	background:black;
+	background:	url(/assets/button_bg.png) repeat-x;
 
 	border-radius: 10px;
 	font-size:40px;
