@@ -8,8 +8,10 @@
 	<![endif]-->
 <%= stylesheet_link_tag "application-all", :media => "all" %>
 <%= stylesheet_link_tag "application-print", :media => "print" %>
-<%= stylesheet_link_tag "application-handheld", :media => "handheld" %>
+<%= stylesheet_link_tag "application-handheld", :media => "all" if mobile_device? %>
+
 <%= javascript_include_tag "application-all", :media => "all" %>
+
 <%= csrf_meta_tags %>
 <!--[if gte IE 5]>
     <%= stylesheet_link_tag "application-ie", :media => "all" %>
@@ -47,13 +49,6 @@
 		</ul>
 	</div>
 </div>
-
-<% if iphone_user_agent? # Show message for iPhone users -%>
-<div class="message">
-    <p>Using an iPhone? <a href="/">Use the optimised version</a>.</p>
-</div>
-<% end -%>
-
 	
 	<div><%= yield %></div>
 

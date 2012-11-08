@@ -1,15 +1,21 @@
 class ApplicationController < ActionController::Base
   protect_from_forgery
-  before_filter :adjust_format_for_iphone
+  
+before_filter :prepare_for_mobile
 
 private
-  # Set iPhone format if request to iphone.gerberfinance.com
-  def adjust_format_for_iphone
-    request.format = :iphone if iphone_request?
-  end
-  # Return true for requests to iphone.gerberfinance.com
-  def iphone_request?
-    return (request.subdomains.first == "iphone" || params[:format] == "iphone")
-  end
 
+def mobile_device?
+  if session[:mobile_param]
+    session[:mobile_param] == "1"
+  else
+    request.user_agent =~ /Mobile|webOS/
+  end
+end
+helper_method :mobile_device?
+
+def prepare_for_mobile
+  session[:mobile_param] = params[:mobile] if params[:mobile]
+  request.format = :mobile if mobile_device?
+end  
 end
