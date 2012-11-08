@@ -48,7 +48,11 @@
 	</div>
 </div>
 
-
+<% if iphone_user_agent? # Show message for iPhone users -%>
+<div class="message">
+    <p>Using an iPhone? <a href="layouts#application.iphone.erb">Use the optimised version</a>.</p>
+</div>
+<% end -%>
 
 	
 	<div><%= yield %></div>
