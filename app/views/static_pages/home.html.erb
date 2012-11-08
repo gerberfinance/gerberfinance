@@ -1,4 +1,10 @@
 <div id="home_body">
+	<% if iphone_user_agent? # Show message for iPhone users -%>
+<div class="message">
+    <p>Using an iPhone? <a href="http://iphone.gerberfinance.com/">Use the optimised version</a>.</p>
+</div>
+<% end -%>
+
 	<div id="tree_container">
 		<img src="/assets/green_tree3.gif" class="tree" />
 	</div>
