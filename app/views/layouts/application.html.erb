@@ -47,7 +47,11 @@
 		</ul>
 	</div>
 </div>
-
+<% if iphone_user_agent? # Show message for iPhone users -%>
+<div class="message">
+    <p>Using an iPhone? <a href="http://iphone.trawlr.com/">Use the optimised version</a>.</p>
+</div>
+<% end -%>
 	<div><%= yield %></div>
 
 	<div id='footer'>
