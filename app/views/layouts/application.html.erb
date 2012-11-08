@@ -51,7 +51,13 @@
 </div>
 	
 	<div><%= yield %></div>
-
+<p>
+  <% if mobile_device? %>
+    <%= link_to "Full Site", :mobile => 0 %>
+  <% else %>
+    <%= link_to "Mobile Site", :mobile => 1 %>
+  <% end %>
+</p>
 	<div id='footer'>
 	
 		<img src="/assets/gerberfinance.png" class="gerberfinance" alt="Gerber Finance Inc." />
