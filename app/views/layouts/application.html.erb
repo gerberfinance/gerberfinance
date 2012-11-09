@@ -10,12 +10,17 @@
 <%= stylesheet_link_tag "application-print", :media => "print" %>
 <%= javascript_include_tag "application-all", :media => "all" %>
 <%= csrf_meta_tags %>
-<meta name = "viewport" content = "user-scalable = no">.
+<meta name = "viewport" content = "user-scalable = no">
+<script type="text/javascript">
+   function blockMove() {
+      event.preventDefault() ;
+}
+</script>
 <!--[if gte IE 5]>
     <%= stylesheet_link_tag "application-ie", :media => "all" %>
 <![endif]-->
 </head>
-<body class="layout">
+<body class="layout" ontouchmove="blockMove()">
 <div id="menu"></div>
 <div id="menu_fix">
 	<a href='/'><img src="/assets/Logo.png" class="logo" /></a>
