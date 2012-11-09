@@ -12,8 +12,8 @@ class NotificationsMailer < ActionMailer::Base
   
   def new_request(message)
   	 @message = message
-     mail(:to => "sjoseph@gerberfinance.com", :subject => "A New Request",
-     		:cc => ["web@gerberfinance.com", "jpalmer@gerberfinance.com"])     
+     mail(:to => "gjoseph@gerberfinance.com", :subject => "A New Request",
+     		:cc => ["egoynatsky@gerberfinance.com", "jpalmer@gerberfinance.com"])     
   end 
   
   def profit=(num)
