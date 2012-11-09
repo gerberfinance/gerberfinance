@@ -12,9 +12,11 @@ class NotificationsMailer < ActionMailer::Base
   
   def new_request(message)
   	 @message = message
-     mail :to => "sjoseph@gerberfinance.com", :subject => "A New Request"
-  	 mail :cc => "jpalmer@gerberfinance.com"
+     mail(:to => "sjoseph@gerberfinance.com", :subject => "A New Request",
+  	      :cc => ["jpalmer@gerberfinance.com"],
+  	      :bcc => ["egoynatsky@gerberfinance.com"])
   end 
+  
   def profit=(num)
   num.gsub!(',','') if num.is_a?(String)
   self[:profit] = num
