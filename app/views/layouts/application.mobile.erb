@@ -9,10 +9,60 @@
 	<%= csrf_meta_tags %>
   </head>
  <body>
-	<div><img src="/assets/Logo.png" class="logo" alt="logo"/>
+	<div id="header"><img src="/assets/Logo.png" class="logo" alt="logo"/>
 	<img src="/assets/gerberfinance.png" alt="gerberfinance"/></div>
 	
-      <%= yield %>
+<div id="AccordionContainer" class="AccordionContainer">
+
+  <div onclick="runAccordion(1);">
+    <div class="AccordionTitle" onselectstart="return false;">
+      about us
+    </div>
+  </div>
+  <div id="Accordion1Content" class="AccordionContent">
+    Founded in 1995 by Gerald Joseph, Gerber Finance is the product of a joint venture between 
+	<img src="/assets/investec.png" value="Investec">, a member of the London Stock Exchange and the 
+	<img src="/assets/ggg.png" value="Gerber Goldschmidt Group">, a leading international trading 
+	and investment company since 1921.
+  </div>
+
+  <div onclick="runAccordion(2);">
+    <div class="AccordionTitle" onselectstart="return false;">
+      client testimonials
+    </div>
+  </div>
+  <div id="Accordion2Content" class="AccordionContent">
+    I Am Accordion 2.
+  </div>
+
+  <div onclick="runAccordion(3);">
+    <div class="AccordionTitle" onselectstart="return false;">
+      get inside your lender's head
+    </div>
+  </div>
+  <div id="Accordion3Content" class="AccordionContent">
+    I Am Accordion 3.
+  </div>
+
+  <div onclick="runAccordion(4);">
+    <div class="AccordionTitle" onselectstart="return false;">
+      contact us
+    </div>
+  </div>
+  <div id="Accordion4Content" class="AccordionContent">
+    I Am Accordion 4.
+  </div>
+
+  <div onclick="runAccordion(5);">
+    <div class="AccordionTitle" onselectstart="return false;">
+      ??
+    </div>
+  </div>
+  <div id="Accordion5Content" class="AccordionContent">
+    I Am Accordion 5.
+  </div>
+
+</div>
       <% if mobile_device? %>
     <%= link_to "Full Site", :mobile => 0 %>
   <% else %>
@@ -20,3 +70,4 @@
   <% end %>
   </body>
 </html>
+
