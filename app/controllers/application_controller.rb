@@ -15,7 +15,7 @@ end
 helper_method :mobile_device?
 
 def prepare_for_mobile
-  if request.format == 'text/html'
+  if request.format
     session[:mobile_param] = params[:mobile] if params[:mobile]
     request.format = :mobile if mobile_device?
   end
