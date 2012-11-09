@@ -9,7 +9,7 @@ def mobile_device?
   if session[:mobile_param]
     session[:mobile_param] == "1"
   else
-    request.user_agent =~ /Mobile|webOS/
+    request.user_agent =~ /Mobile|Blackberry|Android|iPhone/
   end
 end
 helper_method :mobile_device?
