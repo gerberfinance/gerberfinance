@@ -6,10 +6,10 @@
     <title></title>
     <%= stylesheet_link_tag "application-handheld" %>
 	<%= javascript_include_tag "application-handheld" %>
-	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<%= csrf_meta_tags %>
   </head>
  <body>
-	<img src="/assets/Logo.png" class="logo" alt="logo"/>
+	<p><img src="/assets/Logo.png" class="logo" alt="logo"/></p>
 	<img src="/assets/gerberfinance.png" alt="gerberfinance"/>
 	
 		<ul>
@@ -18,7 +18,7 @@
 			<li><button>Inside Your Lender's Head</button></li>
 			<li><button>Contact Us</button></li>
 		</ul>
-		
+		<p>00000080897986785677</p>
 	
     jhgjhgjhgjhgjhghjgjhghjghj
       <%= yield %>
