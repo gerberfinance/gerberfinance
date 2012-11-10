@@ -5,6 +5,11 @@
 <!--[if gte IE 5]>
       <link rel="stylesheet" type="text/css" href="/assets/text/ie_style.css" />
 	<![endif]-->
+<script>
+$(document).bind("mobileinit", function(){
+  $.mobile.touchOverflowEnabled = true;
+});
+</script>
 <link href="/assets/all/layout/stylesheet.css.scss?body=1" media="all" rel="stylesheet" type="text/css" />
 <link href="/assets/all/layout/drop_down.css?body=1" media="all" rel="stylesheet" type="text/css" />
 <link href="/assets/all/layout/footer.css?body=1" media="all" rel="stylesheet" type="text/css" />
@@ -30,11 +35,7 @@
 <script src="/assets/vimeo_fix.js?body=1" type="text/javascript"></script>
 <meta content="authenticity_token" name="csrf-param" />
 <meta content="1hKfo11LHCit8zIUYYTAwfr1mRxczDsTqWNvItm7FJ0=" name="csrf-token" />
-<script>
-$(document).bind("mobileinit", function(){
-  $.mobile.touchOverflowEnabled = true;
-});
-</script>
+
 <!--[if gte IE 5]>
     <link href="/assets/application-ie.css?body=1" media="all" rel="stylesheet" type="text/css" />
 <link href="/assets/ie/blue_print/ie.css?body=1" media="all" rel="stylesheet" type="text/css" />
