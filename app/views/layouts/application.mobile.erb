@@ -37,7 +37,16 @@
     </div>
   </div>
   <div id="Accordion2Content" class="AccordionContent">
-    I Am Accordion 2.
+			<p>Current Clients</p>
+			<img class="thumbnail" src="/assets/video_thumbs/drew_estate.png" alt="Drew Estates"/>
+  			<img class="thumbnail" src="/assets/video_thumbs/schofield.png" alt="Schofield"/>
+  			<img class="thumbnail" src="/assets/video_thumbs/paramount.png" alt="Paramount"/>
+  			<img class="thumbnail" src="/assets/video_thumbs/pilgrim.png" alt="Pilgrim"/>
+
+			<p>Previous Clients</p>
+			<img class="thumbnail" src="/assets/video_thumbs/le_mystere.png" alt="Le Mystere"/>
+  			<img class="thumbnail" src="/assets/video_thumbs/thro.png" alt="Thro"/>
+  			<img class="thumbnail" src="/assets/video_thumbs/ocean_potion.png" alt="Ocean Potion"/>
   </div>
 
   <div onclick="runAccordion(3);">
@@ -68,11 +77,15 @@
   </div>
 
 </div>
-      <% if mobile_device? %>
+  <% if mobile_device? %>
     <%= link_to "Full Site", :mobile => 0 %>
   <% else %>
     <%= link_to "Mobile Site", :mobile => 1 %>
   <% end %>
+  
+  <% if Rails.env.production? %>
+    <%= render :partial => 'layouts/ga' %>
+  <%end%>
   </body>
 </html>
 

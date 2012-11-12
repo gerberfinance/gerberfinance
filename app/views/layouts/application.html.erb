@@ -14,11 +14,12 @@
 <!--[if gte IE 5]>
     <%= stylesheet_link_tag "application-ie", :media => "all" %>
 <![endif]-->
+
 </head>
 <body class="layout">
 <div id="menu"></div>
 <div id="menu_fix">
-	<a href='/'><img src="/assets/Logo.png" class="logo" /></a>
+	<a href='/'><img src="/assets/Logo.png" class="logo" alt="Gerber Finance Inc." /></a>
 	<div id='cssmenu'>
 		<ul>
    		<li class='active '><a href='/'><span>home</span></a></li>
@@ -38,7 +39,7 @@
          	<li><a href='/prior'><span>prior testimonials</span></a></li>
       	</ul>
    		</li>
-   		<li class='has-sub '><a href=""><span style="cursor:pointer;">contact form</span></a>
+   		<li class='has-sub '><a href=""><span style="cursor:pointer;">contact</span></a>
    		  <ul>	
    			<li onclick="TINY.box.show({iframe:'/contact',boxid:'frameless',width:800,height:500,fixed:false,maskid:'bluemask',maskopacity:40,closejs:function(){closeJS()}})"><a><span style="cursor:pointer;">contact form</span></a></li>
 			<li><%= link_to "download application", "/assets/gerber_finance_app.pdf", :target => '_blank' %></li>
@@ -63,6 +64,8 @@
    		</ul>
    		
 	</div>
-
+  <% if Rails.env.production? %>
+    <%= render :partial => 'layouts/ga' %>
+  <%end%>
 </body>
 </html>
