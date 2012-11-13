@@ -1,3 +1,18 @@
+<script type="text/javascript">
+//ipad and iphone fix
+// using jQuery 1.7.x (on method instead bind)
+if ( (navigator.userAgent.match(/iPhone/i)) 
+   || (navigator.userAgent.match(/iPod/i) ) 
+   || (navigator.userAgent.match(/iPad/i))) 
+{
+      $(".menu ul li h3").on('touchstart', function(){ 
+           console.log("touch started");
+      });
+      $(".menu ul li h3").on('touchend', function(){
+           console.log("touch ended");
+      });
+}
+</script>
 <img src="/assets/text/profiles.png" class="profiles"/>
 <div class="horizontalaccordion">
 <ul>

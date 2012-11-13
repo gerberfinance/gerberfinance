@@ -45,6 +45,7 @@ img.profiles {
     padding: 0;
     list-style:none;
     height: 600px;
+    
 }
  
 .horizontalaccordion>ul>li {
@@ -66,6 +67,7 @@ img.profiles {
     -moz-transition: width 0.0s ease-in-out;
     -webkit-transition: width 0.0s ease-in-out;
     -o-transition: width 0.0s ease-in-out;
+    
 }
  
 .horizontalaccordion>ul>li>h3 {
@@ -120,10 +122,13 @@ img.profiles {
     height:600px;
     margin-left:290px;
     
+    
 }
  
 .horizontalaccordion:hover>ul>li:hover>div {
     display:block;
+    
+    
 }
  
 .horizontalaccordion:hover>ul>li:hover>h3 {
@@ -145,6 +150,7 @@ img.profiles {
  
 .horizontalaccordion>ul>li>h3:hover {
     cursor:pointer;
+    
 }
 
 /* Tables*/
@@ -169,7 +175,8 @@ table.profile_entela {
   width:780px !important;
   z-index:-9999999;
   position: absolute;	
-  overflow:auto;  
+  overflow:auto;
+    
 }
 
 #space {
