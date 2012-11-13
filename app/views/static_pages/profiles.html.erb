@@ -1,9 +1,9 @@
 <script type="text/javascript">
 if((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i)) || (navigator.userAgent.match(/iPad/i))) {
-    $("..horizontalaccordion>ul>li>h3").bind('touchstart', function(){
+    $("..horizontalaccordion>ul>li").bind('touchstart', function(){
         console.log("touch started");
     });
-    $("..horizontalaccordion>ul>li>h3").bind('touchend', function(){
+    $("..horizontalaccordion>ul>li").bind('touchend', function(){
         console.log("touch ended");
     });
 }
