@@ -1,3 +1,15 @@
+<script type="text/javascript">
+if((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i)) || (navigator.userAgent.match(/iPad/i))) {
+    $(".horizontalaccordion li h3").bind('touchstart', function(){
+        console.log("touch started");
+    });
+    $(".horizontalaccordion li h3").bind('touchend', function(){
+        console.log("touch ended");
+    });
+}
+
+</script>
+
 <img src="/assets/text/profiles.png" class="profiles"/>
 <div class="horizontalaccordion">
 <ul>

@@ -137,7 +137,7 @@ img.g{
 	margin:100px 0px 0px 280px;}
 
 #about_text {
-	min-height: 330px;
+	min-height: 460px;
 	min-width: 400px;
 	max-width: 750px;
 	font-size: 20px;
@@ -151,14 +151,13 @@ img.ggg{
 
 /* History */
 img.globe{
-display:inline-block;
-   position:fixed;
-   left:0px;
-   bottom:118px;}
+	float:left;
+	display:inline;
+	}
 
 
 #history_body {
-	margin: 83px 20px 400px 0px;
+	margin: 83px 20px 0px 20px;
 	position: absolute;
 	left:2%;
 	right:10%;
@@ -179,6 +178,12 @@ display:inline-block;
 	max-width: 750px;
 	font-size: 20px;
 	margin-left:20px;}
+	
+img.ggg {
+	}
+
+img.investec{
+	}
 		
 /* Credit Guidelines*/
 
@@ -308,7 +313,8 @@ img.scale{
 /* Testimonials */
 
 #current_client_video {
-	margin-top:100px;}
+	margin-top:100px;
+	min-height: 550px;}
 	
 
 

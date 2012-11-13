@@ -31,15 +31,16 @@ gerber_finance_app.pdf: gerber_finance_app-fe767c2e1f71ae73692f537a9138b621.pdf
 gerberfinance.png: gerberfinance-08ef0ce7a982811a34faacb9f0eb0133.png
 gerberfinance_small.png: gerberfinance_small-03f6e88b2936153d04567f2afe30f2cf.png
 gg4.png: gg4-e6b2115f006e1360c40081c28b750fd3.png
-ggg.png: ggg-b169d3d7d5e3d971befd07c10bdfb8f7.png
+ggg.png: ggg-84477c761a59d028b548a78e938c94a8.png
 globe.gif: globe-9f4d06552e0a802ed8182815496a11ea.gif
+globe_move.gif: globe_move-1d646a540580f1f4dae45bbb00f19d9e.gif
 green_tree3.gif: green_tree3-e9cfb383e72cee02a1efa4851f8360e0.gif
 grey.png: grey-d895f698b44cd3799ed03205c9065ef5.png
 grey_bg.png: grey_bg-a1524e8ff9207627c135bc1c6c1a2417.png
 grey_bgf.png: grey_bgf-2ee82da3e672543887ce1a645a25d93e.png
 img_jen.jpg: img_jen-c6677815a9219f6e948f4b11258b3105.jpg
 inside_lenders_head.pdf: inside_lenders_head-dcc8f393facbcdafa3549097136c6c73.pdf
-investec.png: investec-4f2a991fe89fc5afbc07b0ed39d9fde0.png
+investec.png: investec-c4f8ef45eaba229c40ee013a0313e89a.png
 ledger.png: ledger-320f4ea8b277cfd4fc02dc864c7d44c5.png
 logo_small.png: logo_small-4744dd415684e16ff4a74573ce9f840f.png
 print.png: print-ae0af0aecffc2609b1aa7b9741b6496a.png
@@ -81,7 +82,7 @@ all/video_slider/light-square/images/arrows_v_small.png: all/video_slider/light-
 all/video_slider/light-square/images/buttons.png: all/video_slider/light-square/images/buttons-56d7c005de250ba77c4bfd6517b4eadc.png
 all/video_slider/light-square/images/buttons_small.png: all/video_slider/light-square/images/buttons_small-098eaa12b40e23e70088b9d6ec56eb74.png
 all/video_slider/light-square/images/playpause.png: all/video_slider/light-square/images/playpause-0668a46881bfe76e4c4b5347039a2df6.png
-application-all.css: application-all-cc613f8ab05d916e7b86bfbc39987cd0.css
+application-all.css: application-all-f252b5dc2fd2f9b624eee73ff2c823a5.css
 application-ie.css: application-ie-a94a2bac88abc73d4665b9d34825c0f7.css
 application-mobile.css: application-mobile-73f7c099110558b4fb29febbb2b0a924.css
 application-print.css: application-print-1b8aa340e353f13bcbbaa7412301bdb0.css

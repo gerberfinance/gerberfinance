@@ -4,7 +4,10 @@
 
 .contact_body{
 	font-family: century gothic, arial, helvetica, sans-serif;
-	width:700px;}
+	width:700px;
+	height: 400px;
+	overflow:scroll;
+	}
 	
 #contact_header {
 	position:fixed;
