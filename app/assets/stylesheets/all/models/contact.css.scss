@@ -5,8 +5,6 @@
 .contact_body{
 	font-family: century gothic, arial, helvetica, sans-serif;
 	width:700px;
-	height: 400px;
-	overflow:scroll;
 	}
 	
 #contact_header {
@@ -31,7 +29,10 @@
 .actions {border:none;}
 
 #contact {
-	margin:80px 0px 0px 30px;}
+	margin:80px 0px 0px 30px;
+	height: 400px;
+	overflow:scroll;
+	}
 	
 #contact select {
   	background-color:#f0f0f0;
