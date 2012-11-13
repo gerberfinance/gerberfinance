@@ -83,9 +83,8 @@
     <%= link_to "Mobile Site", :mobile => 1 %>
   <% end %>
   
-  <% if Rails.env.production? %>
-    <%= render :partial => 'layouts/ga' %>
-  <%end%>
+ <%= render :partial => ‘layouts/ga’ if RAILS_ENV == ‘production’ %>
+
   </body>
 </html>
 

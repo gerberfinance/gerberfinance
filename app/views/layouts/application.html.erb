@@ -65,8 +65,7 @@
    		</ul>
    		
 	</div>
-  <% if Rails.env.production? %>
-    <%= render :partial => 'layouts/ga' %>
-  <%end%>
+ <%= render :partial => ‘layouts/ga’ if RAILS_ENV == ‘production’ %>
+
 </body>
 </html>
