@@ -7,7 +7,7 @@
     <%= stylesheet_link_tag "application-mobile" %>
 	<%= javascript_include_tag "application-mobile" %>
 	<%= csrf_meta_tags %>
-  </head>
+	<%= analytics_init if Rails.env.production? %>  </head>
  <body>
 	<div id="header"><img src="/assets/Logo.png" class="logo" alt="logo"/>
 	<img src="/assets/gerberfinance.png" alt="gerberfinance"/></div>
@@ -83,8 +83,6 @@
     <%= link_to "Mobile Site", :mobile => 1 %>
   <% end %>
   
- <%= render :partial => ‘layouts/ga’ if RAILS_ENV == ‘production’ %>
-
   </body>
 </html>
 
