@@ -1,18 +1,20 @@
 body{
+	background:#000;
+	height:100%;
+	margin:0px;
+	width:100%;}
 
-height:100%;
-margin:0px;
-width:100%;
-}
+a {
+    color: #fff;
+    &:visited {
+    color: #fff;}}
 
 img.logo{
 	height:160px;
-	width:160px;
-}
+	width:160px;}
 
 #header {
-	margin:10px 0px 30px 20px;
-}
+	margin:10px 0px 30px 20px;}
 
 .mobile_menu {
 	left:50%;
@@ -24,17 +26,12 @@ img.logo{
 	border-radius: 20px;
 	margin-left: auto;
     margin-right: auto;
-    width:16em;
-    	
-}
+    width:16em;}
 	
-.AccordionTitle, .AccordionContainer 
-{
- 	 position:relative;
-}
+.AccordionTitle, .AccordionContainer {
+ 	 position:relative;}
 
-.AccordionTitle
-{
+.AccordionTitle {
   	height:80px;
   	overflow:hidden;
   	cursor:pointer;
@@ -45,31 +42,25 @@ img.logo{
 	-moz-user-select:none;
  	color:#fff;
  	padding:20px;
- 	width:16em;
-  
-  
-}
+ 	width:16em;}
 
 #Accordion2Title, #Accordion3Title, #Accordion4Title {
-	 	border-top:solid 1px #727272;
-	}
+	border-top:solid 1px #727272;}
 
-.AccordionContent
-{
-  height:0px;
-  overflow:auto;
-  display:none;
-  background:#000;
-  color:#fff;
-  font-size:24px;
-  font-family:Arial;
-  padding:20px;
-  line-height:28px;
-  letter-spacing:2px;
-  }
+.AccordionContent {
+    height:0px;
+    overflow:auto;
+  	display:none;
+  	background:#161616;
+  	color:#fff;
+  	font-size:24px;
+  	font-family:Arial;
+  	padding:20px;
+  	line-height:28px;
+  	letter-spacing:2px;}
 
-.AccordionContainer
-{}
+.AccordionContainer{
+}
 
 p.video_text {
 	text-align:center;}
@@ -78,5 +69,35 @@ p.video_text {
 	margin:auto;}
 	
 .mobile_thumbnail {
-  padding:5px;}	
+    padding:5px;
+    width: 100px;
+    height: 100px;}	
+	
+.contact_m {
+	margin-left: auto;
+    margin-right: auto;
+    line-height:30px;
+  	letter-spacing:3px;}
+
+.address_m{
+	vertical-align:top;}
+
+.telephone_m {
+	padding-left:120px;
+	vertical-align:top;}
+    
+.directions {
+	text-decoration:none;}
+    
+.telephone_mlink {
+	text-decoration:none;
+	padding-left:20%;
+	padding-right:80%;}  	  
+
+.directions_m {
+	padding-left:30%;
+	padding-right:70%;}
+
+	
+
 	
