@@ -2,10 +2,12 @@ body{
 	background:#000000;
 	height:100%;
 	margin:0px;
-	width:100%;}
+	width:100%;
+	font-family:century gothic, arial, helvetica, sans-serif;}
 
 a {
     color: #fff;
+    text-decoration:none;
     &:visited {
     color: #fff;}}
 
@@ -35,13 +37,13 @@ img.logo{
   	height:80px;
   	overflow:hidden;
   	cursor:pointer;
-	font-family:Arial;
  	font-size:40pt;
  	vertical-align:middle;
+ 	font-family:century gothic, arial, helvetica, sans-serif;
  	text-align:center;
 	-moz-user-select:none;
  	color:#fff;
- 	padding:20px;
+ 	padding:15px;
  	width:16em;}
 
 #Accordion2Title, #Accordion3Title, #Accordion4Title {
@@ -53,8 +55,8 @@ img.logo{
   	display:none;
   	background:#161616;
   	color:#fff;
-  	font-size:24px;
-  	font-family:Arial;
+  	font-family:century gothic, arial, helvetica, sans-serif;
+  	font-size:22px;
   	padding:20px;
   	line-height:28px;
   	letter-spacing:2px;}
@@ -63,7 +65,8 @@ img.logo{
 }
 
 p.video_text {
-	text-align:center;}
+	text-align:center;
+	text-decoration:underline;}	
 
 .video_table {
 	margin:auto;}
@@ -71,8 +74,41 @@ p.video_text {
 .mobile_thumbnail {
     padding:5px;
     width: 100px;
-    height: 100px;}	
+    height: 100px;
+    
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
+}	
 	
+p.ceo_m {
+	color:#47669d;
+	text-decoration:none;
+	font-size:16px;
+	text-align:center;}
+
+img.play{
+	padding-left:32%;
+	padding-right:68%;}	
+	
+.ceo_m_td1 {
+	top:0px;
+	width:220px;
+	padding-left:25px;
+	vertical-align:top;}	
+
+.ceo_m_td2 {
+	top:0px;
+	width:220px;
+	padding-left:60px;
+	vertical-align:top;}
+
+.ceo_m_td3 {
+	top:0px;
+	width:220px;
+	padding-left:60px;
+	vertical-align:top;}
+
 .contact_m {
 	margin-left: auto;
     margin-right: auto;
@@ -98,6 +134,9 @@ p.video_text {
 	padding-left:30%;
 	padding-right:70%;}
 
-	
+.fullsite_link{
+font-size:18px; 
+text-align:center; 
+text-decoration:underline;}
 
 	

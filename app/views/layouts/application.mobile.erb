@@ -42,25 +42,26 @@
 		<table class="video_table">	
 			<td>	
 				<p class="video_text">Current Clients</p>
-				<a href="https://vimeo.com/50243413">
+				<a href="http://player.vimeo.com/video/50240566?api=1&portrait=0&byline=0&autoplay=1&title=0" target="_blank">
 					<img class="mobile_thumbnail" src="/assets/video_thumbs/drew_estate.png" alt="Drew Estates"/></a>
-  				<a href="http://player.vimeo.com/video/50093564?api=1&portrait=0&byline=0&autoplay=1&title=0">
+  				<a href="http://player.vimeo.com/video/50093564?api=1&portrait=0&byline=0&autoplay=1&title=0" target="_blank">
   					<img class="mobile_thumbnail" src="/assets/video_thumbs/schofield.png" alt="Schofield"/></a><br>
-  				<a href="http://player.vimeo.com/video/50084705?api=1&portrait=0&byline=0&autoplay=1&title=0">
+  				<a href="http://player.vimeo.com/video/50084705?api=1&portrait=0&byline=0&autoplay=1&title=0" target="_blank">
   					<img class="mobile_thumbnail" src="/assets/video_thumbs/paramount.png" alt="Paramount"/></a>
-  				<a href="http://player.vimeo.com/video/50084704?api=1&portrait=0&byline=0&autoplay=1&title=0">
+  				<a href="http://player.vimeo.com/video/50084704?api=1&portrait=0&byline=0&autoplay=1&title=0" target="_blank">
   					<img class="mobile_thumbnail" src="/assets/video_thumbs/pilgrim.png" alt="Pilgrim"/></a>
 			</td>
 			<td style="padding-left:100px">	
 				<p class="video_text">Previous Clients</p>
-				<a href="http://player.vimeo.com/video/50243413?api=1&portrait=0&byline=0&autoplay=1&title=0">
+				<a href="http://player.vimeo.com/video/50243413?api=1&portrait=0&byline=0&autoplay=1&title=0" target="_blank">
 					<img class="mobile_thumbnail" src="/assets/video_thumbs/le_mystere.png" alt="Le Mystere"/></a>
-  				<a href="http://player.vimeo.com/video/50240567?api=1&portrait=0&byline=0&autoplay=1&title=0">
+  				<a href="http://player.vimeo.com/video/50240567?api=1&portrait=0&byline=0&autoplay=1&title=0" target="_blank">
   					<img class="mobile_thumbnail" src="/assets/video_thumbs/thro.png" alt="Thro"/></a><br>
-  				<a href="http://player.vimeo.com/video/50234182?api=1&portrait=0&byline=0&autoplay=1&title=0">
+  				<a href="http://player.vimeo.com/video/50234182?api=1&portrait=0&byline=0&autoplay=1&title=0" target="_blank">
   					<img class="mobile_thumbnail" src="/assets/video_thumbs/ocean_potion.png" alt="Ocean Potion"/></a>
   			</td>
-  		</table>	
+  		</table>
+  			
   </div>
 
   <div onclick="runAccordion(3);">
@@ -69,7 +70,22 @@
     </div>
   </div>
   <div id="Accordion3Content" class="AccordionContent">
-    I Am Accordion 3.
+		<p style="font-size:20px; text-align:center; vertical-align:top;">First impressions are critical to any relationship, especially when it involves 
+		something as important as your business and your lender's capital. Gerber Finance CEO 
+		Gerald Joseph weighs in on what lenders are looking for when they meet borrowers and how 
+		to strike the best deal.
+		</p>
+	<table class="ceo_m_table">
+		<td class="ceo_m_td1">
+			<a href="http://player.vimeo.com/video/50234179?api=1&player_id=movie1&portrait=0&byline=0&autoplay=0&title=0" target="_blank"><img src="/assets/play_m.png" class="play"/><p class="ceo_m">Beyond the Bank</p></a>
+		</td>
+		<td class="ceo_m_td2">
+			<a href="http://player.vimeo.com/video/50234180?api=1&player_id=movie2&portrait=0&byline=0&autoplay=0&title=0" target="_blank"><img src="/assets/play_m.png" class="play"/><p class="ceo_m">Get Inside Your Lender's Head</p></a>
+		</td>
+		<td class="ceo_m_td3">
+			<a href="http://player.vimeo.com/video/50234181?api=1&player_id=movie3&portrait=0&byline=0&autoplay=0&title=0" target="_blank"><img src="/assets/play_m.png" class="play"/><p class="ceo_m">Every Business Has Problems</p></a>		
+		</td>
+	</table>
   </div>
 
   <div onclick="runAccordion(4);">
@@ -92,12 +108,13 @@
 </div>
 </td>
 </table>
+<p style="font-size:18px; text-align:center; text-decoration:underline;">
   <% if mobile_device? %>
     <%= link_to "Full Site", :mobile => 0 %>
   <% else %>
     <%= link_to "Mobile Site", :mobile => 1 %>
   <% end %>
-  
+</p>p  
   </body>
 </html>
 

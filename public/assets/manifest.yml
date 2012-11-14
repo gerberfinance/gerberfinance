@@ -33,7 +33,7 @@ gerberfinance.png: gerberfinance-08ef0ce7a982811a34faacb9f0eb0133.png
 gerberfinance_small.png: gerberfinance_small-03f6e88b2936153d04567f2afe30f2cf.png
 gg4.png: gg4-e6b2115f006e1360c40081c28b750fd3.png
 ggg.png: ggg-84477c761a59d028b548a78e938c94a8.png
-ggg_m.png: ggg_m-9402bd9268a2692b297339c86a4a7e62.png
+ggg_m.png: ggg_m-f0a8abfcd706cc5e1b1ef6345ec6e058.png
 globe.gif: globe-9f4d06552e0a802ed8182815496a11ea.gif
 globe_move.gif: globe_move-1d646a540580f1f4dae45bbb00f19d9e.gif
 green_tree3.gif: green_tree3-e9cfb383e72cee02a1efa4851f8360e0.gif
@@ -46,6 +46,7 @@ investec.png: investec-c4f8ef45eaba229c40ee013a0313e89a.png
 investec_m.png: investec_m-cc4c7022e2a0217c4ccc12db004ea7c3.png
 ledger.png: ledger-320f4ea8b277cfd4fc02dc864c7d44c5.png
 logo_small.png: logo_small-4744dd415684e16ff4a74573ce9f840f.png
+play_m.png: play_m-8c4ea870f2825fd4723db3362b274c6d.png
 print.png: print-ae0af0aecffc2609b1aa7b9741b6496a.png
 quotel.png: quotel-8707e198de8ecd75e05d62c63c93b955.png
 quoter.png: quoter-02d87f295c41e0fbdf2fe33bffa6fe60.png
@@ -88,5 +89,5 @@ all/video_slider/light-square/images/buttons_small.png: all/video_slider/light-s
 all/video_slider/light-square/images/playpause.png: all/video_slider/light-square/images/playpause-0668a46881bfe76e4c4b5347039a2df6.png
 application-all.css: application-all-4f427adbf2447f2efb1fe4d9d779ad11.css
 application-ie.css: application-ie-a94a2bac88abc73d4665b9d34825c0f7.css
-application-mobile.css: application-mobile-7f119dd41e87dd2053856588fdae13f4.css
+application-mobile.css: application-mobile-621f4f5d2c79f320a6bcec17708daf3f.css
 application-print.css: application-print-1b8aa340e353f13bcbbaa7412301bdb0.css
