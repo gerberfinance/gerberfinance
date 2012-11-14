@@ -12,18 +12,20 @@
 	<div id="header"><img src="/assets/Logo.png" class="logo" alt="logo"/>
 	<img src="/assets/gerberfinance.png" alt="gerberfinance"/></div>
 	
+<table class="mobile_menu">
+<td>
 <div id="AccordionContainer" class="AccordionContainer">
 
   <div onclick="runAccordion(1);">
-    <div class="AccordionTitle" onselectstart="return false;">
+    <div class="AccordionTitle" id="Accordion1Title" onselectstart="return false;">
       about us
     </div>
   </div>
   <div id="Accordion1Content" class="AccordionContent">
     Founded in 1995 by Gerald Joseph, Gerber Finance is the product of a joint venture between 
-	<img src="/assets/investec.png" value="Investec">, a member of the London Stock Exchange and the 
-	<img src="/assets/ggg.png" value="Gerber Goldschmidt Group">, a leading international trading 
-	and investment company since 1921.<br>
+	<img src="/assets/investec.png" alt="Investec">, a member of the London Stock Exchange and the 
+	<img src="/assets/ggg.png" alt="Gerber Goldschmidt Group">, a leading international trading 
+	and investment company since 1921.<br><br>
 	
 	We provide businesses with credit lines from $500,000 to $10 million and specialize in financing
 	the growth of importers, distributors and manufacturers across a wide range of industries. Our 
@@ -32,25 +34,30 @@
   </div>
 
   <div onclick="runAccordion(2);">
-    <div class="AccordionTitle" onselectstart="return false;">
+    <div class="AccordionTitle" id="Accordion2Title" onselectstart="return false;">
       client testimonials
     </div>
   </div>
   <div id="Accordion2Content" class="AccordionContent">
-			<p>Current Clients</p>
-			<img class="thumbnail" src="/assets/video_thumbs/drew_estate.png" alt="Drew Estates"/>
-  			<img class="thumbnail" src="/assets/video_thumbs/schofield.png" alt="Schofield"/>
-  			<img class="thumbnail" src="/assets/video_thumbs/paramount.png" alt="Paramount"/>
-  			<img class="thumbnail" src="/assets/video_thumbs/pilgrim.png" alt="Pilgrim"/>
-
-			<p>Previous Clients</p>
-			<img class="thumbnail" src="/assets/video_thumbs/le_mystere.png" alt="Le Mystere"/>
-  			<img class="thumbnail" src="/assets/video_thumbs/thro.png" alt="Thro"/>
-  			<img class="thumbnail" src="/assets/video_thumbs/ocean_potion.png" alt="Ocean Potion"/>
+		<table class="video_table">	
+			<td>	
+				<p class="video_text">Current Clients</p>
+				<a href="http://player.vimeo.com/video/50240566?api=1&portrait=0&byline=0&autoplay=0&title=0"><img class="mobile_thumbnail" src="/assets/video_thumbs/drew_estate.png" alt="Drew Estates"/></a>
+  				<img class="mobile_thumbnail" src="/assets/video_thumbs/schofield.png" alt="Schofield"/>
+  				<img class="mobile_thumbnail" src="/assets/video_thumbs/paramount.png" alt="Paramount"/>
+  				<img class="mobile_thumbnail" src="/assets/video_thumbs/pilgrim.png" alt="Pilgrim"/>
+			</td>
+			<td style="padding-left:100px">	
+				<p class="video_text">Previous Clients</p>
+				<img class="mobile_thumbnail" src="/assets/video_thumbs/le_mystere.png" alt="Le Mystere"/>
+  				<img class="mobile_thumbnail" src="/assets/video_thumbs/thro.png" alt="Thro"/>
+  				<img class="mobile_thumbnail" src="/assets/video_thumbs/ocean_potion.png" alt="Ocean Potion"/>
+  			</td>
+  		</table>	
   </div>
 
   <div onclick="runAccordion(3);">
-    <div class="AccordionTitle" onselectstart="return false;">
+    <div class="AccordionTitle" id="Accordion3Title" onselectstart="return false;">
       get inside your lender's head
     </div>
   </div>
@@ -59,7 +66,7 @@
   </div>
 
   <div onclick="runAccordion(4);">
-    <div class="AccordionTitle" onselectstart="return false;">
+    <div class="AccordionTitle" id="Accordion4Title" onselectstart="return false;">
       contact us
     </div>
   </div>
@@ -67,16 +74,9 @@
     I Am Accordion 4.
   </div>
 
-  <div onclick="runAccordion(5);">
-    <div class="AccordionTitle" onselectstart="return false;">
-      ??
-    </div>
-  </div>
-  <div id="Accordion5Content" class="AccordionContent">
-    I Am Accordion 5.
-  </div>
-
 </div>
+</td>
+</table>
   <% if mobile_device? %>
     <%= link_to "Full Site", :mobile => 0 %>
   <% else %>

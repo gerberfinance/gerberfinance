@@ -1,4 +1,4 @@
-var ContentHeight = 200;
+var ContentHeight = 320;
 var TimeToSlide = 250.0;
 
 var openAccordion = '';

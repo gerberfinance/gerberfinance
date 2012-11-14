@@ -1,8 +1,8 @@
 body{
-background-image: -o-radial-gradient(left bottom, ellipse farthest-corner, #161616 0%, #000000 100%);
-background-image: -webkit-gradient(radial, left bottom, 0, left bottom, 994, color-stop(0, #161616), color-stop(1, #000000));
-height:1000px;
+
+height:100%;
 margin:0px;
+width:100%;
 }
 
 img.logo{
@@ -13,45 +13,70 @@ img.logo{
 #header {
 	margin:10px 0px 30px 20px;
 }
+
+.mobile_menu {
+	left:50%;
+	background: #161616;
+	border:solid 1px #727272;
+	-webkit-border-radius: 20px;
+	-khtml-border-radius: 20px;	
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	margin-left: auto;
+    margin-right: auto;
+    width:16em;
+    	
+}
 	
-.AccordionTitle, .AccordionContainer
+.AccordionTitle, .AccordionContainer 
 {
-  position:relative;
-  width:100%;
-  border:none;
+ 	 position:relative;
 }
 
 .AccordionTitle
 {
-  height:80px;
-  overflow:hidden;
-  cursor:pointer;
-  font-family:Arial;
-  font-size:40pt;
-  font-weight:bold;
-  vertical-align:middle;
-  text-align:center;
-  background-repeat:repeat-x;
-  background-image:url('/assets/button_bg.png');
-  -moz-user-select:none;
-  color:#fff;
-  padding-top:20px;
-  padding-bottom:20px;
+  	height:80px;
+  	overflow:hidden;
+  	cursor:pointer;
+	font-family:Arial;
+ 	font-size:40pt;
+ 	vertical-align:middle;
+ 	text-align:center;
+	-moz-user-select:none;
+ 	color:#fff;
+ 	padding:20px;
+ 	width:16em;
+  
   
 }
+
+#Accordion2Title, #Accordion3Title, #Accordion4Title {
+	 	border-top:solid 1px #727272;
+	}
 
 .AccordionContent
 {
   height:0px;
   overflow:auto;
   display:none;
-  background:#1f1f1f;
+  background:#000;
   color:#fff;
-  font-size:30px;
-  padding:20px 40px 20px 20px;
-}
+  font-size:24px;
+  font-family:Arial;
+  padding:20px;
+  line-height:28px;
+  letter-spacing:2px;
+  }
 
 .AccordionContainer
-{
-  
-}	
+{}
+
+p.video_text {
+	text-align:center;}
+
+.video_table {
+	margin:auto;}
+	
+.mobile_thumbnail {
+  padding:5px;}	
+	
