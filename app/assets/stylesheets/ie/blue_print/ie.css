@@ -35,4 +35,5 @@
 	
 .content {
 	margin: -800px 0 0 400px !important;
-	position: absolute !important;}
+	position: absolute !important;
+	display:inline !important;}
