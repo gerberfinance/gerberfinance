@@ -5,10 +5,10 @@ if ( (navigator.userAgent.match(/iPhone/i))
    || (navigator.userAgent.match(/iPod/i) ) 
    || (navigator.userAgent.match(/iPad/i))) 
 {
-      $(".horizontalaccordion ul li h3").on('touchstart', function(){ 
+      $(".horizontalaccordion > ul > li > h3").on('touchstart', function(){ 
            console.log("touch started");
       });
-      $(".horizontalaccordion ul li h3").on('touchend', function(){
+      $(".horizontalaccordion > ul > li > h3").on('touchend', function(){
            console.log("touch ended");
       });
 }
