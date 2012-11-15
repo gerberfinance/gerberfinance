@@ -1,17 +1,45 @@
 <script type="text/javascript">
-//ipad and iphone fix
-// using jQuery 1.7.x (on method instead bind)
-if ( (navigator.userAgent.match(/iPhone/i)) 
-   || (navigator.userAgent.match(/iPod/i) ) 
-   || (navigator.userAgent.match(/iPad/i))) 
-{
-      $(".horizontalaccordion>ul>li").on('touchstart', function(){ 
-           console.log("touch started");
-      });
-      $(".horizontalaccordion>ul>li").on('touchend', function(){
-           console.log("touch ended");
-      });
+// <![CDATA[
+var timeout    = 500;
+var closetimer = 500;
+var ddmenuitem = 0;
+
+function horizontalaccordion_open(obj){
+    horizontalaccordion_canceltimer();
+       horizontalaccordion_close();
+       horizontalaccordionitem = $(obj).find('ul').css('visibility', 'visible');
 }
+
+function horizontalaccordion_close(){
+    if(horizontalaccordionitem) ddmenuitem.css('visibility', 'hidden');
+}
+
+function horizontalaccordion_timer(){
+    closetimer = window.setTimeout(horizontalaccordion_close, timeout);
+}
+
+function horizontalaccordion_canceltimer(){
+    if(closetimer){
+        window.clearTimeout(closetimer);
+            closetimer = null;
+}}
+
+var toggle_clicked = false;
+function ddmenu_toggle(){
+    if(toggle_clicked) {
+        toggle_clicked = false;
+        horizontalaccordion_timer(this);
+    } else {
+        toggle_clicked = true;
+        horizontalaccordion_open(this);
+    }
+}
+
+$(document).ready(function(){
+    $('#horizontalaccordion > li').bind('click', horizontalaccordion_toggle);
+});
+
+//document.onclick = ddmenu_close;​
 </script>
 <img src="/assets/text/profiles.png" class="profiles"/>
 <div class="horizontalaccordion">
