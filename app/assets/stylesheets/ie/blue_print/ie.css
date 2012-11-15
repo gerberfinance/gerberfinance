@@ -34,4 +34,5 @@
 	margin-right: 1px !important;}
 	
 .content {
-	float:right !important;}
+	margin: -800px 0 0 400px !important;
+	position: absolute !important;}
