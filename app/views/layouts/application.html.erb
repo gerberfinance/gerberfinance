@@ -9,6 +9,42 @@
 	<%= javascript_include_tag "application-all", :media => "all" %>
 	<%= csrf_meta_tags %>
 	<%= analytics_init if Rails.env.production? %>    
+<!--[if IE]>
+/*
+ * The following two rules are for IE only and
+ * should be wrapped in conditional comments.
+ * The -ms-filter rule should be on one line 
+ * and always *before* the filter rule if
+ * used in the same rule.
+ */
+
+.content div {
+
+   /* IE8+ - must be on one line, unfortunately */ 
+   -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=1, M12=0, M21=0, M22=1, SizingMethod='auto expand')";
+   
+   /* IE6 and 7 */ 
+   filter: progid:DXImageTransform.Microsoft.Matrix(
+            M11=1,
+            M12=0,
+            M21=0,
+            M22=1,
+            SizingMethod='auto expand');
+
+
+   /*
+    * To make the transform-origin be the middle of
+    * the object.    Note: These numbers
+    * are approximations.  For more accurate results,
+    * use Internet Explorer with this tool.
+    */
+   margin-left: 47px; 
+   margin-top: -557px;
+
+} 
+
+<![endif]-->
+
 <!--[if gte IE 5]>
     <%= stylesheet_link_tag "application-ie", :media => "all" %>
 <![endif]-->	
