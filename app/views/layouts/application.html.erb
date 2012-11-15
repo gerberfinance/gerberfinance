@@ -10,8 +10,16 @@
 	<%= stylesheet_link_tag "application-print", :media => "print" %>
 	<%= javascript_include_tag "application-all", :media => "all" %>
 	<%= csrf_meta_tags %>
-		<%= analytics_init if Rails.env.production? %>    <%= stylesheet_link_tag "application-ie", :media => "all" %>
-
+	<%= analytics_init if Rails.env.production? %>    <%= stylesheet_link_tag "application-ie", :media => "all" %>
+<!--[if lt IE 7]>
+<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE7.js"></script>
+<![endif]-->
+<!--[if lt IE 8]>
+<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE8.js"></script>
+<![endif]-->
+<!--[if lt IE 9]>
+<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
+<![endif]-->
 	<meta name = "viewport" content = "user-scalable = no">
 </head>
 <body class="layout">
