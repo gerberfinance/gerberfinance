@@ -3,8 +3,9 @@
 	top:0px;
 	padding:0;
 	margin:0;
-	min-width:1030px;
-	max-width:1030px;}
+	min-width:800px;
+	max-width:1030px;
+	min-height: 460px;}
 	
 p.title{font-weight:bold;
 		color:#000;
@@ -22,7 +23,7 @@ img.profile{
 .tabs {
     position: relative;
 	margin: 10px auto;
-	width: 1050px;
+	width: 950px;
 }
 
 .tabs input {
