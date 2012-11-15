@@ -34,10 +34,13 @@
 	margin-right: 1px !important;}
 	
 .content {
+	top:0 !important;
+	float:right important;
 	margin: -800px 0 0 400px !important;
 	display:inline !important;}
 
 .tabs {
+	float:left: important;
 	position: absolute !important;
 	display:inline !important;
 }
