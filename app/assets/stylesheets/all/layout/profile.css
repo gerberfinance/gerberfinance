@@ -17,13 +17,12 @@ p.contact{border:none !important;}
 img.profile{
 }
 
-
 /**/
 
 .tabs {
     position: relative;
-	margin: 40px auto;
-	width: 1150px;
+	margin: 10px auto;
+	width: 1050px;
 }
 
 .tabs input {
@@ -126,17 +125,17 @@ img.profile{
     background: #fff;
 	position: relative;
     width: auto;
-	margin: -200px 0 0 120px;
+	margin: -200px 0 0 100px;
 	height: 400px;
 	z-index: 6;
 	overflow: hidden;
-    border-radius: 3px;
+    border:none !important;
 }
 
 .content div {
     position: absolute;
 	top: 0;
-	padding: 0px 40px;
+	padding: 0px 10px;
 	z-index: 1;
     opacity: 0;
     -webkit-transition: all linear 0.5s;
@@ -190,3 +189,4 @@ img.profile{
 	padding-left: 15px;
 	font-family: century gothic, arial, helvetica, sans-serif;
 }
+
