@@ -147,22 +147,12 @@ img.profile{
 }
 
 .content div{
-	
-	
-  
-  
    -webkit-transform: translateY(-450px);
 	-moz-transform: translateY(-450px);
 	-o-transform: translateY(-450px);
 	-ms-transform: translateY(-450px);
 	transform: translateY(-450px);
-	-ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=1, M12=0, M21=0, M22=1, SizingMethod='auto expand')";
-    filter: progid:DXImageTransform.Microsoft.Matrix(
-            M11=1,
-            M12=0,
-            M21=0,
-            M22=1,
-            SizingMethod='auto expand');
+	
 }
 
 .tabs input.tab-selector-1:checked ~ .content .content-1,
@@ -184,7 +174,28 @@ img.profile{
     -o-transition: all ease-out 0.3s 0.3s;
     -ms-transition: all ease-out 0.3s 0.3s;
     transition: all ease-out 0.3s 0.3s;
-}
+/* IE8+ - must be on one line, unfortunately */ 
+   -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=1, M12=0, M21=0, M22=1, SizingMethod='auto expand')";
+   
+   /* IE6 and 7 */ 
+   filter: progid:DXImageTransform.Microsoft.Matrix(
+            M11=1,
+            M12=0,
+            M21=0,
+            M22=1,
+            SizingMethod='auto expand');
+
+
+   /*
+    * To make the transform-origin be the middle of
+    * the object.    Note: These numbers
+    * are approximations.  For more accurate results,
+    * use Internet Explorer with this tool.
+    */
+   margin-left: -3px; 
+   margin-top: -3px;
+
+} 
 
 .content div h2,
 .content div h3{
