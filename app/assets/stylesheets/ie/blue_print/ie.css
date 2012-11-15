@@ -33,5 +33,9 @@
 	margin-left: 1px !important;
 	margin-right: 1px !important;}
 
+#profiles {
+	min-height:300px !important;
+	}
+
 .content {
  	margin-left: 225px !important;}
