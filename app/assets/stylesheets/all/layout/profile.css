@@ -152,6 +152,7 @@ img.profile{
 	-o-transform: translateY(-450px);
 	-ms-transform: translateY(-450px);
 	transform: translateY(-450px);
+	-ms-transform: translate (100px -450px);
 }
 
 .tabs input.tab-selector-1:checked ~ .content .content-1,
