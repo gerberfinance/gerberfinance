@@ -33,5 +33,5 @@
 	margin-left: 1px !important;
 	margin-right: 1px !important;}
 	
-.tabs input:hover + label {
-	width: 180px !important; }
+.content {
+	margin: -1100px 0 0 400px !important;}
