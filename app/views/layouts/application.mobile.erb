@@ -41,94 +41,19 @@
   <div id="Accordion2Content" class="AccordionContent">
 		<table class="video_table">	
 			<td>	
-			<script type="text/javascript">
-    jQuery(document).ready(function($){
-        $('#video-slider').advancedSlider({width: 420,
-										   height: 460,
-										   scaleType: 'outsideFit',
-										   skin: 'light-square',
-										   effectType: 'fade',
-										   pauseSlideshowOnHover: true,
-										   leaveVideoAction: 'pauseVideo',
-										   videoPlayAction: 'pauseSlideshow',
-										   shadow: true,
-										   overrideTransition: false,
-										   keyboardNavigation: true,
-										   timerStrokeColor1: '#ffffff', 
-										   timerStrokeColor2: '#000000', 
-										   timerStrokeOpacity1: 0.3, 
-										   timerStrokeOpacity2: 0.3, 
-										   timerStrokeWidth1: 6, 
-										   timerStrokeWidth2: 3,
-										   slideButtons: false,
-										   thumbnailType: 'scroller',
-										   thumbnailButtons: true,
-										   thumbnailScrollerResponsive: true,
-										   thumbnailWidth: '80',
-										   thumbnailHeight: '80',
-										   thumbnailArrows: false,
-										   minimumVisibleThumbnails: 4,
-										   slideArrows: false,
-										   slideshowDelay: 10000,
-										   slideProperties: {
-												1: {effectType: 'slide', slideEasing: 'easeInOutExpo'},
-												2: {effectType: 'slide', slideEasing: 'easeInOutExpo'},
-												3: {effectType: 'slide', slideEasing: 'easeInOutExpo'},
-												4: {effectType: 'slide', slideEasing: 'easeInOutExpo'}
-										   }
-										   });
-	});
-</script>
+				<p class="video_text"></p>
+			<iframe class="video" src="http://player.vimeo.com/video/50240566?api=1&portrait=0&byline=0&autoplay=0&title=0" width="130" height="130" frameborder="0" style="opacity:0; position:absolute; top: 240px; left: 160px; z-index: 3;"></iframe>
+    		<iframe class="video" src="http://player.vimeo.com/video/50093564?api=1&portrait=0&byline=0&autoplay=0&title=0" width="130" height="130" frameborder="0" style="opacity:0; position:absolute; top: 240px; right: 160px; z-index: 3;"></iframe>
+			<iframe class="video" src="http://player.vimeo.com/video/50084705?api=1&portrait=0&byline=0&autoplay=0&title=0" width="130" height="130" frameborder="0" style="opacity:0; position:absolute; top: 420px; left: 160px; z-index: 3;"></iframe>
+    		<iframe class="video" src="http://player.vimeo.com/video/50084704?api=1&portrait=0&byline=0&autoplay=0&title=0" width="130" height="130" frameborder="0" style="opacity:0; position:absolute; top: 420px; right: 160px; z-index: 3;"></iframe>
 
-
-
-<div id="current_client_video">
-<div class="advanced-slider" id="video-slider">
-    <ul class="slides">
-		<li class="slide">
-  			<div class="html">
-    			<iframe class="video" src="http://player.vimeo.com/video/50240566?api=1&portrait=0&byline=0&autoplay=0&title=0" width="400" height="260" frameborder="0"></iframe>
-  			</div>
-  			<img class="thumbnail" src="/assets/video_thumbs/drew_estate.png" alt="Drew Estates"/>
-		</li>
-		<li class="slide">
-  			<div class="html">
-    			<iframe class="video" src="http://player.vimeo.com/video/50093564?api=1&portrait=0&byline=0&autoplay=0&title=0" width="400" height="260" frameborder="0"></iframe>
-  			</div>
-  			<img class="thumbnail" src="/assets/video_thumbs/schofield.png" alt="Schofield"/>
-		</li>
-		<li class="slide">
-  			<div class="html">
-    			<iframe class="video" src="http://player.vimeo.com/video/50084705?api=1&portrait=0&byline=0&autoplay=0&title=0" width="400" height="260" frameborder="0"></iframe>
-  			</div>
-  			<img class="thumbnail" src="/assets/video_thumbs/paramount.png" alt="Paramount"/>
-		</li>
-		<li class="slide">
-  			<div class="html">
-    			<iframe class="video" src="http://player.vimeo.com/video/50084704?api=1&portrait=0&byline=0&autoplay=0&title=0" width="400" height="260" frameborder="0"></iframe>
-  			</div>
-  			<img class="thumbnail" src="/assets/video_thumbs/pilgrim.png" alt="Pilgrim"/>
-		</li>
-		
-    </ul>
-</div>
-</div>
-				
-				
-				<a href="http://player.vimeo.com/video/50240566?api=1&portrait=0&byline=0&autoplay=1&title=0">
-					<img class="mobile_thumbnail" src="/assets/video_thumbs/drew_estate.png" alt="Drew Estates"/></a>
-  				<a href="http://player.vimeo.com/video/50093564?api=1&portrait=0&byline=0&autoplay=1&title=0">
-  					<img class="mobile_thumbnail" src="/assets/video_thumbs/schofield.png" alt="Schofield"/></a><br>
-  				<a href="http://player.vimeo.com/video/50084705?api=1&portrait=0&byline=0&autoplay=1&title=0">
-  					<img class="mobile_thumbnail" src="/assets/video_thumbs/paramount.png" alt="Paramount"/></a>
-  				<a href="http://player.vimeo.com/video/50084704?api=1&portrait=0&byline=0&autoplay=1&title=0">
-  					<img class="mobile_thumbnail" src="/assets/video_thumbs/pilgrim.png" alt="Pilgrim"/></a>
+			<div><img class="mobile_drew" src="/assets/video_thumbs/drew_estate.png" alt="Drew Estates" style="position:absolute; top: 240px; left: 160px; z-index: 1;"/></div> 
+  			<div><img class="mobile_schofield" src="/assets/video_thumbs/schofield.png" alt="Schofield" style="position:absolute; top: 240px; right: 160px; z-index: 1;"/></div> 
+  			<div><img class="mobile_paramount" src="/assets/video_thumbs/paramount.png" alt="Paramount" style="position:absolute; top: 420px; left: 160px; z-index: 1;"/></div> 
+			<div><img class="mobile_pilgrim" src="/assets/video_thumbs/pilgrim.png" alt="Pilgrim" style="position:absolute; top: 420px; right: 160px; z-index: 1;"/></div> 
 			</td>
-			
   		</table>
-  			
   </div>
-
   <div onclick="runAccordion(3);">
     <div class="AccordionTitle" id="Accordion3Title" onselectstart="return false;">
       get inside your lender's head
