@@ -71,7 +71,7 @@ p.video_text {
 	margin:auto;}
 	
 .video:hover {
-	opacity: .2 !important;
+	opacity: 1 !important;
 	-webkit-box-shadow: 1 12px 10px 10px white;
 	-moz-box-shadow: 1 12px 10px 10px white;
 	box-shadow: 1 12px 10px 10px white;}
