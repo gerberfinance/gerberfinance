@@ -74,7 +74,7 @@ p.video_text {
 	opacity:1 !important;
 	border:6px solid white !important; }
 	
-img.mobile_drew, .mobile_schofield, .mobile_paramount, .mobile_pilgrim {padding:5px;
+img.mobile_drew, img.mobile_schofield, img.mobile_paramount, img.mobile_pilgrim {
     width: 130px;
     height: 130px;
 	-webkit-box-shadow: 0 8px 6px -6px black;
