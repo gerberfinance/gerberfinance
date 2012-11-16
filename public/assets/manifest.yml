@@ -90,5 +90,5 @@ all/video_slider/light-square/images/buttons_small.png: all/video_slider/light-s
 all/video_slider/light-square/images/playpause.png: all/video_slider/light-square/images/playpause-0668a46881bfe76e4c4b5347039a2df6.png
 application-all.css: application-all-afc0a0ae125252b07e27a4eadf8ffc2e.css
 application-ie.css: application-ie-fb859f5b7b21552df6a1e340d8e77791.css
-application-mobile.css: application-mobile-3587217c573683cb392f012b7547e3a1.css
+application-mobile.css: application-mobile-f209c4c39aaf5ff937ec2b46bc11d30c.css
 application-print.css: application-print-1b8aa340e353f13bcbbaa7412301bdb0.css

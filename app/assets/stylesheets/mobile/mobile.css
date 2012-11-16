@@ -70,7 +70,7 @@ p.video_text {
 .video_table {
 	margin:auto;}
 	
-.mobile_drew, .mobile_schofield, .mobile_paramount, .mobile_pilgrim {
+img.mobile_drew, .mobile_schofield, .mobile_paramount, .mobile_pilgrim {
     padding:5px;
     width: 130px;
     height: 130px;
@@ -78,25 +78,25 @@ p.video_text {
 	-moz-box-shadow: 0 8px 6px -6px black;
 	box-shadow: 0 8px 6px -6px black;}
 
-.mobile_drew {
+img.mobile_drew {
 	position:absolute; 
 	top: 240px; 
 	left: 160px; 
 	z-index: 1;}
 
-.mobile_schofield {
+img.mobile_schofield {
 	position:absolute; 
 	top: 240px; 
 	right: 160px; 
 	z-index: 1;}
 
-.mobile_paramount {
+img.mobile_paramount {
 	position:absolute; 
 	top: 420px; 
 	left: 160px; 
 	z-index: 1;}
 
-.mobile_pilgrim {
+img.mobile_pilgrim {
 	position:absolute; 
 	top: 420px; 
 	right: 160px; 
