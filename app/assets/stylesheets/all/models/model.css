@@ -55,7 +55,19 @@ img.popup_calc {
 	border-top-right-radius:10px;
 	-moz-border-radius-topleft:10px;
 	-moz-border-radius-topright:10px;
-	padding-bottom:0px;}	
+	padding-bottom:0px;}
+	
+#header_calculator {
+	position:absolute;
+	height: 80px;
+	width:99%;
+	background: url(/assets/grey.png) repeat-x;
+	top:0;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	-moz-border-radius-topleft:10px;
+	-moz-border-radius-topright:10px;
+	padding-bottom:0px;}		
 		
 .calc_body {
 	background:url(/assets/calc_p.png) top right no-repeat;
