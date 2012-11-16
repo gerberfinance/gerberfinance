@@ -73,8 +73,13 @@ p.video_text {
 .video:hover {
 	opacity:1 !important;
 	border:6px solid white !important; }
-
-img.mobile_drew, .mobile_schofield, .mobile_paramount, .mobile_pilgrim {	}
+	
+img.mobile_drew, .mobile_schofield, .mobile_paramount, .mobile_pilgrim {padding:5px;
+    width: 130px;
+    height: 130px;
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	-moz-box-shadow: 0 8px 6px -6px black;
+	box-shadow: 0 8px 6px -6px black;}	
 
 img.mobile_drew {
 	position:absolute; 
