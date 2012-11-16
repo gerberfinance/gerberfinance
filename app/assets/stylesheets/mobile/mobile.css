@@ -200,21 +200,21 @@ img.play{
 .video_beyond1 {
 	opacity:0; 
 	position:absolute; 
-	top: 515px; 
+	top: 490px; 
 	left: 120px; 
 	z-index: 3;}
 
 .video_beyond2 {
 	opacity:0; 
 	position:absolute; 
-	top: 515px; 
+	top: 490px; 
 	left: 400px; 
 	z-index: 3;}
 
 .video_beyond3 {
 	opacity:0; 
 	position:absolute; 
-	top: 515px; 
+	top: 490px; 
 	left: 680px; 
 	z-index: 3;}
 	
@@ -230,19 +230,19 @@ img.play_m1, img.play_m2, img.play_m3 {
 
 img.play_m1 {
 	position:absolute; 
-	top: 515px; 
+	top: 490px; 
 	left: 120px; 
 	z-index: 1;}	
 
 img.play_m2 {
 	position:absolute; 
-	top: 515px; 
+	top: 490px; 
 	left: 400px; 
 	z-index: 1;}
 
 img.play_m3 {
 	position:absolute; 
-	top: 515px; 
+	top: 490px; 
 	left: 680px; 
 	z-index: 1;}
 	
