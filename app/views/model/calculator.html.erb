@@ -2,9 +2,7 @@
 <html>
 <head>
   <title>Top 10 Questions to Ask Your Lender</title>
-<!--[if gte IE 5]>
-      <link rel="stylesheet" type="text/css" href="/assets/text/ie_style.css" />
-	<![endif]-->
+
 <link href="/assets/all/layout/stylesheet.css.scss?body=1" media="all" rel="stylesheet" type="text/css" />
 <link href="/assets/all/layout/drop_down.css?body=1" media="all" rel="stylesheet" type="text/css" />
 <link href="/assets/all/layout/footer.css?body=1" media="all" rel="stylesheet" type="text/css" />
@@ -18,16 +16,16 @@
 <link href="/assets/print/print_stylesheet.css?body=1" media="print" rel="stylesheet" type="text/css" />
 <link href="/assets/application-mobile.css?body=1" media="mobile" rel="stylesheet" type="text/css" />
 <link href="/assets/mobile/mobile.css?body=1" media="mobile" rel="stylesheet" type="text/css" /><script src="/assets/jquery.js?body=1" type="text/javascript"></script>
-<script src="/assets/jquery_ujs.js?body=1" type="text/javascript"></script>
-<script src="/assets/calc.js?body=1" type="text/javascript"></script>
-<script src="/assets/contact.js?body=1" type="text/javascript"></script>
-<script src="/assets/currency.js?body=1" type="text/javascript"></script>
-<script src="/assets/froogaloop.min.js?body=1" type="text/javascript"></script>
-<script src="/assets/packed.js?body=1" type="text/javascript"></script>
-<script src="/assets/static_pages.js?body=1" type="text/javascript"></script>
-<script src="/assets/tinybox.js?body=1" type="text/javascript"></script>
-<script src="/assets/video.min.js?body=1" type="text/javascript"></script>
-<script src="/assets/vimeo_fix.js?body=1" type="text/javascript"></script>
+<script src="/assets/all/jquery_ujs.js?body=1" type="text/javascript"></script>
+<script src="/assets/all/calc.js?body=1" type="text/javascript"></script>
+<script src="/assets/all/contact.js?body=1" type="text/javascript"></script>
+<script src="/assets/all/currency.js?body=1" type="text/javascript"></script>
+<script src="/assets/all/froogaloop.min.js?body=1" type="text/javascript"></script>
+<script src="/assets/all/packed.js?body=1" type="text/javascript"></script>
+<script src="/assets/all/static_pages.js?body=1" type="text/javascript"></script>
+<script src="/assets/all/tinybox.js?body=1" type="text/javascript"></script>
+<script src="/assets/all/video.min.js?body=1" type="text/javascript"></script>
+<script src="/assets/all/vimeo_fix.js?body=1" type="text/javascript"></script>
 <meta content="authenticity_token" name="csrf-param" />
 <meta content="1hKfo11LHCit8zIUYYTAwfr1mRxczDsTqWNvItm7FJ0=" name="csrf-token" />
 <!--[if gte IE 5]>
@@ -38,7 +36,7 @@
 </head>
 <body class="popups">
 <div id="header_popups" style="width:98%;">
-	<img src="/assets/text/calculator.png" class="popup" alt="finance calculator"/>
+	<img src="/assets/text/calculator.png" class="popup_calc" alt="finance calculator"/>
 </div>
 <div class="calc_body">
 </head>
@@ -101,42 +99,42 @@
               <tbody>
                 <tr>
                   <td align="left" width="900"><span class="style5">It's really very simple. With existing funding, total resources are </span></td>
-                      <td align="left" width="91"><input name="Input2" class="calcSum" id="txtTotalResources" onblur="this.value=formatCurrency(this.value);UpdateFiles();" value="1,750,000" size="10" readonly="readOnly" tabindex="11" /></td>
+                      <td align="left" width="91"><input name="Input2" class="calcSum" id="txtTotalResources" onblur="this.value=formatCurrency(this.value);UpdateFiles();" value="0" size="10" readonly="readOnly" tabindex="11" /></td>
                     </tr>
                 <tr>
                   <td width="900" align="left" class="style5">With a trade cycle of </td>
-                      <td align="right"><input name="Input2" class="calcSum" id="txtTradeCycle2" value="90" size="10" readonly="readOnly" tabindex="12" /></td>
+                      <td align="right"><input name="Input2" class="calcSum" id="txtTradeCycle2" value="0" size="10" readonly="readOnly" tabindex="12" /></td>
                       <td width="120" align="left" class="style5" style="font-size:9px;">&nbsp; days</td>
                     </tr>
                 <tr>
                   <td width="459" align="left" class="style5">Funds can be turned </td>
-                      <td align="right"><input name="Input2" class="calcSum" id="txtOverallAvlblCash" onblur="this.value=formatCurrency(this.value);UpdateFiles();" value="4" size="10" readonly="readOnly" tabindex="13" /></td>
+                      <td align="right"><input name="Input2" class="calcSum" id="txtOverallAvlblCash" onblur="this.value=formatCurrency(this.value);UpdateFiles();" value="0" size="10" readonly="readOnly" tabindex="13" /></td>
                       <td align="left" class="style5" style="font-size:9px;">&nbsp; times per year </td>
                     </tr>
                 <tr>
                   <td width="459" align="left" class="style5">At a gross of</td>
-                      <td align="right"><input name="Input2" class="calcSum" id="txtGrossMargin" onblur="this.value=formatCurrency(this.value);UpdateFiles();" value="20" size="10" readonly="readOnly" tabindex="14" /></td>
+                      <td align="right"><input name="Input2" class="calcSum" id="txtGrossMargin" onblur="this.value=formatCurrency(this.value);UpdateFiles();" value="0" size="10" readonly="readOnly" tabindex="14" /></td>
                     </tr>
                 <tr>
                   <td width="459" align="left" class="style5" style="height: 30px;">Sales of</td>
-                      <td style="height: 30px;" align="right"><input name="Input2" class="calcSum" id="txtTotalSales" onblur="this.value=formatCurrency(this.value);UpdateFiles();" value="8,750,000" size="10" readonly="readOnly" tabindex="15" /></td>
+                      <td style="height: 30px;" align="right"><input name="Input2" class="calcSum" id="txtTotalSales" onblur="this.value=formatCurrency(this.value);UpdateFiles();" value="0" size="10" readonly="readOnly" tabindex="15" /></td>
                       <td align="left" class="style5" style="font-size:9px;">&nbsp; could be generated</td>
                     </tr>
                 <tr>
                   <td width="459" align="left" class="style5">Gross Profit would be</td>
-                      <td align="right"><input name="Input2" class="calcSum" id="txtGrossProfit" onblur="this.value=formatCurrency(this.value);UpdateFiles();" value="1,750,000" size="10" readonly="readOnly" tabindex="16" /></td>
+                      <td align="right"><input name="Input2" class="calcSum" id="txtGrossProfit" onblur="this.value=formatCurrency(this.value);UpdateFiles();" value="0" size="10" readonly="readOnly" tabindex="16" /></td>
                     </tr>
                 <tr>
                   <td width="459" align="left" class="style5">Less Expenses of </td>
-                      <td align="right"><input name="Input22" class="calcSum" id="txtAnnualExpence" onblur="this.value=formatCurrency(this.value);UpdateFiles();" value="(1,500,000)" size="10" readonly="readOnly" tabindex="17" /></td>
+                      <td align="right"><input name="Input22" class="calcSum" id="txtAnnualExpence" onblur="this.value=formatCurrency(this.value);UpdateFiles();" value="0" size="10" readonly="readOnly" tabindex="17" /></td>
                     </tr>
                 <tr>
                   <td width="459" align="left" class="style5">And less interest of</td>
-                      <td align="right"><input name="Input2" class="calcSum" id="txtInterestCost" onblur="this.value=formatCurrency(this.value);UpdateFiles();" value="(112,500)" size="10" readonly="readOnly" tabindex="18" /></td>
+                      <td align="right"><input name="Input2" class="calcSum" id="txtInterestCost" onblur="this.value=formatCurrency(this.value);UpdateFiles();" value="0" size="10" readonly="readOnly" tabindex="18" /></td>
                     </tr>
                 <tr>
                   <td width="459" align="left" class="style5">Net profit will be</td>
-                      <td align="right"><input name="Input2" class="calcSum" id="txtNetProfit" onblur="this.value=formatCurrency(this.value);UpdateFiles();" value="137,500" size="10" readonly="readOnly" tabindex="19" /></td>
+                      <td align="right"><input name="Input2" class="calcSum" id="txtNetProfit" onblur="this.value=formatCurrency(this.value);UpdateFiles();" value="0" size="10" readonly="readOnly" tabindex="19" /></td>
                     </tr>
                 </tbody>
               </table>
@@ -186,24 +184,24 @@
               <tbody>
                 <tr>
                   <td width="462" align="left" class="style5">Under the new funding arrangement, additional availibility is</td>
-                      <td align="right"><input name="Input2" class="calcSum" id="txtAdditionAval" onblur="this.value=formatCurrency(this.value);UpdateFiles();" size="10" readonly="readOnly" value="250,000" tabindex="20" /></td>
+                      <td align="right"><input name="Input2" class="calcSum" id="txtAdditionAval" onblur="this.value=formatCurrency(this.value);UpdateFiles();" size="10" readonly="readOnly" value="0" tabindex="20" /></td>
                     </tr>
                 <tr>
                   <td width="462" align="left" class="style5">On the same trade cycle the additional funds can be turned</td>
-                      <td align="right"><input name="Input2" class="calcSum" id="txtAdditionalFunds" size="10" readonly="readOnly" value="4" tabindex="21" /></td>
+                      <td align="right"><input name="Input2" class="calcSum" id="txtAdditionalFunds" size="10" readonly="readOnly" value="0" tabindex="21" /></td>
                       <td width="100" align="left" class="style5" style="font-size:9px;">&nbsp; times per year</td>
                     </tr>
                 <tr>
                   <td width="462" align="left" class="style5">Which could result in additional sales of</td>
-                      <td align="right"><input name="Input2" class="calcSum" id="txtAdditionalSales" onblur="this.value=formatCurrency(this.value); UpdateFiles();" size="10" readonly="readOnly" value="1,250,000" tabindex="22" /></td>
+                      <td align="right"><input name="Input2" class="calcSum" id="txtAdditionalSales" onblur="this.value=formatCurrency(this.value); UpdateFiles();" size="10" readonly="readOnly" value="0" tabindex="22" /></td>
                     </tr>
                 <tr>
                   <td width="462" align="left" class="style5">Which translates into gross profit of</td>
-                      <td align="right"><input name="Input2" class="calcSum" id="txtTransGrossProfit" onblur="this.value=formatCurrency(this.value);UpdateFiles();" value="250,000" size="10" readonly="readOnly" tabindex="23" /></td>
+                      <td align="right"><input name="Input2" class="calcSum" id="txtTransGrossProfit" onblur="this.value=formatCurrency(this.value);UpdateFiles();" value="0" size="10" readonly="readOnly" tabindex="23" /></td>
                     </tr>
                 <tr>
                   <td width="462" align="left" class="style5">Assumimg the same expense base the only additional cost is extra interest of</td>
-                      <td align="right"><input name="Input2" class="calcSum" id="txtInterestOf" onblur="this.value=formatCurrency(this.value);UpdateFiles();" value="(30,000)" size="10" readonly="readOnly" tabindex="24" /></td>
+                      <td align="right"><input name="Input2" class="calcSum" id="txtInterestOf" onblur="this.value=formatCurrency(this.value);UpdateFiles();" value="0" size="10" readonly="readOnly" tabindex="24" /></td>
                     </tr>
                 <!--  <tr>
                         <td align="left" width="417">You will be able to generate Sales   of</td>
@@ -231,11 +229,11 @@
                       </tr>-->
                 <tr>
                   <td width="462" align="left" class="style5">Yielding additional net profit of</td>
-                      <td align="right"><input name="Input2" class="calcSum" id="txtAdditionalNetProfit" onblur="this.value=formatCurrency(this.value);UpdateFiles();" value="220,000" size="10" readonly="readOnly" tabindex="25" /></td>
+                      <td align="right"><input name="Input2" class="calcSum" id="txtAdditionalNetProfit" onblur="this.value=formatCurrency(this.value);UpdateFiles();" value="0" size="10" readonly="readOnly" tabindex="25" /></td>
                     </tr>             
                     <tr>
                       <td width="462" align="left" class="style5">For a new total net profit of</td>
-                      <td align="right" ><input name="Input2" class="calcSumTotal" id="txtTotalNewNetProfit" onblur="this.value=formatCurrency(this.value);UpdateFiles();" value="357,500" size="10" readonly="readOnly" tabindex="26" /></td>
+                      <td align="right" ><input name="Input2" class="calcSumTotal" id="txtTotalNewNetProfit" onblur="this.value=formatCurrency(this.value);UpdateFiles();" value="0" size="10" readonly="readOnly" tabindex="26" /></td>
                     </tr>
                   </tbody>
                 </table>

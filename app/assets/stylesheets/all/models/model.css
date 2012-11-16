@@ -37,7 +37,13 @@ p.popups {
 img.popup {
 	margin:15px 25px;
 	
-	float:left;}	
+	float:left;}
+
+img.popup_calc {
+	margin:15px 25px;
+	top: 0px;
+	position:fixed;
+}		
 
 #header_popups {
 	position:fixed;
