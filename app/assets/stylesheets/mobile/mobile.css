@@ -71,10 +71,8 @@ p.video_text {
 	margin:auto;}
 	
 .video:hover {
-	opacity: 1 !important;
-	-webkit-box-shadow: 1 12px 10px 10px white;
-	-moz-box-shadow: 1 12px 10px 10px white;
-	box-shadow: 1 12px 10px 10px white;}
+	opacity:1 !important;
+	border:6px solid white !important; }
 
 img.mobile_drew, .mobile_schofield, .mobile_paramount, .mobile_pilgrim {	
 
