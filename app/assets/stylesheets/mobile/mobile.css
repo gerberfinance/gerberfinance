@@ -70,19 +70,19 @@ p.video_text {
 .video_table {
 	margin:auto;}
 	
-img.mobile_drew, .mobile_schofield, .mobile_paramount, .mobile_pilgrim {
-    padding:5px;
-    width: 130px;
-    height: 130px;
-	-webkit-box-shadow: 0 8px 6px -6px black;
-	-moz-box-shadow: 0 8px 6px -6px black;
-	box-shadow: 0 8px 6px -6px black;}
+.video:hover {
+	opacity: .2 !important;
+	-webkit-box-shadow: 1 12px 10px 10px white;
+	-moz-box-shadow: 1 12px 10px 10px white;
+	box-shadow: 1 12px 10px 10px white;}
+
+img.mobile_drew, .mobile_schofield, .mobile_paramount, .mobile_pilgrim {	
 
 img.mobile_drew {
 	position:absolute; 
 	top: 240px; 
 	left: 160px; 
-	z-index: 1;}
+	z-index: 1;}	
 
 img.mobile_schofield {
 	position:absolute; 
