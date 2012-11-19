@@ -1,11 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Top 10 Questions to Ask Your Lender</title>
-<%= stylesheet_link_tag "application-all", :media => "all" %>
-<%= stylesheet_link_tag "application-print", :media => "print" %>
-<%= javascript_include_tag "application-all", :media => "all" %>
-<%= csrf_meta_tags %>
+  <title>Contact Us</title>
+<link href="/assets/all/layout/stylesheet.css.scss?body=1" media="all" rel="stylesheet" type="text/css" />
+<link href="/assets/all/models/calc.css?body=1" media="all" rel="stylesheet" type="text/css" />
+
+<link href="/assets/all/models/contact.css.scss?body=1" media="all" rel="stylesheet" type="text/css" />
+<link href="/assets/all/models/model.css?body=1" media="all" rel="stylesheet" type="text/css" />
+<script src="/assets/all/jquery_ujs.js?body=1" type="text/javascript"></script>
+<script src="/assets/all/currency.js?body=1" type="text/javascript"></script>
+<script src="/assets/all/contact.js.coffee?body=1" type="text/javascript"></script>
+<script src="/assets/all/packed.js?body=1" type="text/javascript"></script>
+<script src="/assets/all/tinybox.js?body=1" type="text/javascript"></script>
+<meta content="authenticity_token" name="csrf-param" />
+<meta content="1hKfo11LHCit8zIUYYTAwfr1mRxczDsTqWNvItm7FJ0=" name="csrf-token" />
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+<%= analytics_init if Rails.env.production? %> 
+
+<!--[if gte IE 5]>
+<link href="/assets/application-ie.css?body=1" media="all" rel="stylesheet" type="text/css" />
+<link href="/assets/ie/ie_hacks.css?body=1" media="all" rel="stylesheet" type="text/css" />
+<![endif]-->
+
 <script type="text/javascript">
 function showMessage(theMessage) {
    // Get the fields
