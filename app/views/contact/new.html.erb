@@ -22,12 +22,15 @@
 <![endif]-->
 
 <script type="text/javascript">
-$("form").submit(function() {
-    $(this).submit(function() {
-        return false;
-    });
-    return true;
-});
+(function () {
+    var allowSubmit = true;
+    frm.onsubmit = function () {
+       if (allowSubmit)
+           allowSubmit = false;
+       else 
+           return false;
+    }
+})();
 
 function showMessage(theMessage) {
    // Get the fields
@@ -143,7 +146,8 @@ function showMessage(theMessage) {
   </fieldset>
   
   <fieldset class="actions" >
-  <%= submit_tag "Send", :class => "contact_sumbit", 'data-disable-with' => "Please wait.." %>
+  
+  <%= form.submit "Send", :class => "contact_sumbit", :onsumbit => "javascript:showMessage('<span>    Sending...</span>'); " %> 
   <span id="message"></span>
   <p style="float:right; font-size: 10px;">* required fields</p> 
   </fieldset>
