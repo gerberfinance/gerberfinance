@@ -12,6 +12,7 @@ Gerber::Application.routes.draw do
 	match '/trade' => 'static_pages#trade'
 	match '/current' => 'static_pages#current'
 	match '/prior' => 'static_pages#prior'
+	match '/gerberCO' => 'static_pages#comingsoon'
 		
 	match '/top10' => 'model#top10'
 	match '/gear' => 'model#gear'
