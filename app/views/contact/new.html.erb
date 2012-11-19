@@ -22,15 +22,6 @@
 <![endif]-->
 
 <script type="text/javascript">
-(function () {
-    var allowSubmit = true;
-    frm.onsubmit = function () {
-       if (allowSubmit)
-           allowSubmit = false;
-       else 
-           return false;
-    }
-})();
 
 function showMessage(theMessage) {
    // Get the fields
@@ -147,7 +138,7 @@ function showMessage(theMessage) {
   
   <fieldset class="actions" >
   
-  <%= form.submit "Send", :class => "contact_sumbit", :onsubmit => "javascript:showMessage('<span>    Sending...</span>'); " %> 
+  <%= form.submit "Send", :class => "contact_submit", :onclick => "this.disabled=true;this.value='Sending...';this.form.submit();" %> 
   <span id="message"></span>
   <p style="float:right; font-size: 10px;">* required fields</p> 
   </fieldset>
