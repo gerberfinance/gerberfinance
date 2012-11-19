@@ -84,7 +84,7 @@ img.popup_calc {
 	background:url(/assets/top10_p.png) top right no-repeat;
 	background-attachment: fixed;
 	margin-top: 50px;
-	overflow:none;
+	overflow:scroll;
 	height:400px;}
 	
 	
