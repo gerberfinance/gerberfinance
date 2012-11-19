@@ -7,6 +7,7 @@
 <link href="/assets/all/models/contact.css.scss?body=1" media="all" rel="stylesheet" type="text/css" />
 <link href="/assets/all/models/model.css?body=1" media="all" rel="stylesheet" type="text/css" />
 <script src="/assets/all/jquery_ujs.js?body=1" type="text/javascript"></script>
+<script src="/assets/all/autoTab.js?body=1" type="text/javascript"></script>
 <script src="/assets/all/currency.js?body=1" type="text/javascript"></script>
 <script src="/assets/all/contact.js.coffee?body=1" type="text/javascript"></script>
 <script src="/assets/all/packed.js?body=1" type="text/javascript"></script>
@@ -22,6 +23,7 @@
 <![endif]-->
 
 <script type="text/javascript">
+
 
 function showMessage(theMessage) {
    // Get the fields
@@ -57,9 +59,9 @@ function showMessage(theMessage) {
     <div class="field">
       	<p class="contact_telephone">
       		<%= form.label "Telephone" %><br />
-      			<p class="contact_area">(<%= form.text_field :area, :maxlength=>"3"%>)</p>
-      			<p class="contact_tel1"><%= form.text_field :tel1, :maxlength=>"3"%>-</p>
-      			<p class="contact_tel2"><%= form.text_field :tel2, :size => "4", :maxlength=>"4"%></p>
+      			<p class="contact_area">(<%= form.text_field :area, :maxlength=>"3", :onKeyUp => "return autoTab(this, 3, event);" %>)</p>
+      			<p class="contact_tel1"><%= form.text_field :tel1, :maxlength=>"3", :onKeyUp => "return autoTab(this, 3, event);" %>-</p>
+      			<p class="contact_tel2"><%= form.text_field :tel2, :size => "4", :maxlength=>"4", :onKeyUp => "return autoTab(this, 4, event);"%></p>
     	</p>
     </div>
     
@@ -76,8 +78,8 @@ function showMessage(theMessage) {
       		<%= form.text_field :address %>
     	</p>
     	<p class="contact_city"><%= form.label "City" %>*<%= form.text_field :city %></p>
-    	<p class="contact_state"><%= form.label "State" %>*<%= form.text_field :state, :size => "2", :maxlength=>"2"%></p>
-    	<p class="contact_zip"><%= form.label "Zip" %>*<%= form.text_field :zip, :size => "5", :maxlength=>"5"%></p>
+    	<p class="contact_state"><%= form.label "State" %>*<%= form.text_field :state, :size => "2", :maxlength=>"2", :onKeyUp => "return autoTab(this, 2, event);"%></p>
+    	<p class="contact_zip"><%= form.label "Zip" %>*<%= form.text_field :zip, :size => "5", :maxlength=>"5", :onKeyUp => "return autoTab(this, 5, event);"%></p>
     </div>
     
     <div class="field">
