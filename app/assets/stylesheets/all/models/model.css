@@ -13,9 +13,15 @@
 #frameless .tclose {left:6px;}
 
 /* Style */
-.popups{
+.popups {
 	font-family: century gothic, arial, helvetica, sans-serif;
-	overflow:none;}
+	overflow:none;
+	width:100%;}
+
+.popups_calc{
+	font-family: century gothic, arial, helvetica, sans-serif;
+	overflow:none;
+	width:100%;}
 	
 .popups h4 {
 	font-size: 16px;
@@ -73,7 +79,6 @@ img.popup_calc {
 	background:url(/assets/calc_p.png) top right no-repeat;
 	background-attachment: fixed;
 	margin-top: 50px;
-	width:100%;
 	}
 	
 .calc1_body {
