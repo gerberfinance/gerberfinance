@@ -20,8 +20,7 @@
 
 .popups_calc{
 	font-family: century gothic, arial, helvetica, sans-serif;
-	overflow:none;
-	width:780px;}
+	overflow:none;}
 	
 .popups h4 {
 	font-size: 16px;
@@ -66,7 +65,7 @@ img.popup_calc {
 #header_calculator {
 	position:absolute;
 	height: 80px;
-	width:100%;
+	width:98%;
 	background: url(/assets/grey.png) repeat-x;
 	top:0;
 	border-top-left-radius:10px;
