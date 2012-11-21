@@ -1,15 +1,14 @@
 .gear_body {
 	background:url(/assets/gear_p.png) top right no-repeat;
 	background-attachment: fixed;
-	margin-top: 80px;
-	}
+	margin-top: 80px;}
 
 #head_left {
 	float:left;
 	margin-top:75px;
 	width: 450px;
 	height:400px;
-	overflow:scroll;
+	overflow:auto;
 	border-right:1px solid black;
 	padding-right:15px !important;}
 
