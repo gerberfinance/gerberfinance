@@ -73,12 +73,14 @@ img.popup_calc {
 	background:url(/assets/calc_p.png) top right no-repeat;
 	background-attachment: fixed;
 	margin-top: 50px;
-	overflow:auto;}
+	}
 	
 .calc1_body {
 	background:url(/assets/calc_p.png) top right no-repeat;
 	background-attachment: fixed;
 	margin-top: 90px;
+	height:400px;
+	overflow:auto;
 	}
 	
 .top10_body {
