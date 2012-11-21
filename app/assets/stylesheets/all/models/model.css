@@ -13,6 +13,10 @@
 #frameless .tclose {left:6px;}
 
 /* Style */
+.popups_gears {
+	font-family: century gothic, arial, helvetica, sans-serif;
+	}
+
 .popups {
 	font-family: century gothic, arial, helvetica, sans-serif;
 	overflow:none;
