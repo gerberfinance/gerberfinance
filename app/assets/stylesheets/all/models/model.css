@@ -72,7 +72,8 @@ img.popup_calc {
 .calc_body {
 	background:url(/assets/calc_p.png) top right no-repeat;
 	background-attachment: fixed;
-	margin-top: 50px;}
+	margin-top: 50px;
+	overflow:auto;}
 	
 .calc1_body {
 	background:url(/assets/calc_p.png) top right no-repeat;
