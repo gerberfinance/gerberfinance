@@ -8,7 +8,6 @@
 <link href="/assets/all/models/model.css?body=1" media="all" rel="stylesheet" type="text/css" />
 <link href="/assets/application-print.css?body=1" media="print" rel="stylesheet" type="text/css" />
 <link href="/assets/print/blueprint/print.css?body=1" media="print" rel="stylesheet" type="text/css" />
-<script src="/assets/all/jquery_ujs.js?body=1" type="text/javascript"></script>
 <script src="/assets/all/calc.js?body=1" type="text/javascript"></script>
 <script src="/assets/all/currency.js?body=1" type="text/javascript"></script>
 <script src="/assets/all/packed.js?body=1" type="text/javascript"></script>
@@ -25,16 +24,13 @@
 <![endif]-->
 
 </head>
-<body class="popups">
+<body class="popups" onload=";setTextFocus();UpdateFiles()">
 <div id="header_calculator" style="width:98%;">
 	<img src="/assets/text/calculator.png" class="popup" alt="finance calculator"/>
 </div>
 <div class="calc_body">
-
-
-<body onload=";setTextFocus();UpdateFiles()">
 <br>
-		<p class="calculator_text" style="text-align:center;"><b>Fill in the yellow boxes below to see how the additional resources can make an impact.<b></p>
+		<p class="calculator_text" style="text-align:center;"><b>Fill in the yellow boxes below to see how the additional funding can make an impact.<b></p>
 	
 	<tr>
     	
@@ -51,7 +47,7 @@
                   <td align="left" width="450"><table cellpadding="0" cellspacing="0">
                     <tbody>
                       <tr>
-                        <td height="18" width="593"><span class="style5">Own funds (capital) in the business plus any trade payable and other available    credit</span></td>
+                        <td height="18" width="593"><span class="style5">Own funds (capital) in the business plus any trade payable and other available credit</span></td>
                             </tr>
                       </tbody>
                     </table></td>
@@ -75,8 +71,8 @@
                     </tr>
                 <tr>
                   <td align="left" width="350"><span class="style5">Trade Cycle in days *</span></td>
-                      <td align="left" width="91"><input id="txtTradeCycle1" size="10" tabindex="6" type="text" /></td>
-                    </tr>
+                      <td align="left" width="91"><input id="txtTradeCycle1" size="10" onblur="this.value=(this.value);UpdateFiles();" tabindex="6" type="text" /></td>
+					</tr>
                 <tr>
                   <td align="left" width="350"><span class="style5">Estimated Net Profit</span></td>
                       <td align="left" width="91"><input name="Input3" class="calcNet" id="txtEstimatedNetProfit" onblur="this.value=formatCurrency(this.value);UpdateFiles();" size="10" readonly="readOnly" tabindex="7" /></td>
@@ -105,7 +101,7 @@
                     </tr>
                 <tr>
                   <td width="459" align="left" class="style5">At a gross of</td>
-                      <td align="right"><input name="Input2" class="calcSum" id="txtGrossMargin" onblur="this.value=formatCurrency(this.value);UpdateFiles();" value="0" size="10" readonly="readOnly" tabindex="14" /></td>
+                      <td align="right"><input name="Input2" class="calcSum" id="txtGrossMargin" onblur="this.value=getDecimal(this.value);UpdateFiles()" value="0" size="10" readonly="readOnly" tabindex="14" /></td>
                     </tr>
                 <tr>
                   <td width="459" align="left" class="style5" style="height: 30px;">Sales of</td>
@@ -135,7 +131,7 @@
               <tbody>
                 <tr>
                  <hr width="250px" />
-                  <td class="supText" align="left"><p class="style5" style="text-align:center; font-weight:bold;">Now, assume a lender either replaces the bank with a bigger line or provides a supplemental line to the bank</p></td>
+                  <td class="supText" align="left"><p class="style5" style="text-align:center; font-weight:bold;">Now, assume a lender either replaces the bank with a bigger line or provides additional funding to the bank</p></td>
                     </tr>
                     
                 </tbody>
@@ -146,8 +142,8 @@
               <tbody>
                 <tr>
                   <td width="290" align="left" class="style5"><span class="style10"><strong>Banks Fund</strong></span></td>
-                      <td align="left" width="118"><input name="Input" id="txtBanksFund" onblur="this.value=formatCurrency(this.value);UpdateFiles();" onclick="this.value=getValue(this.value)" value="-" size="10" tabindex="8" /></td>
-                      <td width="400" align="right" class="style5" style="text-align:right;"><strong>and supplemental <br />funds of</strong></td>
+                      <td align="left" width="118"><input name="Input" id="txtBanksFund" onblur="this.value=formatCurrency(this.value);UpdateFiles();" onclick="this.value=getValue(this.value)" value="" size="10" tabindex="8" /></td>
+                      <td width="400" align="right" class="style5" style="text-align:right;"><strong>and additional <br />funding of</strong></td>
                       <td align="left" width="90"><input name="Input" id="txtBanksSuplementalFund" onblur="this.value=formatCurrency(this.value);UpdateFiles();" onclick="this.value=getValue(this.value)" value="" size="10" tabindex="9" />                      </td>
                     </tr>
                 <tr>
@@ -175,7 +171,7 @@
                       </tr>-->
               <tbody>
                 <tr>
-                  <td width="462" align="left" class="style5">Under the new funding arrangement, additional availibility is</td>
+                  <td width="462" align="left" class="style5">Under the new funding arrangement, additional funding is</td>
                       <td align="right"><input name="Input2" class="calcSum" id="txtAdditionAval" onblur="this.value=formatCurrency(this.value);UpdateFiles();" size="10" readonly="readOnly" value="0" tabindex="20" /></td>
                     </tr>
                 <tr>

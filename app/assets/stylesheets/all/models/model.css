@@ -14,7 +14,8 @@
 
 /* Style */
 .popups{
-	font-family: century gothic, arial, helvetica, sans-serif;}
+	font-family: century gothic, arial, helvetica, sans-serif;
+	overflow:none;}
 	
 .popups h4 {
 	font-size: 16px;

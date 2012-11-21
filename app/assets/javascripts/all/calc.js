@@ -408,19 +408,7 @@ function replaceAll( str, from, to ) {
 
 function setTextFocus()
 {
-   objForm = window.document.calculator;
-   objForm.txtCapitalFunds.focus();
-   objForm.txtCapitalFunds.value = formatCurrency(0);
-   objForm.txtBankFunding.value = formatCurrency(0);
-   objForm.txtBankInterestRate.value = "0.00%";
-       objForm.txtGrossMarginPercent.value = "0.00%";
-   objForm.txtAnnualOverhead.value = formatCurrency(0);
-   objForm.txtTradeCycle1.value = (0);
-   objForm.txtBanksFund.value = "0";
-   objForm.txtBanksSuplementalFund.value = formatCurrency(0);
-   objForm.txtSuplimentalLendersRate.value = "0.00%";
   
-  theform = document.forms[0]; 
   
 //  for(i=0;i<theform.length;i++)
 //  {
@@ -454,32 +442,32 @@ function ClearFields()
 //Editable Fields
 objForm = window.document.calculator;
 objForm.txtCapitalFunds.focus();
-objForm.txtCapitalFunds.value="0";
-objForm.txtBankFunding.value="0";
-objForm.txtBankInterestRate.value="0.00%";
-objForm.txtGrossMarginPercent.value="0.00%";
-objForm.txtAnnualOverhead.value="0";
-objForm.txtTradeCycle1.value="0";
-objForm.txtBanksFund.value="0";
-objForm.txtBanksSuplementalFund.value="0";
-objForm.txtSuplimentalLendersRate.value="0.00%";
+objForm.txtCapitalFunds.value="";
+objForm.txtBankFunding.value="";
+objForm.txtBankInterestRate.value="";
+objForm.txtGrossMarginPercent.value="";
+objForm.txtAnnualOverhead.value="";
+objForm.txtTradeCycle1.value="";
+objForm.txtBanksFund.value="";
+objForm.txtBanksSuplementalFund.value="";
+objForm.txtSuplimentalLendersRate.value="";
 //Non - Editable Fields
-objForm.txtEstimatedNetProfit.value="0";
-objForm.txtTotalResources.value="0";
-objForm.txtTradeCycle2.value="0";
-objForm.txtOverallAvlblCash.value="0";
-objForm.txtGrossMargin.value="0.00%";
-objForm.txtTotalSales.value="0";
-objForm.txtGrossProfit.value="0";
-objForm.txtAnnualExpence.value="(0)";
-objForm.txtInterestCost.value="(0)";
-objForm.txtNetProfit.value="0";
-objForm.txtEstdNewNetProfit.value="0";
-objForm.txtAdditionAval.value="0";
-objForm.txtAdditionalFunds.value="0";
-objForm.txtAdditionalSales.value="0";
-objForm.txtTransGrossProfit.value="0";
-objForm.txtInterestOf.value="(0)";
-objForm.txtAdditionalNetProfit.value="0";
-objForm.txtTotalNewNetProfit.value="0";
+objForm.txtEstimatedNetProfit.value="";
+objForm.txtTotalResources.value="";
+objForm.txtTradeCycle2.value="";
+objForm.txtOverallAvlblCash.value="";
+objForm.txtGrossMargin.value="";
+objForm.txtTotalSales.value="";
+objForm.txtGrossProfit.value="";
+objForm.txtAnnualExpence.value="";
+objForm.txtInterestCost.value="";
+objForm.txtNetProfit.value="";
+objForm.txtEstdNewNetProfit.value="";
+objForm.txtAdditionAval.value="";
+objForm.txtAdditionalFunds.value="";
+objForm.txtAdditionalSales.value="";
+objForm.txtTransGrossProfit.value="";
+objForm.txtInterestOf.value="";
+objForm.txtAdditionalNetProfit.value="";
+objForm.txtTotalNewNetProfit.value="";
 }

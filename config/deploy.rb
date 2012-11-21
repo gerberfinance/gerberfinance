@@ -1,13 +1,24 @@
-set :application, "set your application name here"
-set :repository,  "set your repository location here"
+#default_run_options[:pty] = true
+#  set :repository,  "git://github.com/gerberfinance/gerberfinance.git"
+#  set :scm, "git"
+#  set :branch, "master"
+#  set :deploy_via, :remote_cache
+
+#set :application, "gerberfinance"
+#  set :deploy_to, "/sjoseph/gerber/gf_footer/#{application}"
+#  set :user, "gerberfinance"
+#  set :admin_runner, "deploy"
+  
+  
+  
+  
 
 # set :scm, :git # You can set :scm explicitly or Capistrano will make an intelligent guess based on known version control directory names
 # Or: `accurev`, `bzr`, `cvs`, `darcs`, `git`, `mercurial`, `perforce`, `subversion` or `none`
 
-role :web, "your web-server here"                          # Your HTTP server, Apache/etc
-role :app, "your app-server here"                          # This may be the same as your `Web` server
-role :db,  "your primary db-server here", :primary => true # This is where Rails migrations will run
-role :db,  "your slave db-server here"
+#role :app, "dev.gerberfinance.com"                         # Your HTTP server, Apache/etc
+#role :web, "dev.gerberfinance.com"                          # This may be the same as your `Web` server
+#role :db,  "dev.gerberfinance.com", :primary => true # This is where Rails migrations will run
 
 # if you want to clean up old releases on each deploy uncomment this:
 # after "deploy:restart", "deploy:cleanup"
@@ -19,7 +30,7 @@ role :db,  "your slave db-server here"
 # namespace :deploy do
 #   task :start do ; end
 #   task :stop do ; end
-#   task :restart, :roles => :app, :except => { :no_release => true } do
+#  task :restart, :roles => :app, :except => { :no_release => true } do
 #     run "#{try_sudo} touch #{File.join(current_path,'tmp','restart.txt')}"
 #   end
 # end
