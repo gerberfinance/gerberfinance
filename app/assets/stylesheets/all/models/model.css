@@ -20,7 +20,8 @@
 
 .popups_calc{
 	font-family: century gothic, arial, helvetica, sans-serif;
-	overflow:none;}
+	overflow:none;
+	width:780px;}
 	
 .popups h4 {
 	font-size: 16px;
