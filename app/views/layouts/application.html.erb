@@ -8,8 +8,8 @@
 	<%= stylesheet_link_tag "application-print", :media => "print" %>
 	<%= javascript_include_tag "application-all", :media => "all" %>
 	<%= csrf_meta_tags %>
-	<meta name="keywords" content="<%= meta_keywords %>" /> 
-	<meta name="description" content="<%= meta_description %>" />
+	<meta name="keywords" content="<%= meta_keywords %>"> 
+	<meta name="description" content="<%= meta_description %>">
 	<meta name = "viewport" content = "user-scalable = no">
 	<%= analytics_init if Rails.env.production? %>    
 <!--[if gte IE 5]>
@@ -24,6 +24,7 @@
 <!--[if lt IE 9]>
 <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
 <![endif]-->
+
 </head>
 <h1 style="font-size:2px;">Gerber Finance Inc.</h1>
 <h2 style="font-size:1px;">At Gerber, we give you the tools you need to grow.  We learn your business, assess 
