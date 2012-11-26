@@ -19,7 +19,7 @@ compass.gif: compass-adddc568cffc1e6dd9e3582fc58006d8.gif
 controls.png: controls-a8c086e2158357a90ddd2dde1c457b68.png
 directions_m.png: directions_m-7a5aa04aa19415467a8448f41c203f91.png
 elena.png: elena-004129327662cf5ebc409b6ab98c173b.png
-entela.png: entela-aaad73fe9724228b370e094e90a86291.png
+entela.png: entela-2efaeb8359a646b3aa24b09b1dd6fea2.png
 favicon.ico: favicon-3a616e3b83b2583d1079f1c35ccc81ec.ico
 gear_move5.gif: gear_move5-ba0b2f2f9fcfcee72b77a0b1477f2d83.gif
 gear_move6.gif: gear_move6-961fb6fd6dba20759b248e51d27902a6.gif
@@ -34,6 +34,7 @@ gg4.png: gg4-e6b2115f006e1360c40081c28b750fd3.png
 ggg.png: ggg-84477c761a59d028b548a78e938c94a8.png
 ggg_m.png: ggg_m-f0a8abfcd706cc5e1b1ef6345ec6e058.png
 globe.gif: globe-9f4d06552e0a802ed8182815496a11ea.gif
+globe.png: globe-0fb0be76d91677ed222c6e03639e9cf8.png
 globe_move.gif: globe_move-1d646a540580f1f4dae45bbb00f19d9e.gif
 green_tree3.gif: green_tree3-e9cfb383e72cee02a1efa4851f8360e0.gif
 grey.png: grey-d895f698b44cd3799ed03205c9065ef5.png
@@ -88,7 +89,7 @@ all/video_slider/light-square/images/arrows_v_small.png: all/video_slider/light-
 all/video_slider/light-square/images/buttons.png: all/video_slider/light-square/images/buttons-56d7c005de250ba77c4bfd6517b4eadc.png
 all/video_slider/light-square/images/buttons_small.png: all/video_slider/light-square/images/buttons_small-098eaa12b40e23e70088b9d6ec56eb74.png
 all/video_slider/light-square/images/playpause.png: all/video_slider/light-square/images/playpause-0668a46881bfe76e4c4b5347039a2df6.png
-application-all.css: application-all-906d533a6c0977c4f8d8f8078a4c8840.css
+application-all.css: application-all-cc01cda193173345db50991359b28f6b.css
 application-ie.css: application-ie-fb859f5b7b21552df6a1e340d8e77791.css
 application-mobile.css: application-mobile-b04778c3f10c182d7d3a43d1091eb435.css
 application-print.css: application-print-1b8aa340e353f13bcbbaa7412301bdb0.css
