@@ -9,8 +9,8 @@
 	<%= stylesheet_link_tag "application-print", :media => "print" %>
 	<%= javascript_include_tag "application-all", :media => "all" %>
 	<%= csrf_meta_tags %>
-	<meta name = "viewport" content = "user-scalable = no">
 	<%= analytics_init if Rails.env.production? %>    
+	<meta name = "viewport" content = "user-scalable = no">
 	<script> function pauseAllVideos(){ $("iframe").each(function() { this.contentWindow.postMessage('{ "method": "pause" }', "http://player.vimeo.com"); }); } </script>
 <!--[if gte IE 5]>
     <%= stylesheet_link_tag "application-ie", :media => "all" %>
@@ -66,12 +66,12 @@
 	
 		<img src="/assets/gerberfinance.png" class="gerberfinance" alt="Gerber Finance Inc." />
 		<h3 class="name"> &copy; 2012 Gerber Finance Inc.</h3>
-		<p class="redirect"><a target="_blank"href="https://www.stuckynet-link.com/gerber/" class="redirect">client login</a>|<a href="/gerberCO"class="redirect">gerber colorado</a><p>
+		<p class="redirect"><a target="_blank" href="https://www.stuckynet-link.com/gerber/" class="redirect">client login</a>|<a href="/gerberCO" class="redirect">gerber colorado</a><p>
 		
 		<ul class="floatset">
-			<li onclick="pauseAllVideos(); TINY.box.show({iframe:'/calc',boxid:'frameless',width:800,height:500,fixed:false,maskid:'bluemask',maskopacity:40,closejs:function(){closeJS()}})" class="footer_image_text1"><a class="calc" /></a>finance calculator</li>
-			<li onclick="pauseAllVideos(); TINY.box.show({iframe:'/top10',boxid:'frameless',width:800,height:500,fixed:false,maskid:'bluemask',maskopacity:40,closejs:function(){closeJS()}})" class="footer_image_text"><a class="top10" /></a>to ask your lender</li>
-   			<li onclick="pauseAllVideos(); TINY.box.show({iframe:'/gear',boxid:'frameless',width:800,height:500,fixed:false,maskid:'bluemask',maskopacity:40,closejs:function(){closeJS()}})" class="footer_image_text"><a class="gear" /></a>get inside your lender's head</li>
+			<li onclick="pauseAllVideos(); TINY.box.show({iframe:'/calc',boxid:'frameless',width:800,height:500,fixed:false,maskid:'bluemask',maskopacity:40,closejs:function(){closeJS()}})" class="footer_image_text1"><a class="calc"></a>finance calculator</li>
+			<li onclick="pauseAllVideos(); TINY.box.show({iframe:'/top10',boxid:'frameless',width:800,height:500,fixed:false,maskid:'bluemask',maskopacity:40,closejs:function(){closeJS()}})" class="footer_image_text"><a class="top10"></a>to ask your lender</li>
+   			<li onclick="pauseAllVideos(); TINY.box.show({iframe:'/gear',boxid:'frameless',width:800,height:500,fixed:false,maskid:'bluemask',maskopacity:40,closejs:function(){closeJS()}})" class="footer_image_text"><a class="gear"></a>get inside your lender's head</li>
    		</ul>
    		
 	</div>
