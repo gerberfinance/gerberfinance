@@ -18,6 +18,8 @@ Gerber::Application.routes.draw do
 	match '/gear' => 'model#gear'
 	match '/calc' => 'model#calc'
 	match '/calculator' => 'model#calculator'
+	
+	match 'sitemap', :to => "sitemap#index", :as => :sitemap
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
