@@ -8,7 +8,6 @@ Gerber::Application.initialize!
 require File.expand_path('../application', __FILE__)
 require 'ntlm/smtp'
 
-APP_CONFIG = YAML.load_file("#{Rails.root}/config/config.yml")
 
 
 
