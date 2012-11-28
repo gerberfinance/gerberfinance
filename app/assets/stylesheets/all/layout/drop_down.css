@@ -68,7 +68,7 @@
 	border-color:#3f3f3f; 
 	padding-bottom:7px; 
 	padding-top:13px; 
-	top:0px; 
+	top:3px; 
 	z-index:999;
 	color:#000;
 	text-shadow: 0 0 0.5em #d7d5d4, 0 0 0.5em #d7d5d4,
@@ -88,7 +88,7 @@
 	width:auto; 
 	position:absolute; 
 	top:38px; 
-	padding:10px 0; 
+	padding:5px 0; 
 	background:#1f1e1e; 
 	opacity: .7;
 	filter:alpha(opacity=70);
