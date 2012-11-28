@@ -28,7 +28,7 @@ img.profile{
 .tabs input {
 	position: absolute;
 	z-index: 1000;
-	width: 120px;
+	width: 180px;
 	height: 40px;
 	left: 0px;
 	top: 0px;
@@ -36,6 +36,7 @@ img.profile{
     -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity=0);
 	cursor: pointer;
+	border:none;
 }
 .tabs input#tab-2{
 	top: 40px;
