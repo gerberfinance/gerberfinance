@@ -26,10 +26,11 @@ img.profile{
 }
 
 .tabs input {
+	display:hidden;
 	position: absolute;
 	z-index: 1000;
-	width: 180px;
-	height: 40px;
+	width: 218px;
+	height: 38px;
 	left: 0px;
 	top: 0px;
 	opacity: 0;
@@ -37,6 +38,7 @@ img.profile{
     filter: alpha(opacity=0);
 	cursor: pointer;
 	border:none;
+	outline: none;
 }
 .tabs input#tab-2{
 	top: 40px;
