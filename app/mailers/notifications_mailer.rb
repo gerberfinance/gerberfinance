@@ -1,6 +1,6 @@
 class NotificationsMailer < ActionMailer::Base
 
-  default :from => 'sjoseph@gerberfinance.com'
+  default :from => 'noreply@gerberfinance.com'
 
   def new_message(message)
     @message = message
