@@ -5,7 +5,7 @@ class NotificationsMailer < ActionMailer::Base
   def new_message(message)
     @message = message
     attachments["Finance_Application.pdf"] = File.read("#{Rails.root}/app/assets/images/Finance_Application.pdf")
-    mail :to  => @message.email, :subject => 'Thank you for contacting Gerber Finance Inc.'
+    mail(:to  => message.email, :subject => 'Thank you for contacting Gerber Finance Inc.')
    
   end
   
@@ -13,7 +13,7 @@ class NotificationsMailer < ActionMailer::Base
   def new_request(message)
   	 @message = message
       mail(:to => "web@gerberfinance.com", :subject => "A New Request",
-     		:cc => ["sjoseph80@gerberfinance.com", "g3eng1224@gmail.com"])     
+     		:cc => ["sjoseph@gerberfinance.com", "g3eng1224@gmail.com"])     
   end 
   
   def profit=(num)
