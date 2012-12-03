@@ -9,7 +9,6 @@ class ContactController < ApplicationController
     @message = Message.new(params[:message])
 
     if @message.valid?
-      NotificationsMailer.new_message(@message).deliver
       NotificationsMailer.new_request(@message).deliver
 	  render :text => '<script type="text/javascript"> window.parent.TINY.box.hide() </script>'
     else
