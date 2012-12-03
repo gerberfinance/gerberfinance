@@ -16,7 +16,7 @@ module Gerber
 	config.action_mailer.smtp_settings = {
   	:address => 'mail.gerberfinance.com', # mail.example.com
   	:domain => 'gerberfinance.com', # example.com
-  	:user_name => 'noreply', # user.name
+  	:user_name => 'noreply@gerberfinance.com', # user.name
   	:password => 'noreplybox', # p@ssw0rd
   	:port => 25,
  	:authentication => :ntlm
