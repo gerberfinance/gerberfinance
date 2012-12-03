@@ -5,7 +5,7 @@ class NotificationsMailer < ActionMailer::Base
   def new_message(message)
     @message = message
     attachments["Finance_Application.pdf"] = File.read("#{Rails.root}/public/assets/Finance_Application.pdf")
-	mail :to => "sjoseph80@gmail.com", :subject => 'Thank you for contacting Gerber Finance Inc.'
+	mail(:to => "sjoseph80@gmail.com", :subject => "Thank you for contacting Gerber Finance Inc."
   end
   
   
