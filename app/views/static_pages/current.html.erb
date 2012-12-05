@@ -9,9 +9,12 @@
 										   scaleType: 'outsideFit',
 										   skin: 'light-square',
 										   effectType: 'fade',
+										   slideshow:true,
 										   pauseSlideshowOnHover: true,
 										   leaveVideoAction: 'pauseVideo',
 										   videoPlayAction: 'pauseSlideshow',
+										   videoPauseAction: 'none',
+										   videoEndAction: 'resetVideo',
 										   shadow: true,
 										   overrideTransition: false,
 										   keyboardNavigation: true,
@@ -27,6 +30,8 @@
 										   thumbnailWidth: '80',
 										   thumbnailHeight: '80',
 										   thumbnailArrows: false,
+										   thumbnailScrollerOverlay: false,
+										   thumbnailLayers:1,
 										   minimumVisibleThumbnails: 4,
 										   slideArrows: false,
 										   slideshowDelay: 10000,
@@ -49,7 +54,7 @@
     <ul class="slides">
 		<li class="slide">
   			<div class="html">
-    			<iframe class="video" src="http://player.vimeo.com/video/50084705?api=1&portrait=0&byline=0&autoplay=0&title=0" width="400" height="260" frameborder="0"></iframe>
+    			<iframe class="video" src="http://player.vimeo.com/video/50084705?api=1" width="400" height="260" frameborder="0"></iframe>
   			</div>
   			<img class="thumbnail" src="/assets/video_thumbs/paramount.png" alt="Paramount"/>
 		</li>
