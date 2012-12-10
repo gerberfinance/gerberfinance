@@ -126,6 +126,30 @@
 	margin-top:7px;
 	white-space:nowrap;
 	cursor:pointer;}
+	
+.flash {
+	display: block;
+	bottom:0px;
+	width: 145px;
+	height: 89px;
+	background: url('/assets/flash_static.png') bottom;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top:7px;
+	white-space:nowrap;
+	cursor:pointer;}
+
+.flash:hover {
+	display: block;
+	bottom:0px;
+	width: 145px;
+	height: 89px;
+	background: url('/assets/flash_move.gif') bottom;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top:7px;
+	white-space:nowrap;
+	cursor:pointer;}	
 
 .footer_image_text {
 	font-size:.58em;

@@ -18,6 +18,7 @@ Gerber::Application.routes.draw do
 	match '/gear' => 'model#gear'
 	match '/calc' => 'model#calc'
 	match '/calculator' => 'model#calculator'
+	match '/flash' => 'model#flash'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

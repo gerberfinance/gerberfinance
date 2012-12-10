@@ -15,4 +15,8 @@ class ModelController < ApplicationController
 	def calculator
 		render :layout => false
 	end	
+	
+	def flash
+		render :layout => false
+	end	
 end
