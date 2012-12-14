@@ -13,6 +13,9 @@ class Message
   validates :state, :presence => {:message => "State Required/" }
   validates :zip, :numericality => {:message => "Zip Required /" }
   validates :email, :format => { :with => %r{.+@.+\..+}, :message => "Email address is not valid"}
+  validates :area, :length => {:minimum => 3, :too_short => " ** "} 
+  validates :tel1, :length => {:minimum => 3, :too_short => " ** "} 
+  validates :tel2, :length => {:minimum => 4, :too_short => " ** "} 
   def initialize(attributes = {})
     attributes.each do |name, value|
       send("#{name}=", value)
