@@ -48,10 +48,12 @@ investec_m.png: investec_m-cc4c7022e2a0217c4ccc12db004ea7c3.png
 jennifer.png: jennifer-b52f11c214b721b1131a7bf3f62e35ca.png
 ledger.png: ledger-320f4ea8b277cfd4fc02dc864c7d44c5.png
 logo_small.png: logo_small-4744dd415684e16ff4a74573ce9f840f.png
+news.png: news-9e13ca5df22f8b4751a79b5011a4ab92.png
 play_m.png: play_m-8c4ea870f2825fd4723db3362b274c6d.png
 print.png: print-ae0af0aecffc2609b1aa7b9741b6496a.png
 quotel.png: quotel-8707e198de8ecd75e05d62c63c93b955.png
 quoter.png: quoter-02d87f295c41e0fbdf2fe33bffa6fe60.png
+sandy.png: sandy-45b192efc4a7571ab23cd81a479b6e88.png
 save.png: save-d4b7e6eeb8d5200cbe7b38902a137f8a.png
 scale.png: scale-ecf29253266c845c6d304f1c29fb92c3.png
 telephone.png: telephone-0b413708710291e2d8ae7f125f034c4e.png
@@ -91,7 +93,7 @@ all/video_slider/light-square/images/arrows_v_small.png: all/video_slider/light-
 all/video_slider/light-square/images/buttons.png: all/video_slider/light-square/images/buttons-56d7c005de250ba77c4bfd6517b4eadc.png
 all/video_slider/light-square/images/buttons_small.png: all/video_slider/light-square/images/buttons_small-098eaa12b40e23e70088b9d6ec56eb74.png
 all/video_slider/light-square/images/playpause.png: all/video_slider/light-square/images/playpause-0668a46881bfe76e4c4b5347039a2df6.png
-application-all.css: application-all-0a52dcd1d5028fd67f44964dc54f22d2.css
+application-all.css: application-all-5b42aff9d62d6838983eb0b4848a91a5.css
 application-ie.css: application-ie-fb859f5b7b21552df6a1e340d8e77791.css
 application-mobile.css: application-mobile-b04778c3f10c182d7d3a43d1091eb435.css
 application-print.css: application-print-1b8aa340e353f13bcbbaa7412301bdb0.css

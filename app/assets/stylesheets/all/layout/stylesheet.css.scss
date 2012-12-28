@@ -102,7 +102,7 @@ img.txt {
 #home_container {
 	float:left;
 	position:absolute;
-	margin:80px 40px 0px 350px;}
+	margin:40px 40px 0px 350px;}
 
 #home_text {
 	min-height: 330px;
@@ -318,7 +318,13 @@ img.comingsoon	{
   top: 40%;
   left: 30%;}
 
-	
+#newslist{position:absolute; margin-left:25%; }
+#newslist li{padding:0;list-style:none;position:absolute;top:0px;}
+#newslist li, #newslist a{height:79px;display:block;}
+
+#news{top:0px;width:200px;}
+#news{background:url('/assets/news.png') 0 0;}
+#news a:hover{background: url('/assets/news.png') 0px -79px;}
 		
 
 		
