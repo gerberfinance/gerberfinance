@@ -10,7 +10,8 @@ p.title{font-weight:bold;
 		color:#000;
 		border:none !important;}
 
-p.profile{border:none !important;}
+p.profile{border:none !important;
+			width:520px;}
 
 p.contact{border:none !important;}
 
@@ -95,28 +96,31 @@ img.profile{
 }
 
 .tabs label:first-of-type {
-    z-index: 5;
+    z-index: 6;
 }
 
 .tab-label-2 {
-    z-index: 4;
+    z-index: 5;
 }
 
 .tab-label-3 {
-    z-index: 3;
+    z-index: 4;
 }
 
 .tab-label-4 {
+    z-index: 3;
+}
+
+.tab-label-5 {
     z-index: 2;
 }
 
 .tab-label-5 {
-    z-index: 1;
-}
+    z-index: 1;}
 
 .tabs input:checked + label {
     background: #fff;
-	z-index: 7;
+	z-index: 8;
 	color:#000;
 }
 
@@ -129,7 +133,7 @@ img.profile{
     width: auto;
 	margin: -200px 0 0 100px;
 	height: 400px;
-	z-index: 6;
+	z-index: 7;
 	overflow: hidden;
     border:none !important;
 }
