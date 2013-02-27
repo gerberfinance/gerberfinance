@@ -11,10 +11,10 @@ class ContactController < ApplicationController
     if @message.valid?
       NotificationsMailer.new_message(@message).deliver
       NotificationsMailer.new_request(@message).deliver
-	  render :text => '<script type="text/javascript"> window.parent.TINY.box.hide() </script>'
+	  render :template => 'static_pages/home' 
     else
       flash.now.alert = "Please fill all fields."
-      render :new, :layout =>false
+      render :new, :layout =>true
     end
   end
 
