@@ -1,52 +1,11 @@
-<!DOCTYPE html>
-<html>
-<head>
 <h1><% set_meta_tags :title => 'Contact Us',
                  :description => 'Get to know us, ask a question, apply for line of credit...',
                  :keywords => 'credit application, contact gerber, credit line' %>
 </h1>
-<link href="/assets/all/layout/stylesheet.css.scss?body=1" media="all" rel="stylesheet" type="text/css" />
-<link href="/assets/all/models/calc.css?body=1" media="all" rel="stylesheet" type="text/css" />
-<link href="/assets/all/models/contact.css.scss?body=1" media="all" rel="stylesheet" type="text/css" />
-<link href="/assets/all/models/model.css?body=1" media="all" rel="stylesheet" type="text/css" />
-<script src="/assets/all/jquery_ujs.js?body=1" type="text/javascript"></script>
-<script src="/assets/all/autoTab.js?body=1" type="text/javascript"></script>
-<script src="/assets/all/currency.js?body=1" type="text/javascript"></script>
-<script src="/assets/all/contact.js.coffee?body=1" type="text/javascript"></script>
-<script src="/assets/all/packed.js?body=1" type="text/javascript"></script>
-<script src="/assets/all/tinybox.js?body=1" type="text/javascript"></script>
-<meta content="authenticity_token" name="csrf-param" />
-<meta content="1hKfo11LHCit8zIUYYTAwfr1mRxczDsTqWNvItm7FJ0=" name="csrf-token" />
-<meta name="viewport" content="initial-scale=1, maximum-scale=1">
-<%= analytics_init if Rails.env.production? %> 
 
-<!--[if gte IE 5]>
-<link href="/assets/application-ie.css?body=1" media="all" rel="stylesheet" type="text/css" />
-<link href="/assets/ie/ie_hacks.css?body=1" media="all" rel="stylesheet" type="text/css" />
-<![endif]-->
+<body id="contact_body">
+<div id="contact_left">
 
-<script type="text/javascript">
-
-
-function showMessage(theMessage) {
-   // Get the fields
-   messageArea = document.getElementById("message");
-   // Show the please wait message
-   messageArea.innerHTML = theMessage;
-}
-</script>
-
-</head>
-<body class="contact_body">
-<div id="contact_header">
-	<img src="/assets/text/contact.png" class="popup"/>
-  <div id="contact_info">
-  	<p class="gerber_address1"> 488 Madison Avenue, Suite 800 <br />New York, NY  10022 </p> 
-	<a href="http://maps.google.com/maps?q=google+maps+488+madison+avenue&hl=en&ll=40.758875,-73.974767&spn=0.003149,0.0067&hnear=488+Madison+Ave,+New+York,+10022&gl=us&t=h&z=18" target="_blank" class="mapit">(map it)</a>
-	<a href="tel:212-888-3833" class="gerber_telephone">(212) 888-3833</a>
-  </div>	
-</div>
-<div id="contact">
 <%= form_for @message, :class => "form", :url => contact_path do |form|%>
 <div style="display:none;"><%= form.error_messages %></div>
 
@@ -61,17 +20,12 @@ function showMessage(theMessage) {
     
     <div class="field">
       	<p class="contact_telephone">
-      		<%= form.label "Telephone" %><br />
+      		<%= form.label "Telephone" %><%= form.label "Email", :class => "contact_email_label" %> *<br />
       			<p class="contact_area">(<%= form.text_field :area, :maxlength=>"3", :onKeyUp => "return autoTab(this, 3, event);" %>)</p>
       			<p class="contact_tel1"><%= form.text_field :tel1, :maxlength=>"3", :onKeyUp => "return autoTab(this, 3, event);" %>-</p>
       			<p class="contact_tel2"><%= form.text_field :tel2, :size => "4", :maxlength=>"4", :onKeyUp => "return autoTab(this, 4, event);"%></p>
-    	</p>
-    </div>
-    
-    <div class="field">
-    	<p class="contact_email">
-      		<%= form.label "Email" %> *<br />
-      		<%= form.email_field :email%>
+    	
+      		<%= form.email_field :email, :class => "contact_email_input"%>
       	</p>
     </div>
     
@@ -100,29 +54,21 @@ function showMessage(theMessage) {
     </div>
     
     <div class="field">
-    	<p class="contact_sales">
-    	<%= form.label :sales, "Annual Revenue" %>
-		<input type=text id="message_sales" name="message[sales]" onBlur="this.value=formatCurrency(this.value)"></p>
-    </div>
-    
-    <div class="field">
-		<p class="contact_creditline">      
-      		<%= form.label :creditline, "Credit Line Required" %>
-      		<input type=text id="message_creditline" name="message[creditline]" onBlur="this.value=formatCurrency(this.value)">
+    	<p class="contact_ptype">
+    		<%= form.label :sales, "Annual Revenue" %><%= form.label :creditline, "Credit Line Required", :class => "contact_sales_label" %><br>
+			<input type=text id="message_sales" name="message[sales]" onBlur="this.value=formatCurrency(this.value)">  
+      		
+      		<input type=text id="message_creditline" name="message[creditline]" onBlur="this.value=formatCurrency(this.value)" class="contact_sales_input">
     	</p>
     </div>
     
     <div class="field">
     	<p class="contact_ar">
-      		<%= form.label :ar, "Amount of Current A/R" %>
+      		<%= form.label :ar, "Amount of Current A/R" %><%= form.label :inventory, "Amount of Current Inventory", :class => "contact_inventory_label" %><br>
       		<input type=text id="message_ar" name="message[ar]" onBlur="this.value=formatCurrency(this.value)">
-    	</p>
-    </div>
     
-    <div class="field">
-    	<p class="contact_inventory">
-      		<%= form.label :inventory, "Amount of Current Inventory" %>
-      		<input type=text id="message_inventory" name="message[inventory]" onBlur="this.value=formatCurrency(this.value)">
+      		<input type=text id="message_inventory" name="message[inventory]" onBlur="this.value=formatCurrency(this.value)" class="contact_inventory_input">
+    	</p>
     </div>
     
     <div class="field">
@@ -147,10 +93,19 @@ function showMessage(theMessage) {
   <span id="message"></span>
   <p style="float:right; font-size: 10px;">* required fields</p> 
   </fieldset>
-		
+</div>
+
+<div id="contact_right">
+	<h2>New York</h2>
+  	<p class="gerber_address1"> 488 Madison Avenue, Suite 800 <br />New York, NY  10022 </p> 
+	<a href="http://maps.google.com/maps?q=google+maps+488+madison+avenue&hl=en&ll=40.758875,-73.974767&spn=0.003149,0.0067&hnear=488+Madison+Ave,+New+York,+10022&gl=us&t=h&z=18" target="_blank" class="mapit">(map it)</a>
+	<a href="tel:212-888-3833" class="gerber_telephone">(212) 888-3833</a>
+	<h2>Colorado</h2>
+  	<p class="gerber_address1"> 1515 Wynkoop Street, Ste 360 <br />Denver, CO   80202 </p> 
+	<a href="http://maps.google.com/maps?q=1515+Wynkoop+Street,+Ste+360+denver,+co&hl=en&ll=39.751149,-105.001874&spn=0.005881,0.009162&sll=40.123442,-75.064713&sspn=0.011699,0.018325&hnear=1515+Wynkoop+St+%23360,+Denver,+Colorado+80202&t=h&z=17&iwloc=A" target="_blank" class="mapit">(map it)</a>
+	<a href="tel:303-415-2504" class="gerber_telephone">(303) 415-2504</a>
+</div>	
+
 		
   
   <% end %>
-</div>
-</body>
-</html>

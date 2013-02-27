@@ -1,23 +1,32 @@
-// Place all the styles related to the Contacts controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
-
-.contact_body{
+#contact_body {
 	font-family: century gothic, arial, helvetica, sans-serif;
-	overflow:none;
-	height:400px;}
+	height:100%;
+	width:100%;
+	min-width:900px;
+	position:absolute;
+	overflow: scroll-y;
+	margin: 0px 20px 0px 0px;
+	left:2%;
+	right:10%;
+	top:7%;}
 	
-#contact_header {
-	position:fixed;
-	height: 80px;
-	width:99%;
-	background: url(/assets/grey.png) repeat-x;
-	top:0;
-	border-top-left-radius:10px;
-	border-top-right-radius:10px;
-	-moz-border-radius-topleft:10px;
-	-moz-border-radius-topright:10px;
-	padding-bottom:0px;}
+#contact_left {
+	position:absolute;
+	height:110%;
+	margin-top: 50;
+	margin-left:60px;
+	margin-right:10px;
+	z-index:1;}
+	
+#contact_right {
+	position:absolute;
+	width:300px;
+	height: 100%;
+	right:0;
+	border-left:1px #000 solid;
+	padding-left:20px;
+	z-index:99;
+	background:#fff;}
 
 .contact_body p {
 	font-size: 15px;
@@ -25,15 +34,20 @@
 	padding: 0px 0px 0px 0px;
 	}
 	
-.fields {border:none;}
+.fields {border:none;
+		 font-size:12px;}
 
 .actions {border:none;}
-
-#contact {
-	margin:80px 0px 0px 30px;
-	height: 400px;
-	overflow:auto;
-	}
+	
+input {
+	background-color:#f5f5f2;
+	border:1px solid #dbdbdb;
+	padding:2px;
+	border-radius: 7px;
+	-webkit-border-radius:7px;
+	-moz-border-radius:7px;
+	color: #000;
+	font-style:italic;}
 	
 #contact select {
   	background-color:#f0f0f0;
@@ -47,22 +61,26 @@
 
 #contact textarea{
   	display:block;
-  	background-color:#f0f0f0;
+  	background-color:#000;
 	border:1px solid #dbdbdb;
 	padding:5px;
 	border-radius: 7px;
 	-webkit-border-radius:7px;
 	-moz-border-radius:7px;
 	color: #000;
-	font-style:italic;}
+	font-style:italic;
+	}
 
 #contact input {
+  	text-align:left !important;
+  	background-color:#f0f0f0;
   	text-align:left;
-  	background-color:#f0f0f0;}
+  	}
   	
 .contact_name input {
   	width:150px;
-  	display:inline;}
+  	display:inline;
+  	text-align:left;}
 
 /*Address*/
 
@@ -74,21 +92,25 @@
 
 .contact_address input {
  	width:200px ;
- 	display:inline;}
+ 	display:inline;
+ 	text-align:left;}
 
 .contact_city input {
  	width:100px ;
  	display:inline;
- 	margin-right:10px;}
+ 	margin-right:10px;
+ 	text-align:left;}
 
 .contact_state input {
  	width:20px ;
  	display:inline;
- 	margin-right:10px;}
+ 	margin-right:10px;
+ 	text-align:left;}
  	 
 .contact_zip input {
  	width:45px ;
- 	display:inline;} 	
+ 	display:inline;
+ 	text-align:left;} 	
 
 /**/ 	   	 
  	 
@@ -101,45 +123,58 @@
 
 .contact_area input {
   	width:25px;
- 	display:inline;}
+ 	display:inline;
+ 	text-align:left;}
 
 .contact_tel1 input {
   	width:25px;
-  	display:inline;}
+  	display:inline;
+  	text-align:left;}
   
 .contact_tel2 input {
   	width:40px;
-  	display:inline;}
+  	display:inline;
+  	text-align:left;}
 /**/
 
     
-.contact_email input {
+.contact_email_label {
+	margin-left:250px;}
+
+.contact_email_input {
+  	margin-left:170px;
   	width:150px;
-  	display:inline;}
+  	display:inline;
+  	text-align:left;}
 
 .contact_bytpe select {}
 
 .contact_ptype input {
-  	width:200px;
-  	display:block;}
-  
-.contact_sales input {
   	width:150px;
-  	text-align:right !important;
-  	display:block;}
+  	display:inline;
+	text-align:right !important;}  
+.contact_sales_label {
+  	margin-left:200px;}
+
+.contact_sales_input {
+  	margin-left:160px;
+  	width:150px !important;
+  	text-align:right !important;}
 
 .contact_ar input {
   	width:150px;
   	text-align:right !important;
-  	display:block;}
+  	display:inline;}
   
-.contact_inventory input {
-  	width:150px;
-  	text-align:right !important;
-  	display:block;}
+.contact_inventory_label {
+  	margin-left:90px;}
+
+.contact_inventory_input {
+  	margin-left:160px;
+  	width:150px !important;
+  	text-align:right !important;}
 /**/  
 
-  
 .contact_creditline input {
   	width:150px;
   	text-align:right !important;
@@ -174,24 +209,18 @@
 	background:linear-gradient(top, #ababab 60%,#404040 100%); 
 	filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#404040', endColorstr='#000000',GradientType=0 ); }
 
-	
-#contact_info {
-	float:right;
-	} 
 
 p.gerber_address1 {	
-	color:#fff;
+	color:#000;
 	margin:5px 10px 0px 0px;
-	font-size:12px;
-	text-align:right;}
+	font-size:12px;}
 		
 a.gerber_telephone {
 	display:block;
-	color:#fff;
+	color:#000;
 	margin-top:0px;
 	margin-right:10px;
 	font-size:12px;
-	text-align:right;
     &:visited {
     color: #fff;
   	}
@@ -204,7 +233,6 @@ a.mapit {
 	display:block;
 	margin:0px 10px 5px 0px;
 	font-size:12px;
-	text-align:right;
 	&:visited {
     color: #717171;
   	}}		
