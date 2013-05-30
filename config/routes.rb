@@ -10,7 +10,7 @@ Gerber::Application.routes.draw do
 	match '/profiles' => 'static_pages#profiles'
 	match '/asset' => 'static_pages#asset'
 	match '/trade' => 'static_pages#trade'
-	match '/current' => 'static_pages#current'
+	match '/yes' => 'static_pages#current'
 	match '/prior' => 'static_pages#prior'
 	match '/gerberCO' => 'static_pages#comingsoon'
 	match '/home' => 'static_pages#gerber'	
@@ -19,6 +19,11 @@ Gerber::Application.routes.draw do
 	match '/calc' => 'model#calc'
 	match '/calculator' => 'model#calculator'
 	match '/flash' => 'model#flash'
+	match '/pilgrim' => 'model#pilgrim'
+	match '/drewestate' => 'model#drewestate'
+	match '/paramount' => 'model#paramount'
+	match '/schofield' => 'model#schofield'
+	match '/gerber' => 'static_pages#gerber'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

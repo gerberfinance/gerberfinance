@@ -19,4 +19,20 @@ class ModelController < ApplicationController
 	def flash
 		render :layout => false
 	end	
+	
+	def pilgrim
+		render :layout => false
+	end	
+	
+	def drewestate
+		render :layout => false
+	end	
+	
+	def paramount
+		render :layout => false
+	end	
+	
+	def schofield
+		render :layout => false
+	end	
 end
