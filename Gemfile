@@ -13,7 +13,7 @@ end
 
 gem 'ruby-ntlm'
 gem "dynamic_form"
-
+gem "route_downcaser", "~> 0.2.0"
 gem 'google-analytics-rails'
 
 gem 'meta-tags', :require => 'meta_tags'
