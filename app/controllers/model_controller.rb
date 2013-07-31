@@ -35,4 +35,12 @@ class ModelController < ApplicationController
 	def schofield
 		render :layout => false
 	end	
+	
+	def yes_pop
+		render :layout => false
+	end	
+	
+	def close
+		render :layout => false
+	end	
 end

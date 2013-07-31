@@ -25,6 +25,8 @@ Gerber::Application.routes.draw do
 	match '/paramount' => 'model#paramount'
 	match '/schofield' => 'model#schofield'
 	match '/gerber' => 'static_pages#gerber'
+	match '/yes_pop' => 'model#yes_pop'
+	match '/close' => 'model#close'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
