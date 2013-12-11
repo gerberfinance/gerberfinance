@@ -27,6 +27,8 @@ Gerber::Application.routes.draw do
 	match '/gerber' => 'static_pages#gerber'
 	match '/yes_pop' => 'model#yes_pop'
 	match '/close' => 'model#close'
+	
+	match '/updates' => 'static_pages#updates'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
