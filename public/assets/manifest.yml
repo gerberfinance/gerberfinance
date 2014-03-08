@@ -103,6 +103,8 @@ michael.png: michael-24c7e645c5aaf4b2ffe93749a87e4995.png
 michael/index.png: michael-24c7e645c5aaf4b2ffe93749a87e4995.png
 news.png: news-7a20522596e0adf92d5993c5f1db62ac.png
 news/index.png: news-7a20522596e0adf92d5993c5f1db62ac.png
+numitea_news.png: numitea_news-6a2c5d811e5732094ac2bad960b60621.png
+numitea_news/index.png: numitea_news-6a2c5d811e5732094ac2bad960b60621.png
 play_m.png: play_m-d1df67e398530cea81f2323b36dfb177.png
 play_m/index.png: play_m-d1df67e398530cea81f2323b36dfb177.png
 print.png: print-fd2abe423faa0ca8268af526213dd0aa.png
@@ -155,6 +157,12 @@ text/welcome.png: text/welcome-a5ae5ce2c98af9ea56201adc59937e96.png
 text/welcome/index.png: text/welcome-a5ae5ce2c98af9ea56201adc59937e96.png
 thoughts.png: thoughts-d1157cb1f3cbe9ad7d7ce989c04d41fb.png
 thoughts/index.png: thoughts-d1157cb1f3cbe9ad7d7ce989c04d41fb.png
+updates/cavityzapper.jpeg: updates/cavityzapper-822ade3073b3bb51991f94c7877cf864.jpeg
+updates/cavityzapper/index.jpeg: updates/cavityzapper-822ade3073b3bb51991f94c7877cf864.jpeg
+updates/logo-med.jpeg: updates/logo-med-2032e9d943aa5e72107ae64e27df80d0.jpeg
+updates/logo-med/index.jpeg: updates/logo-med-2032e9d943aa5e72107ae64e27df80d0.jpeg
+updates/naturaldentist.jpeg: updates/naturaldentist-06f116eb8dc7da36429e0fac3708dd44.jpeg
+updates/naturaldentist/index.jpeg: updates/naturaldentist-06f116eb8dc7da36429e0fac3708dd44.jpeg
 vadim.png: vadim-bf6d87508d441ef2afb517f65278e385.png
 vadim/index.png: vadim-bf6d87508d441ef2afb517f65278e385.png
 video/preloader.gif: video/preloader-91291d928b1c7aabd0b33bb9df7fa9e5.gif
@@ -203,8 +211,8 @@ all/video_slider/light-square/images/buttons_small.png: all/video_slider/light-s
 all/video_slider/light-square/images/buttons_small/index.png: all/video_slider/light-square/images/buttons_small-f23b4efc2379e2b269a8c6df17ce4a17.png
 all/video_slider/light-square/images/playpause.png: all/video_slider/light-square/images/playpause-fb13b5153355921ad4f20d34374c38be.png
 all/video_slider/light-square/images/playpause/index.png: all/video_slider/light-square/images/playpause-fb13b5153355921ad4f20d34374c38be.png
-application-all.css: application-all-a3f89b4eaa3b4172b775bbe46f6c4c13.css
-application-all/index.css: application-all-a3f89b4eaa3b4172b775bbe46f6c4c13.css
+application-all.css: application-all-5c392442780920486b34b832027b733c.css
+application-all/index.css: application-all-5c392442780920486b34b832027b733c.css
 application-ie.css: application-ie-bce790645483910b5461864a86b79ee9.css
 application-ie/index.css: application-ie-bce790645483910b5461864a86b79ee9.css
 application-mobile.css: application-mobile-f15f321ecff236b0e08b81ceadbcc3ed.css

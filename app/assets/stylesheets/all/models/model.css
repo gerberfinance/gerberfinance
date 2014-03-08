@@ -12,15 +12,10 @@
 #frameless {padding:10px 10px 10px 4px;}
 #frameless .tclose {left:6px;}
 #blackmask {background:#000;}
-#yesmask {background:#000;}
-#yes_frame {padding:10px 10px 10px 4px;}
+
 
 /* Style */
-#yes_button {
-	position: relative;
-	margin: 10px auto;
-	width: 400px;
-	}
+
 
 .popups_gears {
 	font-family: century gothic, arial, helvetica, sans-serif;
@@ -111,4 +106,13 @@ img.popup_calc {
 	overflow:auto;
 	height:400px;}
 	
+/* OLD */
+
+#yes_button {
+	position: relative;
+	margin: 10px auto;
+	width: 400px;
+	}
 	
+#yesmask {background:#000;}
+#yes_frame {padding:10px 10px 10px 4px;}
