@@ -27,6 +27,7 @@ Gerber::Application.routes.draw do
 	match '/gerber' => 'static_pages#gerber'
 	match '/yes_pop' => 'model#yes_pop'
 	match '/close' => 'model#close'
+	match '/borrowing' => 'static_pages#borrowing'
 	
 	match '/updates' => 'static_pages#updates'
 
