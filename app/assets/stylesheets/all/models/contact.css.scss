@@ -1,7 +1,7 @@
 #contact_body {
 	font-family: century gothic, arial, helvetica, sans-serif;
 	height:100%;
-	width:100%;
+	width:95%;
 	min-width:900px;
 	position:absolute;
 	overflow: scroll-y;
@@ -12,7 +12,7 @@
 	
 #contact_left {
 	position:absolute;
-	height:110%;
+	height:100%;
 	margin-top: 55px;
 	margin-left:60px;
 	margin-right:10px;
@@ -187,6 +187,9 @@ input {
 
 .contact_submit {
 	text-align:center !important;
+	width:80px;
+	font-size: 14px;
+	height:22px;
 	background:#000000; 
 	background:-moz-linear-gradient(top, #ffffff  60%, #cacaca 100%); 
 	background:-webkit-gradient(linear, left top, left bottom, color-stop(60%,#ffffff), color-stop(100%,#cacaca)); 
@@ -198,16 +201,15 @@ input {
 
 .contact_submit:hover{
 	text-align:center !important;
-	color:#fff;
-	font-weight:bold;
+	color:#000;
 	background:#000000; 
-	background:-moz-linear-gradient(top, #ababab 60%, #404040 100%); 
-	background:-webkit-gradient(linear, left top, left bottom, color-stop(60%,#ababab), color-stop(100%,#404040)); 
-	background:-webkit-linear-gradient(top, #ababab 60%,#404040 100%); 
-	background:-o-linear-gradient(top, #ababab 60%,#404040 100%); 
-	background:-ms-linear-gradient(top, #ababab 60%,#404040 100%); 
-	background:linear-gradient(top, #ababab 60%,#404040 100%); 
-	filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#404040', endColorstr='#000000',GradientType=0 ); }
+	background:-moz-linear-gradient(top, #F0F0F0 60%, #F8F8F8 100%); 
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(60%,#F0F0F0), color-stop(100%,#F8F8F8)); 
+	background:-webkit-linear-gradient(top, #F0F0F0 60%,#F8F8F8 100%); 
+	background:-o-linear-gradient(top, #F0F0F0 60%,#F8F8F8 100%); 
+	background:-ms-linear-gradient(top, #F0F0F0 60%,#F8F8F8 100%); 
+	background:linear-gradient(top, #F0F0F0 60%,#F8F8F8 100%); 
+	filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#F8F8F8', endColorstr='#000000',GradientType=0 ); }
 
 
 p.gerber_address1 {	
