@@ -20,10 +20,6 @@ class ModelController < ApplicationController
 		render :layout => false
 	end	
 	
-	def pilgrim
-		render :layout => false
-	end	
-	
 	def drewestate
 		render :layout => false
 	end	
