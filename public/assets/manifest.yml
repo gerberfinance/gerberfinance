@@ -95,12 +95,16 @@ jennifer.png: jennifer-3d7186d198c501012ca667e9fafaa5ea.png
 jennifer/index.png: jennifer-3d7186d198c501012ca667e9fafaa5ea.png
 justin.png: justin-4c44faa7f5f60a015b36118e46421b9a.png
 justin/index.png: justin-4c44faa7f5f60a015b36118e46421b9a.png
+learnmore.png: learnmore-adf8f2c6514422f5a1083bf322b0592d.png
+learnmore/index.png: learnmore-adf8f2c6514422f5a1083bf322b0592d.png
 ledger.png: ledger-5bc3dbfaba4f5a0ef9d39d3f019d3d5f.png
 ledger/index.png: ledger-5bc3dbfaba4f5a0ef9d39d3f019d3d5f.png
 logo_small.png: logo_small-af5929b479940ba4a7bb079b76af8b24.png
 logo_small/index.png: logo_small-af5929b479940ba4a7bb079b76af8b24.png
 michael.png: michael-24c7e645c5aaf4b2ffe93749a87e4995.png
 michael/index.png: michael-24c7e645c5aaf4b2ffe93749a87e4995.png
+news copy.png: news copy-adf8f2c6514422f5a1083bf322b0592d.png
+news copy/index.png: news copy-adf8f2c6514422f5a1083bf322b0592d.png
 news.png: news-7a20522596e0adf92d5993c5f1db62ac.png
 news/index.png: news-7a20522596e0adf92d5993c5f1db62ac.png
 numitea_news.png: numitea_news-6a2c5d811e5732094ac2bad960b60621.png
@@ -183,6 +187,8 @@ video_thumbs/bbase2.png: video_thumbs/bbase2-38afbae803ff1b1512628e9b967717e1.pn
 video_thumbs/bbase2/index.png: video_thumbs/bbase2-38afbae803ff1b1512628e9b967717e1.png
 video_thumbs/bbase3.png: video_thumbs/bbase3-f546a425a9e546e74d2f157692aa3b9f.png
 video_thumbs/bbase3/index.png: video_thumbs/bbase3-f546a425a9e546e74d2f157692aa3b9f.png
+video_thumbs/companion.jpg: video_thumbs/companion-fe18237defe9fd7939abd5ccd5f60edd.jpg
+video_thumbs/companion/index.jpg: video_thumbs/companion-fe18237defe9fd7939abd5ccd5f60edd.jpg
 video_thumbs/drew_estate.png: video_thumbs/drew_estate-29b5fd1ef273547287c23c6a9513ff72.png
 video_thumbs/drew_estate/index.png: video_thumbs/drew_estate-29b5fd1ef273547287c23c6a9513ff72.png
 video_thumbs/le_mystere.png: video_thumbs/le_mystere-bf5d60c53f799a451b07e6d3cd7d4d5b.png
@@ -223,8 +229,8 @@ all/video_slider/light-square/images/buttons_small.png: all/video_slider/light-s
 all/video_slider/light-square/images/buttons_small/index.png: all/video_slider/light-square/images/buttons_small-f23b4efc2379e2b269a8c6df17ce4a17.png
 all/video_slider/light-square/images/playpause.png: all/video_slider/light-square/images/playpause-fb13b5153355921ad4f20d34374c38be.png
 all/video_slider/light-square/images/playpause/index.png: all/video_slider/light-square/images/playpause-fb13b5153355921ad4f20d34374c38be.png
-application-all.css: application-all-8ff16fd8b5e9e573e7127dfff78adf78.css
-application-all/index.css: application-all-8ff16fd8b5e9e573e7127dfff78adf78.css
+application-all.css: application-all-93e6d36d76a2a0920f521539a5fa48ae.css
+application-all/index.css: application-all-93e6d36d76a2a0920f521539a5fa48ae.css
 application-ie.css: application-ie-bce790645483910b5461864a86b79ee9.css
 application-ie/index.css: application-ie-bce790645483910b5461864a86b79ee9.css
 application-mobile.css: application-mobile-f15f321ecff236b0e08b81ceadbcc3ed.css
