@@ -300,9 +300,27 @@ img.comingsoon	{
 #newslist li{padding:0;list-style:none;position:absolute;top:0px;}
 #newslist li, #newslist a{height:79px;display:block;}
 
-#news{top:0px;width:200px;}
+#news {top:0px;width:200px;}
 #news{background:url('/assets/news.png') 0 0;}
 #news a:hover{background: url('/assets/news.png') 0px -79px;}
+
+#learnmorelist {position:absolute; margin-left:50%; }
+#learnmorelist  li{padding:0;list-style:none;position:absolute;top:0px;}
+#learnmorelist  li, #learnmorelist a{height:43px;display:block;}
+
+#learnmore {top:0px;width:200px;}
+#learnmore {background:url('/assets/learnmore.png') 0 0;}
+#learnmore a:hover{background: url('/assets/learnmore.png') 0px -43px;}
+
+/* Who */
+
+#who_body {
+  position: absolute;
+  left: 11%;
+  right:0;
+  top:17%;
+  bottom:10%;}
+ 
 		
 
 		

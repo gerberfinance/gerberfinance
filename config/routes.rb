@@ -28,6 +28,7 @@ Gerber::Application.routes.draw do
 	match '/borrowing' => 'static_pages#borrowing'
 	match '/testimonials' => 'static_pages#current'
 	match '/updates' => 'static_pages#updates'
+	match '/who' => 'static_pages#who'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
