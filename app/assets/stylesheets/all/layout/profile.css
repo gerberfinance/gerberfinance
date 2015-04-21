@@ -56,6 +56,9 @@ img.profile{
 .tabs input#tab-6{
 	top: 200px;
 }
+.tabs input#tab-7{
+	top: 240px;
+}
 
 .tabs label {
 	background: #000;
@@ -99,34 +102,37 @@ img.profile{
 }
 
 .tabs label:first-of-type {
-    z-index: 7;
+    z-index: 8;
 }
 
 .tab-label-2 {
-    z-index: 6;
+    z-index: 7;
 }
 
 .tab-label-3 {
-    z-index: 5;
+    z-index: 6;
 }
 
 .tab-label-4 {
+    z-index: 5;
+}
+
+.tab-label-5 {
     z-index: 4;
 }
 
 .tab-label-5 {
-    z-index: 3;
-}
-
-.tab-label-5 {
-    z-index: 2;}
+    z-index: 3;}
 
 .tab-label-6 {
-    z-index: 1;}
+    z-index: 2;}
+    
+.tab-label-7 {
+    z-index: 1;}    
 
 .tabs input:checked + label {
     background: #fff;
-	z-index: 8;
+	z-index: 9;
 	color:#000;
 }
 
@@ -139,7 +145,7 @@ img.profile{
     width: auto;
 	margin: -200px 0 0 100px;
 	height: 400px;
-	z-index: 7;
+	z-index: 8;
 	overflow: hidden;
     border:none !important;
 }
@@ -171,7 +177,8 @@ img.profile{
 .tabs input.tab-selector-3:checked ~ .content .content-3,
 .tabs input.tab-selector-4:checked ~ .content .content-4,
 .tabs input.tab-selector-5:checked ~ .content .content-5,
-.tabs input.tab-selector-6:checked ~ .content .content-6  {
+.tabs input.tab-selector-6:checked ~ .content .content-6,
+.tabs input.tab-selector-7:checked ~ .content .content-7  {
     -webkit-transform: translateY(0px);
 	-moz-transform: translateY(0px);
 	-o-transform: translateY(0px);
