@@ -11,8 +11,8 @@ Logo.png: Logo-231fd5fbd3ecd8001b21caa81753e921.png
 Logo/index.png: Logo-231fd5fbd3ecd8001b21caa81753e921.png
 ajax-loader.gif: ajax-loader-1de83494c2ffe878cc05959d5c63f728.gif
 ajax-loader/index.gif: ajax-loader-1de83494c2ffe878cc05959d5c63f728.gif
-barry.png: barry-fdef1c57faa1c27ef65bd7396587ae78.png
-barry/index.png: barry-fdef1c57faa1c27ef65bd7396587ae78.png
+barry.png: barry-e8b2081e68aa6442f81c39ed5f8b6cfe.png
+barry/index.png: barry-e8b2081e68aa6442f81c39ed5f8b6cfe.png
 bgf.png: bgf-4e2c6ca38c645dbefe72cc044bf5554a.png
 bgf/index.png: bgf-4e2c6ca38c645dbefe72cc044bf5554a.png
 border_top.gif: border_top-2fc073e6938e3d322f75ee099de3edd2.gif
@@ -181,6 +181,8 @@ video/shadow_middle.png: video/shadow_middle-01369e23da7490280b5ca81152349778.pn
 video/shadow_middle/index.png: video/shadow_middle-01369e23da7490280b5ca81152349778.png
 video/shadow_right.png: video/shadow_right-a26e0fc77d0c1bb46733d11420323d23.png
 video/shadow_right/index.png: video/shadow_right-a26e0fc77d0c1bb46733d11420323d23.png
+video_thumbs/babygourmet.png: video_thumbs/babygourmet-e3054ee52705e5b6f4b2f8ff7c175ada.png
+video_thumbs/babygourmet/index.png: video_thumbs/babygourmet-e3054ee52705e5b6f4b2f8ff7c175ada.png
 video_thumbs/bbase.psd: video_thumbs/bbase-e61a03c2dcd1a8aa596f1e1743deefab.psd
 video_thumbs/bbase/index.psd: video_thumbs/bbase-e61a03c2dcd1a8aa596f1e1743deefab.psd
 video_thumbs/bbase1.png: video_thumbs/bbase1-f7ad81bd9249299a25ca09eea9b4d86f.png
@@ -197,6 +199,8 @@ video_thumbs/le_mystere.png: video_thumbs/le_mystere-bf5d60c53f799a451b07e6d3cd7
 video_thumbs/le_mystere/index.png: video_thumbs/le_mystere-bf5d60c53f799a451b07e6d3cd7d4d5b.png
 video_thumbs/madelaine.png: video_thumbs/madelaine-5a5884c9ce6d34c6b2a3b29935c21970.png
 video_thumbs/madelaine/index.png: video_thumbs/madelaine-5a5884c9ce6d34c6b2a3b29935c21970.png
+video_thumbs/numi.png: video_thumbs/numi-ee6baefd43854eb18d708291ffd72500.png
+video_thumbs/numi/index.png: video_thumbs/numi-ee6baefd43854eb18d708291ffd72500.png
 video_thumbs/ocean_potion.png: video_thumbs/ocean_potion-2799aa7944e620266e0bf67bf680e3d7.png
 video_thumbs/ocean_potion/index.png: video_thumbs/ocean_potion-2799aa7944e620266e0bf67bf680e3d7.png
 video_thumbs/paramount.png: video_thumbs/paramount-ecf3385ab5bd8f55e46a3f1f8e449a2f.png
