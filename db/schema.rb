@@ -11,16 +11,6 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120918145619) do
-
-  create_table "contacts", :force => true do |t|
-    t.string   "name"
-    t.string   "company_name"
-    t.string   "email"
-    t.integer  "telephone"
-    t.string   "reason"
-    t.datetime "created_at",   :null => false
-    t.datetime "updated_at",   :null => false
-  end
+ActiveRecord::Schema.define(:version => 0) do
 
 end
